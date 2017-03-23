@@ -2,9 +2,9 @@
 <resources>
 
     <!--app main color-->
-    <color name="ColorPrimary">#FF5722</color>
-    <color name="ColorPrimaryDark">#DD2C00</color>
-    <color name="ColorAccent">#FF5722</color>
+    <color name="ColorPrimary">#9E9E9E</color>
+    <color name="ColorPrimaryDark">#616161</color>
+    <color name="ColorAccent">#607D8B</color>
 
     <!--swipe tab color-->
     <color name="tabIndicatorColor">#FFFFFF</color>
@@ -17,7 +17,7 @@
     <color name="blue">#21bff3</color>
 
     <!--other color-->
-    <color name="background_color">#f2f2f2</color>
+    <color name="background_color">#F5F5F5</color>
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
     <color name="hint">#767676</color>

@@ -5,7 +5,7 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId 'com.solodroid.ecommerce'
+        applicationId 'com.flowerdevz.flowerhour'
 
         // TODO: Please update the Google Project number and OneSignal Id below to yours.
         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",

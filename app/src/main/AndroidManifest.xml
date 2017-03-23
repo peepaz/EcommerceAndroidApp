@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.solodroid.ecommerce">
+    package="com.flowerdevz.flowerhour">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
@@ -14,14 +14,14 @@
         android:required="true" />
 
     <application
-        android:name="com.solodroid.ecommerce.analytics.Analytics"
+        android:name="com.flowerdevz.flowerhour.analytics.Analytics"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivitySplash"
+            android:name="com.flowerdevz.flowerhour.activities.ActivitySplash"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.solodroid.ecommerce.activities.MainActivity"
+            android:name="com.flowerdevz.flowerhour.activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -41,37 +41,37 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityMenuCategory"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityMenuCategory"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityMenuList"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityMenuList"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityMenuDetail"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityMenuDetail"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label=""
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityCart"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityCart"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityCheckout"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityCheckout"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityConfirmMessage"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityConfirmMessage"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityInformation"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityInformation"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityProfile"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityProfile"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.solodroid.ecommerce.activities.ActivityAbout"
+            android:name="com.flowerdevz.flowerhour.activities.ActivityAbout"
             android:screenOrientation="portrait" />
 
     </application>

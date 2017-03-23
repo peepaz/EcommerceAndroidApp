@@ -10,9 +10,9 @@
     <bool name="ga_reportUncaughtExceptions">true</bool>
     <integer name="ga_sessionTimeout">-1</integer>
 
-    <screenName name="com.solodroid.ecommerce.activities.MainActivity">MainActivity</screenName>
-    <screenName name="com.solodroid.ecommerce.activities.ActivityMenuCategory">Product Category</screenName>
-    <screenName name="com.solodroid.ecommerce.activities.ActivityMenuList">Product List</screenName>
-    <screenName name="com.solodroid.ecommerce.activities.ActivityMenuDetail">Product Details</screenName>
+    <screenName name="com.flowerdevz.flowerhour.activities.MainActivity">MainActivity</screenName>
+    <screenName name="com.flowerdevz.flowerhour.activities.ActivityMenuCategory">Product Category</screenName>
+    <screenName name="com.flowerdevz.flowerhour.activities.ActivityMenuList">Product List</screenName>
+    <screenName name="com.flowerdevz.flowerhour.activities.ActivityMenuDetail">Product Details</screenName>
 
 </resources>

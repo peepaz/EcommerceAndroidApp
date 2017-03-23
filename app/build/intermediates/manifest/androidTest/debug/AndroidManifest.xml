@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.solodroid.ecommerce.test">
+    package="com.flowerdevz.flowerhour.test">
 
     <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="23" />
 
@@ -9,8 +9,8 @@
     </application>
 
     <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="com.solodroid.ecommerce"
+                     android:targetPackage="com.flowerdevz.flowerhour"
                      android:handleProfiling="false"
                      android:functionalTest="false"
-                     android:label="Tests for com.solodroid.ecommerce"/>
+                     android:label="Tests for com.flowerdevz.flowerhour"/>
 </manifest>

@@ -1,4 +1,4 @@
-#Thu Mar 23 00:03:12 BOT 2017
+#Thu Mar 23 04:10:23 BOT 2017
 file.9=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_c73a44fbe189994a1927fa250c1c9933e201aeb0\\classes.dex
 base.10=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\picasso-2.5.2_ee4c9f428f37d3fa86a2e23fa75c6b485068f534
 file.8=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_e63e651f97b2701e82271493aef197a10caa0d61\\classes.dex
