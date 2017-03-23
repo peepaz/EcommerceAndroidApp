@@ -1,20 +1,20 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\jason\.android\build-cache\81143ddd5f68b5652ca1a3236eb1ec69788b902e\output\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\jason\.android\build-cache\03213a7ce85b95ab7fc4844e0b6e47892d3bdf8e\output\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-analytics:9.0.2] C:\Users\jason\.android\build-cache\1c87ed3a139e26ec39aedabf175ff6b79c96b937\output\AndroidManifest.xml:21:5-67
@@ -22,40 +22,40 @@ MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] C:\Users
 MERGED from [com.google.android.gms:play-services-maps:9.0.2] C:\Users\jason\.android\build-cache\9f423d442d99a0e8852641164f3110dc200461e2\output\AndroidManifest.xml:21:5-66
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:15:5-67
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.CALL_PHONE
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:6:5-69
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:6:5-69
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:6:22-66
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:6:22-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:8:5-75
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:8:5-75
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:8:22-72
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:8:22-72
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:9:5-79
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:9:5-79
 MERGED from [com.google.android.gms:play-services-analytics:9.0.2] C:\Users\jason\.android\build-cache\1c87ed3a139e26ec39aedabf175ff6b79c96b937\output\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] C:\Users\jason\.android\build-cache\2e4318f704e822c48bc2d0e1c69219a96f286a8f\output\AndroidManifest.xml:22:5-79
 MERGED from [com.google.android.gms:play-services-maps:9.0.2] C:\Users\jason\.android\build-cache\9f423d442d99a0e8852641164f3110dc200461e2\output\AndroidManifest.xml:20:5-78
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:24:5-79
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:9:22-76
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:10:5-76
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:10:5-76
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:10:22-73
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:10:22-73
 uses-feature#0x00020000
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:12:5-14:35
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:12:5-14:35
 MERGED from [com.google.android.gms:play-services-maps:9.0.2] C:\Users\jason\.android\build-cache\9f423d442d99a0e8852641164f3110dc200461e2\output\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:13:9-41
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:13:9-41
 	android:required
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:14:9-32
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:14:9-32
 application
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:16:5-77:19
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:16:5-77:19
 MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\b6372fd9d90cf82025829258a08aff9b71d5f963\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\ed9f770957c65c5b64777ed927cababc97767b23\output\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\98e9a5531be04c00d8fcc3eeff7a50f5324a40c6\output\AndroidManifest.xml:22:5-20
@@ -74,117 +74,117 @@ MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\jason
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\3cdfc0a85be6f09a2c076bdacb0637a55426802f\output\AndroidManifest.xml:22:5-20
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:40:5-81:19
 	android:label
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:21:9-41
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:21:9-41
 	android:hardwareAccelerated
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:18:9-35
 	android:icon
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:20:9-43
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:20:9-43
 	android:theme
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:22:9-40
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:17:9-67
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:17:9-67
 activity#com.solodroid.ecommerce.activities.ActivitySplash
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:23:9-32:20
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:23:9-32:20
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:26:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:26:13-49
 	android:label
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:25:13-45
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:24:13-77
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:24:13-77
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:27-74
 activity#com.solodroid.ecommerce.activities.MainActivity
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:33:9-42:20
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:33:9-42:20
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:36:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:36:13-49
 	android:label
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:35:13-45
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:35:13-45
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:34:13-75
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:34:13-75
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:37:13-41:29
 category#android.intent.category.DEFAULT
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:40:17-76
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:40:17-76
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:40:27-73
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:40:27-73
 activity#com.solodroid.ecommerce.activities.ActivityMenuCategory
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:43:9-45:52
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:43:9-45:52
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:45:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:45:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:44:13-83
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:44:13-83
 activity#com.solodroid.ecommerce.activities.ActivityMenuList
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:46:9-50:57
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:46:9-50:57
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:49:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:49:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:50:13-54
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:50:13-54
 	android:configChanges
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:48:13-63
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:48:13-63
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:47:13-79
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:47:13-79
 activity#com.solodroid.ecommerce.activities.ActivityMenuDetail
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:51:9-55:52
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:51:9-55:52
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:55:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:55:13-49
 	android:label
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:54:13-29
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:54:13-29
 	android:configChanges
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:53:13-74
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:53:13-74
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:52:13-81
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:52:13-81
 activity#com.solodroid.ecommerce.activities.ActivityCart
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:56:9-58:52
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:56:9-58:52
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:58:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:58:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:57:13-75
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:57:13-75
 activity#com.solodroid.ecommerce.activities.ActivityCheckout
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:59:9-63:57
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:59:9-63:57
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:62:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:62:13-49
 	android:windowSoftInputMode
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:63:13-54
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:63:13-54
 	android:configChanges
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:61:13-63
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:61:13-63
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:60:13-79
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:60:13-79
 activity#com.solodroid.ecommerce.activities.ActivityConfirmMessage
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:64:9-66:52
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:64:9-66:52
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:66:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:66:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:65:13-85
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:65:13-85
 activity#com.solodroid.ecommerce.activities.ActivityInformation
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:67:9-69:52
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:67:9-69:52
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:69:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:69:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:68:13-82
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:68:13-82
 activity#com.solodroid.ecommerce.activities.ActivityProfile
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:70:9-72:52
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:70:9-72:52
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:72:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:72:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:71:13-78
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:71:13-78
 activity#com.solodroid.ecommerce.activities.ActivityAbout
-ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:73:9-75:52
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:73:9-75:52
 	android:screenOrientation
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:75:13-49
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:75:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml:74:13-76
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:74:13-76
 uses-sdk
-INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\b6372fd9d90cf82025829258a08aff9b71d5f963\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\ed9f770957c65c5b64777ed927cababc97767b23\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\98e9a5531be04c00d8fcc3eeff7a50f5324a40c6\output\AndroidManifest.xml:20:5-43
@@ -204,11 +204,11 @@ MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\jason
 MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\3cdfc0a85be6f09a2c076bdacb0637a55426802f\output\AndroidManifest.xml:20:5-43
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\jason\git-android\EcommerceApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\jason\.android\build-cache\81143ddd5f68b5652ca1a3236eb1ec69788b902e\output\AndroidManifest.xml:21:5-82
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\jason\.android\build-cache\03213a7ce85b95ab7fc4844e0b6e47892d3bdf8e\output\AndroidManifest.xml:21:5-82
