@@ -1,0 +1,482 @@
+[
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_up.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_main.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\open_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_left.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_main.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\open_main.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_right.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.3\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_down.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_to_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\jump_to_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_from_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\jump_from_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hide_to_bottom.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\hide_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_up.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.3\\res\\anim\\fab_scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_right.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_from_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\jump_from_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_left.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_up.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_scale_up.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_down.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.3\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_main.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\close_main.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_main.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\open_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_left.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_to_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\jump_to_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_main.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\close_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\show_from_bottom.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\show_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_next.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\close_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_right.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_right.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.3\\res\\anim\\fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_main.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\close_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_up.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_scale_up.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_to_down.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\jump_to_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\show_from_bottom.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\show_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hide_to_bottom.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\hide_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_left.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.3\\res\\anim\\fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_left.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_left.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_next.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\open_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hide_to_bottom.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\hide_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_up.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_right.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\hide_to_bottom.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\hide_to_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_up.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_down.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_main.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\open_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_left.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_in_from_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_down.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_next.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\close_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_next.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\open_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_from_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\jump_from_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_next.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\close_next.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_in_from_right.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_in_from_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_to_down.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\jump_to_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_next.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\open_next.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_left.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.github.clans\\fab\\1.6.3\\res\\anim\\fab_slide_out_to_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\show_from_bottom.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\anim\\show_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_up.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_scale_up.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_main.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\close_main.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\open_next.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\open_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_right.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\show_from_bottom.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\show_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_slide_out_to_right.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_slide_out_to_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\jump_from_down.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\anim\\jump_from_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\scale_up.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\scale_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\close_next.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\anim\\close_next.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fab_scale_down.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\\output\\res\\anim\\fab_scale_down.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\anim\\abc_fade_out.xml"
+    }
+]

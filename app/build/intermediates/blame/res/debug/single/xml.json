@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_global_tracker.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\xml\\analytics_global_tracker.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_global_tracker.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\xml\\analytics_global_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_app_tracker.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\xml\\analytics_app_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_app_tracker.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\xml\\analytics_app_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_app_tracker.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\xml\\analytics_app_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_global_tracker.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\xml\\analytics_global_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_global_tracker.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\xml\\analytics_global_tracker.xml"
+    },
+    {
+        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics_app_tracker.xml",
+        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\xml\\analytics_app_tracker.xml"
+    }
+]
