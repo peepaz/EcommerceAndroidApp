@@ -1,7 +1,7 @@
 <resources>
 
     <!--application name-->
-    <string name="app_name">Flowerhour</string>
+    <string name="app_name">Lily</string>
 
     <!--navigation drawer and home menu name-->
     <string name="menu_product">Product</string>
@@ -37,7 +37,7 @@
     <string name="information_tab3">Contact us</string>
 
     <!--network-->
-    <string name="no_internet">Please, enable internet connection before using this app</string>
+    <string name="no_internet">No internet connection is available at this time.</string>
     <string name="alert">Failed to connect internet!</string>
     <string name="not_found">Product Not Found!</string>
 
@@ -82,20 +82,20 @@
     <string name="no_order_menu">No order</string>
 
     <!--app about information-->
-    <string name="app_version">Version 2.1.2</string>
-    <string name="app_copyright">Copyright &#169; 2017 Flowerhour Devz \n All rights reserved</string>
-    <string name="app_email">info@flowerhour.com</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_copyright">Copyright &#169; 2017 Lily Developers \n All rights reserved</string>
+    <string name="app_email">info@lily.com</string>
     <string name="share_summary">Share to your friends</string>
     <string name="rate_summary">Give your rate and feedback</string>
     <string name="more_summary">More apps from developer</string>
-    <string name="title_app_name">Flowerhour</string>
+    <string name="title_app_name">lily</string>
     <string name="title_app_version">Build Version</string>
-    <string name="title_app_email">info@flowerhour.com</string>
+    <string name="title_app_email">info@lily.com</string>
     <string name="title_app_copyright">Copyright</string>
     <string name="title_app_share">Share</string>
     <string name="title_app_rate">Rate</string>
     <string name="title_app_more">More</string>
-    <string name="more_apps">https://play.google.com/store/apps/developer?id=flowerhourdevz</string>
+    <string name="more_apps">https://play.google.com/store/apps/developer?id=lilyondroid</string>
     <string name="share_content">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
 
     <!--contact us-->

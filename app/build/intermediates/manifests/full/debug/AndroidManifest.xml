@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.flowerdevz.flowerhour"
+    package="com.lilyondroid.lily"
     android:versionCode="4"
     android:versionName="2.1.2" >
 
@@ -23,10 +23,10 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Optional permission for Analytics to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
     <permission
-        android:name="com.flowerdevz.flowerhour.permission.C2D_MESSAGE"
+        android:name="com.lilyondroid.lily.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="com.flowerdevz.flowerhour.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.lilyondroid.lily.permission.C2D_MESSAGE" />
     <!--
  Required so the device vibrates on receiving a push notification.
          Vibration settings of the device still apply.
@@ -43,14 +43,14 @@
     <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
 
     <application
-        android:name="com.flowerdevz.flowerhour.analytics.Analytics"
+        android:name="com.lilyondroid.lily.analytics.Analytics"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivitySplash"
+            android:name="com.lilyondroid.lily.activities.ActivitySplash"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -60,7 +60,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.MainActivity"
+            android:name="com.lilyondroid.lily.activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -70,37 +70,37 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityMenuCategory"
+            android:name="com.lilyondroid.lily.activities.ActivityMenuCategory"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityMenuList"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityMenuDetail"
+            android:name="com.lilyondroid.lily.activities.ActivityMenuDetail"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label=""
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityCart"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityCheckout"
+            android:name="com.lilyondroid.lily.activities.ActivityMenuListLily"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityConfirmMessage"
+            android:name="com.lilyondroid.lily.activities.ActivityCart"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityInformation"
+            android:name="com.lilyondroid.lily.activities.ActivityCheckout"
+            android:configChanges="keyboardHidden|orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.lilyondroid.lily.activities.ActivityConfirmMessage"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityProfile"
+            android:name="com.lilyondroid.lily.activities.ActivityInformation"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.flowerdevz.flowerhour.activities.ActivityAbout"
+            android:name="com.lilyondroid.lily.activities.ActivityProfile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.lilyondroid.lily.activities.ActivityAbout"
             android:screenOrientation="portrait" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
@@ -109,7 +109,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.flowerdevz.flowerhour.firebaseinitprovider"
+            android:authorities="com.lilyondroid.lily.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
@@ -118,10 +118,10 @@
             android:value="@integer/google_play_services_version" />
         <meta-data
             android:name="onesignal_app_id"
-            android:value="1d80166a-972d-4173-9b5e-bb2bb0df7f39" />
+            android:value="05c01469-4809-42b1-afd8-0bd3e308f675" />
         <meta-data
             android:name="onesignal_google_project_number"
-            android:value="str:401211824765" />
+            android:value="str:610318344876" />
 
         <receiver
             android:name="com.onesignal.GcmBroadcastReceiver"
@@ -129,7 +129,7 @@
             <intent-filter>
                 <action android:name="com.google.android.c2dm.intent.RECEIVE" />
 
-                <category android:name="com.flowerdevz.flowerhour" />
+                <category android:name="com.lilyondroid.lily" />
             </intent-filter>
         </receiver>
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />

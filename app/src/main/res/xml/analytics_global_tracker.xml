@@ -7,9 +7,9 @@
     <bool name="ga_dryRun">false</bool>
 
     <!-- The screen name that will appear in reports -->
-    <string name="com.flowerdevz.flowerhour.activities.MainActivity">MainActivity</string>
-    <string name="com.flowerdevz.flowerhour.activities.ActivityMenuCategory">Product Category</string>
-    <string name="com.flowerdevz.flowerhour.activities.ActivityMenuList">Product List</string>
-    <string name="com.flowerdevz.flowerhour.activities.ActivityMenuDetail">Product Details</string>
+    <string name="com.lilyondroid.lily.activities.MainActivity">MainActivity</string>
+    <string name="com.lilyondroid.lily.activities.ActivityMenuCategory">Product Category</string>
+    <string name="com.lilyondroid.lily.activities.ActivityMenuList">Product List</string>
+    <string name="com.lilyondroid.lily.activities.ActivityMenuDetail">Product Details</string>
 
 </resources>

@@ -5,12 +5,12 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId 'com.flowerdevz.flowerhour'
+        applicationId 'com.lilyondroid.lily'
 
         // TODO: Please update the Google Project number and OneSignal Id below to yours.
         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
-                                onesignal_app_id               : "1d80166a-972d-4173-9b5e-bb2bb0df7f39",
-                                onesignal_google_project_number: "401211824765"]
+                                onesignal_app_id               : "05c01469-4809-42b1-afd8-0bd3e308f675",
+                                onesignal_google_project_number: "610318344876"]
 
         minSdkVersion 14
         targetSdkVersion 23
@@ -45,4 +45,6 @@ dependencies {
     compile 'com.google.android.gms:play-services-analytics:9.0.2'
     compile 'com.google.android.gms:play-services-location:9.0.2'
     compile 'com.onesignal:OneSignal:2.+@aar'
+    compile files('libs/okhttp-3.6.0.jar')
+    compile files('libs/okio-1.11.0.jar')
 }

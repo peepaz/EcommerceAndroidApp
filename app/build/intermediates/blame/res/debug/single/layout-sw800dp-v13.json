@@ -2,17 +2,5 @@
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fragment_home.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw800dp\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fragment_home.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\layout-sw800dp\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fragment_home.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\layout-sw800dp\\fragment_home.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw800dp-v13\\fragment_home.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw800dp\\fragment_home.xml"
     }
 ]

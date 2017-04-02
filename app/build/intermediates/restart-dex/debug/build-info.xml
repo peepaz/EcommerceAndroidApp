@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="21"
+    api-level="22"
     build-mode="COLD"
-    density="hdpi"
+    density="xhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490256751835"
+    timestamp="1491095605257"
     token="-4779548122249241640"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="818" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="6" />
     <task
         name="verifier"
-        duration="0" />
+        duration="4" />
+
+    <artifact
+        location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+        type="SPLIT" />
+    <artifact
+        location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\outputs\apk\app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490256597027"
+        timestamp="1491090335605"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
-            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -49,16 +50,33 @@
             location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1491095463681"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
             location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\outputs\apk\app-debug.apk"
@@ -66,7 +84,14 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1490256751835"
-        verifier="COLD_SWAP_REQUESTED" />
+        timestamp="1491095605257"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\outputs\apk\app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
 
 </instant-run>

@@ -10,9 +10,9 @@
     <bool name="ga_reportUncaughtExceptions">true</bool>
     <integer name="ga_sessionTimeout">-1</integer>
 
-    <screenName name="com.flowerdevz.flowerhour.activities.MainActivity">MainActivity</screenName>
-    <screenName name="com.flowerdevz.flowerhour.activities.ActivityMenuCategory">Product Category</screenName>
-    <screenName name="com.flowerdevz.flowerhour.activities.ActivityMenuList">Product List</screenName>
-    <screenName name="com.flowerdevz.flowerhour.activities.ActivityMenuDetail">Product Details</screenName>
+    <screenName name="com.lilyondroid.lily.activities.MainActivity">MainActivity</screenName>
+    <screenName name="com.lilyondroid.lily.activities.ActivityMenuCategory">Product Category</screenName>
+    <screenName name="com.lilyondroid.lily.activities.ActivityMenuList">Product List</screenName>
+    <screenName name="com.lilyondroid.lily.activities.ActivityMenuDetail">Product Details</screenName>
 
 </resources>
