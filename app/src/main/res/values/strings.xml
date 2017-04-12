@@ -26,7 +26,7 @@
 
     <!--placeholder category images-->
     <string-array name="cat_placeholder_img">
-        <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/sym_roses\/2_6UJnT5Y-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item >media//__sized__//products//saleor//static\/placeholders2\/sym_roses\/2_6UJnT5Y-crop-c0-5__0-5-510x510-70.jpg</item>
         <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/4_6SNXuyL-crop-c0-5__0-5-510x510-70.jpg</item>
         <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/2-crop-c0-5__0-5-510x510-70.jpg</item>
     </string-array>

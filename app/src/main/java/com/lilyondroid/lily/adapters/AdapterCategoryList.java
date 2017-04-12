@@ -72,7 +72,7 @@ public class AdapterCategoryList extends BaseAdapter {
 //                    .placeholder(R.drawable.loading).into(holder.imgThumb);
 
             PicassoTrustAll.getInstance(convertView.getContext())
-                    .load("http://www.dimasword.com/demo/ecommerce/upload//images//5354-2015-07-09.png")
+                    .load("https://138.197.40.125/media/__sized__/products/saleor/static/placeholders2/ann_roses/2_brwzkfC-crop-c0-5__0-5-540x540-70.jpg ")
 //                    .load(Config.LILY_SERVER + "/" + catPlaceHolderImg[position])
                     .into(holder.imgThumb);
         }
