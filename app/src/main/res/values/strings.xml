@@ -15,7 +15,7 @@
 
     <!--title bar-->
     <string name="title_category">Category</string>
-    <string name="title_menu">Menu List</string>
+    <string name="title_menu">Product List</string>
     <string name="title_cart">My Cart</string>
     <string name="title_checkout">Checkout</string>
     <string name="title_confirm">Congratulations</string>
@@ -23,6 +23,13 @@
     <string name="title_about">About</string>
     <string name="title_buy">Buy this item</string>
     <string name="title_save">Save Image</string>
+
+    <!--placeholder category images-->
+    <string-array name="cat_placeholder_img">
+        <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/sym_roses\/2_6UJnT5Y-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/4_6SNXuyL-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/2-crop-c0-5__0-5-510x510-70.jpg</item>
+    </string-array>
 
     <!--action-->
     <string name="action_cart">My Cart</string>

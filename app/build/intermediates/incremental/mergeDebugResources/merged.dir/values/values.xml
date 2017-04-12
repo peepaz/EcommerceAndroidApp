@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string-array name="cat_placeholder_img">
+        <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/sym_roses\/2_6UJnT5Y-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/4_6SNXuyL-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/2-crop-c0-5__0-5-510x510-70.jpg</item>
+    </string-array>
     <string-array name="shipping_array">
         <item>@string/shipping_list_1</item>
         <item>@string/shipping_list_2</item>
@@ -97,6 +102,7 @@
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
     <color name="green">#0ecf48</color>
+    <color name="grey">#9E9E9E</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="hint">#767676</color>
@@ -129,6 +135,7 @@
     <color name="primary_text_default_material_light">#de000000</color>
     <color name="primary_text_disabled_material_dark">#4Dffffff</color>
     <color name="primary_text_disabled_material_light">#39000000</color>
+    <color name="red">#C70039</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
@@ -477,7 +484,7 @@
     <string name="title_checkout">Checkout</string>
     <string name="title_confirm">Congratulations</string>
     <string name="title_contact_us">Contact Us</string>
-    <string name="title_menu">Menu List</string>
+    <string name="title_menu">Product List</string>
     <string name="title_save">Save Image</string>
     <string name="total_order">Total Order :</string>
     <style name="ActionBarStyle" parent="Widget.AppCompat.ActionBar.Solid">

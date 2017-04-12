@@ -17,6 +17,7 @@ import com.lilyondroid.lily.activities.ActivityCart;
 import com.lilyondroid.lily.activities.ActivityCheckout;
 import com.lilyondroid.lily.activities.ActivityInformation;
 import com.lilyondroid.lily.activities.ActivityMenuCategory;
+import com.lilyondroid.lily.activities.ActivityProductCategory;
 import com.lilyondroid.lily.activities.ActivityProfile;
 import com.lilyondroid.lily.adapters.AdapaterGridView;
 import com.lilyondroid.lily.adapters.AdapterGridViewItem;
@@ -58,7 +59,9 @@ public class FragmentHome extends Fragment implements OnItemClickListener {
     @Override
     public void onItemClick(final AdapterView<?> arg0, final View view, final int position, final long id) {
         if (position == 0) {
-            startActivity(new Intent(getActivity(), ActivityMenuCategory.class));
+            startActivity(new Intent(getActivity(), ActivityProductCategory.class));
+//            startActivity(new Intent(getActivity(), ActivityMenuCategory.class));
+//            startActivity(new Intent(getActivity(), ActivityProductList.class));
         } else if (position == 1) {
             startActivity(new Intent(getActivity(), ActivityCart.class));
         } else if (position == 2) {

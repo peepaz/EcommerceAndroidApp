@@ -113,7 +113,7 @@ public class ActivityMenuList extends AppCompatActivity {
         MenuAPI += Category_ID;
         
         // set category name to textview
-//        txtTitle.setText(Category_name);
+//        txtTitle.setText(CategoryName);
         
         mla = new AdapterMenuList(ActivityMenuList.this);
        
@@ -386,7 +386,7 @@ public class ActivityMenuList extends AppCompatActivity {
 			    JSONObject menu = object.getJSONObject("Menu");
 			    
 			    Menu_ID.add(Long.parseLong(menu.getString("Menu_ID")));
-			    Menu_name.add(menu.getString("Menu_name"));
+			    Menu_name.add(menu.getString("ProductName"));
 			    Menu_price.add(Double.valueOf(formatData.format(menu.getDouble("Price"))));
 			    Menu_image.add(menu.getString("Menu_image"));
 				    
@@ -409,7 +409,7 @@ public class ActivityMenuList extends AppCompatActivity {
     @Override
     protected void onDestroy() {
     	// TODO Auto-generated method stub
-    	//adapterMenuList.imageLoader.clearCache();
+    	//adapterProductList.imageLoader.clearCache();
     	listMenu.setAdapter(null);
     	super.onDestroy();
     }

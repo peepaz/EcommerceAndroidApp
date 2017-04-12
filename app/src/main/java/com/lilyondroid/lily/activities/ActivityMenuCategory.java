@@ -5,7 +5,6 @@ import android.content.res.Configuration;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
-import android.renderscript.Sampler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -22,7 +21,7 @@ import android.widget.TextView;
 
 import com.lilyondroid.lily.Config;
 import com.lilyondroid.lily.R;
-import com.lilyondroid.lily.adapters.AdapterCategoryList;
+import com.lilyondroid.lily.adapters.AdapterCategoryList_old;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -39,20 +38,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
-import java.security.KeyStore;
-import java.security.SecureRandom;
-import java.security.cert.CertificateException;
 import java.util.ArrayList;
-import java.util.concurrent.ExecutionException;
-
-import javax.net.ssl.HostnameVerifier;
-import javax.net.ssl.KeyManagerFactory;
-import javax.net.ssl.SSLContext;
-import javax.net.ssl.SSLSession;
-import javax.net.ssl.SSLSocketFactory;
-import javax.net.ssl.TrustManager;
-import javax.net.ssl.TrustManagerFactory;
-import javax.net.ssl.X509TrustManager;
 
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -66,7 +52,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
 	ProgressBar prgLoading;
 	TextView txtAlert;
 	SwipeRefreshLayout swipeRefreshLayout = null;
-	AdapterCategoryList cla;
+	AdapterCategoryList_old cla;
 	public static ArrayList<Long> Category_ID = new ArrayList<Long>();
 	public static ArrayList<String> Category_name = new ArrayList<String>();
 	public static ArrayList<String> Category_image = new ArrayList<String>();
@@ -100,7 +86,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
         listCategory = (GridView) findViewById(R.id.listCategory);
         txtAlert = (TextView) findViewById(R.id.txtAlert);
         
-        cla = new AdapterCategoryList(ActivityMenuCategory.this);
+        cla = new AdapterCategoryList_old(ActivityMenuCategory.this);
 
         // category API url
     	CategoryAPI = Config.ADMIN_PANEL_URL + "/api/get-all-category-data.php" +"?accesskey="+Config.AccessKey;
@@ -108,7 +94,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
         // call asynctask class to request data from server
         new getDataTask().execute();
 
-//		parseJSONData1();
+//		parseJSONData();
 
 
 
@@ -121,7 +107,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
 				// TODO Auto-generated method stub
 				// go to menu page
 //				Intent iMenuList = new Intent(ActivityMenuCategory.this, ActivityMenuList.class);
-				Intent iMenuList = new Intent(ActivityMenuCategory.this, ActivityMenuListLily.class);
+				Intent iMenuList = new Intent(ActivityMenuCategory.this, ActivityProductList.class);
 				iMenuList.putExtra("category_id", Category_ID.get(position));
 				iMenuList.putExtra("category_name", Category_name.get(position));
 				startActivity(iMenuList);
@@ -186,7 +172,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
 			
 //		case R.id.refresh:
 //			IOConnect = 0;
-//			listCategory.invalidateViews();
+//			categoryList.invalidateViews();
 //			clearData();
 //			new getDataTask().execute();
 //			return true;
@@ -225,7 +211,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
 			// TODO Auto-generated method stub
 			// parse json data from server in background
 			parseJSONData();
-//			parseJSONData1();
+//			parseJSONData();
 			return null;
 		}
     	
@@ -283,15 +269,16 @@ public class ActivityMenuCategory extends AppCompatActivity {
 	        // parse json data and store into arraylist variables
 			JSONObject json = new JSONObject(str);
 			JSONArray data = json.getJSONArray("data");
+			Log.d(Tag,data.toString() +"");
 
 			for (int i = 0; i < data.length(); i++) {
 			    JSONObject object = data.getJSONObject(i); 
 			    
 			    JSONObject category = object.getJSONObject("Category");
 			    
-			    Category_ID.add(Long.parseLong(category.getString("Category_ID")));
-			    Category_name.add(category.getString("Category_name"));
-			    Category_image.add(category.getString("Category_image"));
+			    Category_ID.add(Long.parseLong(category.getString("CategoryId")));
+			    Category_name.add(category.getString("CategoryName"));
+			    Category_image.add(category.getString("CategoryImage"));
 			    Log.d("Category name", Category_name.get(i));
 				    
 			}
@@ -384,7 +371,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
     @Override
     protected void onDestroy() {
     	// TODO Auto-generated method stub
-    	//cla.imageLoader.clearCache();
+    	//adapterCategorylist.imageLoader.clearCache();
     	listCategory.setAdapter(null);
     	super.onDestroy();
     }

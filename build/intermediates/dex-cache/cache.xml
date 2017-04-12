@@ -102,6 +102,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\jason\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.4.1_03e463612162bd4136f440f58ea9bf73971959ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\jason\.android\build-cache\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -124,7 +133,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="5a0793704a6ba309686b71ba7eed966192a064cb">
+        sha1="57bf749efa3377fb91a44f0b8f14bda5934d042d">
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd06ca6e50b551c8b01e87fa0a111dee45e811f5\classes.dex" />
     </item>
     <item
@@ -144,6 +153,15 @@
         revision="25.0.0"
         sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signpost-core-1.2.1.2_c0d8d0676d23ee64f3a75d4f7ca3a8b23949ac6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.9.0_7defbd628c36396d6699964b8e2643ba9e9f3b26\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -252,6 +270,15 @@
         revision="25.0.0"
         sha1="e6970f0554f9508c041f1f6960af15cc888c9f35">
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e63e651f97b2701e82271493aef197a10caa0d61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.gradle\caches\modules-2\files-2.1\com.jakewharton.picasso\picasso2-okhttp3-downloader\1.1.0\f4f77eb62269c977c154765cd01587eda6488273\picasso2-okhttp3-downloader-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f4f77eb62269c977c154765cd01587eda6488273">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso2-okhttp3-downloader-1.1.0_6d02abd3315e2f9089c4ada94a368ba6a71d654b\classes.dex" />
     </item>
     <item
         is-multidex="true"

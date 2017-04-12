@@ -47,4 +47,8 @@ dependencies {
     compile 'com.onesignal:OneSignal:2.+@aar'
     compile files('libs/okhttp-3.6.0.jar')
     compile files('libs/okio-1.11.0.jar')
+    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
+//    compile 'com.squareup.okhttp:okhttp:2.2.0'
+//    compile 'com.squareup.okhttp:okhttp-urlconnection:2.2.0'
+//    compile 'com.squareup.picasso:picasso:2.4.0'
 }

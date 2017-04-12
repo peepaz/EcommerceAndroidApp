@@ -14,8 +14,8 @@ import okhttp3.OkHttpClient;
 public class Config {
 
     // API URL configuration
-//    public static String ADMIN_PANEL_URL = "http://www.dimasword.com/demo/ecommerce";
-    public static String ADMIN_PANEL_URL = "http://192.168.137.1:8080/COMP6701/ecommerce/";
+    public static String ADMIN_PANEL_URL = "http://www.dimasword.com/demo/ecommerce";
+//    public static String ADMIN_PANEL_URL = "http://192.168.137.1:8080/COMP6701/ecommerce/";
     public static String LILY_SERVER = "https://138.197.40.125";
 
     //Tokens for different access points

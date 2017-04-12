@@ -44,12 +44,15 @@
             android:name="com.lilyondroid.lily.activities.ActivityMenuCategory"
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.lilyondroid.lily.activities.ActivityProductCategory"
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.lilyondroid.lily.activities.ActivityMenuDetail"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label=""
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityMenuListLily"
+            android:name="com.lilyondroid.lily.activities.ActivityProductList"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
