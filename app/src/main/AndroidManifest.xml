@@ -14,14 +14,14 @@
         android:required="true" />
 
     <application
-        android:name="com.lilyondroid.lily.analytics.Analytics"
+        android:name=".analytics.Analytics"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivitySplash"
+            android:name=".activities.ActivitySplash"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -31,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lilyondroid.lily.activities.MainActivity"
+            android:name=".activities.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -41,42 +41,44 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityMenuCategory"
+            android:name=".activities.ActivityMenuCategory"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityProductCategory"
+            android:name=".activities.ActivityProductCategory"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityMenuDetail"
+            android:name=".activities.ActivityMenuDetail"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label=""
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityProductList"
+            android:name=".activities.ActivityProductList"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityCart"
+            android:name=".activities.ActivityCart"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityCheckout"
+            android:name=".activities.ActivityCheckout"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityConfirmMessage"
+            android:name=".activities.ActivityConfirmMessage"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityInformation"
+            android:name=".activities.ActivityInformation"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityProfile"
+            android:name=".activities.ActivityProfile"
             android:screenOrientation="portrait" />
         <activity
-            android:name="com.lilyondroid.lily.activities.ActivityAbout"
+            android:name=".activities.ActivityAbout"
             android:screenOrientation="portrait" />
-
+        <activity
+            android:name=".activities.ActivityLogin"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer_user.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_drawer_user.xml"
+    },
+    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home_drawer.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\activity_home_drawer.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
@@ -10,6 +18,10 @@
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_home.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\activity_home.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_category.xml",

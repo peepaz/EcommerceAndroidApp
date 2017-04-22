@@ -2,9 +2,18 @@
 <resources>
 
     <!--app main color-->
-    <color name="ColorPrimary">#9E9E9E</color>
-    <color name="ColorPrimaryDark">#616161</color>
-    <color name="ColorAccent">#607D8B</color>
+    <!--<color name="ColorPrimary">#9E9E9E</color>-->
+    <!--<color name="ColorPrimaryDark">#616161</color>-->
+    <!--<color name="ColorAccent">#607D8B</color>-->
+
+    <color name="ColorPrimary">#F44336</color>
+    <color name="ColorPrimaryDark">#D32F2F</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="ColorAccent">#9E9E9E</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
 
     <!--swipe tab color-->
     <color name="tabIndicatorColor">#FFFFFF</color>
@@ -23,5 +32,14 @@
     <color name="black">#000000</color>
     <color name="white">#ffffff</color>
     <color name="hint">#767676</color>
+    <color name="navHeaderColor">#d75039</color>
+    <color name="colorblue">#4c71f5</color>
+    <color name="colorSub">#b0afaf</color>
+    <color name="colorTex">#585858</color>
+    <color name="colordevider">#64dad8d8</color>
+    <color name="pirce">#696258</color>
+    <color name="iron">#CCCCCC</color>
+
+
 
 </resources>

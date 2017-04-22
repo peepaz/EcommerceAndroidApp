@@ -2,5 +2,17 @@
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\ic_launcher.png",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\face_grey.png",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\mipmap-xhdpi\\face_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\vpn_key_grey.png",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\mipmap-xhdpi\\vpn_key_grey.png"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi\\settings_grey.png",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\mipmap-xhdpi\\settings_grey.png"
     }
 ]

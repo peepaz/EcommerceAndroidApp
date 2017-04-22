@@ -7,46 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 61,
-                    "endOffset": 112
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-w480dp\\values-w480dp.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 231,
-                        "endColumn": 61,
-                        "endOffset": 288
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 117,
-                    "endColumn": 71,
-                    "endOffset": 184
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-w480dp\\values-w480dp.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 470,
-                        "endColumn": 71,
-                        "endOffset": 537
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 189,
                     "endColumn": 42,
-                    "endOffset": 227
+                    "endOffset": 93
                 },
                 "from": {
                     "file": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\values-w480dp\\integers.xml",

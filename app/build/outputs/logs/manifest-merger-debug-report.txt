@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:2:1-82:12
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:2:1-84:12
 	package
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
@@ -21,6 +21,7 @@ MERGED from [com.google.android.gms:play-services-analytics:9.0.2] C:\Users\jaso
 MERGED from [com.google.android.gms:play-services-analytics-impl:9.0.2] C:\Users\jason\.android\build-cache\2e4318f704e822c48bc2d0e1c69219a96f286a8f\output\AndroidManifest.xml:21:5-67
 MERGED from [com.google.android.gms:play-services-maps:9.0.2] C:\Users\jason\.android\build-cache\9f423d442d99a0e8852641164f3110dc200461e2\output\AndroidManifest.xml:21:5-66
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:15:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\jason\.android\build-cache\15aedeffacfba3e67fe8c675b800a86df859f335\output\AndroidManifest.xml:11:5-67
 	android:name
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.CALL_PHONE
@@ -29,6 +30,7 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:6:22-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\jason\.android\build-cache\15aedeffacfba3e67fe8c675b800a86df859f335\output\AndroidManifest.xml:12:5-81
 	android:name
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:7:22-78
 uses-permission#android.permission.READ_PHONE_STATE
@@ -55,11 +57,13 @@ MERGED from [com.google.android.gms:play-services-maps:9.0.2] C:\Users\jason\.an
 	android:required
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:14:9-32
 application
-ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:16:5-80:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\b6372fd9d90cf82025829258a08aff9b71d5f963\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\ed9f770957c65c5b64777ed927cababc97767b23\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\98e9a5531be04c00d8fcc3eeff7a50f5324a40c6\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:23.1.1] C:\Users\jason\.android\build-cache\746884ff36cfea7b7f771b5c9c03960e5921c48e\output\AndroidManifest.xml:22:5-23:19
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:16:5-82:19
+MERGED from [com.android.support:design:25.1.0] C:\Users\jason\.android\build-cache\34f93084d070740bea743bd816a02f879d18a2cb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\jason\.android\build-cache\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\jason\.android\build-cache\a86219098e42a770d268cc0856f92d8cc7a2e3c3\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\jason\.android\build-cache\c5c423d1b2409d1b7a0328e12fa05debcf2789d5\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.0] C:\Users\jason\.android\build-cache\900f73e78a7964261d4e9e06f15bded7323340d7\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:25.1.0] C:\Users\jason\.android\build-cache\537893ed1315e9bb75e8b5ece60e3784fe4a70c2\output\AndroidManifest.xml:22:5-23:19
 MERGED from [com.github.clans:fab:1.6.3] C:\Users\jason\.android\build-cache\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\output\AndroidManifest.xml:12:5-20
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\jason\.android\build-cache\81143ddd5f68b5652ca1a3236eb1ec69788b902e\output\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\jason\.android\build-cache\03213a7ce85b95ab7fc4844e0b6e47892d3bdf8e\output\AndroidManifest.xml:24:5-20
@@ -71,8 +75,15 @@ MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\jason\.an
 MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\jason\.android\build-cache\ce5f94ae678ef3d3411430d18a37cb70edef4067\output\AndroidManifest.xml:5:5-12:19
 MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\jason\.android\build-cache\17d768de76c2927ab685444557aaa2626d66bc6a\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\jason\.android\build-cache\757710294a9e4a1a5b4636e99c42db23db586dd3\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\3cdfc0a85be6f09a2c076bdacb0637a55426802f\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\jason\.android\build-cache\f2c54c7571e67cec56a9d474fbe4434323a67d7b\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\jason\.android\build-cache\e008b578b41e71130659f237f727019cf7ffe07e\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\jason\.android\build-cache\9a8f6e30837d4329e6643d20876995f8c4c3688a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\jason\.android\build-cache\02726bd7b52f59a8e3a67e555d657a936448228b\output\AndroidManifest.xml:25:5-20
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:40:5-81:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\6de49e47ad024cbbae9d66d719665297f139f456\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\jason\.android\build-cache\cb2150d54aafc2d097359781720671f6c55625aa\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\jason\.android\build-cache\4c592de2ee1b7088e2ec95f642b589982f90f21a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\jason\.android\build-cache\7b20100672f76acf85b38d151484ea5fbb1e2033\output\AndroidManifest.xml:22:5-20
 	android:label
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:21:9-41
 	android:hardwareAccelerated
@@ -84,7 +95,7 @@ MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\
 	android:theme
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:17:9-64
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:17:9-44
 activity#com.lilyondroid.lily.activities.ActivitySplash
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:23:9-32:20
 	android:screenOrientation
@@ -92,7 +103,7 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 	android:label
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:25:13-45
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:24:13-74
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:24:13-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
@@ -110,7 +121,7 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 	android:label
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:35:13-45
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:34:13-72
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:34:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:37:13-41:29
 category#android.intent.category.DEFAULT
@@ -122,13 +133,13 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 	android:screenOrientation
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:45:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:44:13-80
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:44:13-60
 activity#com.lilyondroid.lily.activities.ActivityProductCategory
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:46:9-48:52
 	android:screenOrientation
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:48:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:47:13-83
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:47:13-63
 activity#com.lilyondroid.lily.activities.ActivityMenuDetail
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:49:9-53:52
 	android:screenOrientation
@@ -138,7 +149,7 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 	android:configChanges
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:51:13-74
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:50:13-78
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:50:13-58
 activity#com.lilyondroid.lily.activities.ActivityProductList
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:54:9-58:57
 	android:screenOrientation
@@ -148,13 +159,13 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 	android:configChanges
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:56:13-63
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:55:13-79
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:55:13-59
 activity#com.lilyondroid.lily.activities.ActivityCart
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:59:9-61:52
 	android:screenOrientation
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:61:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:60:13-72
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:60:13-52
 activity#com.lilyondroid.lily.activities.ActivityCheckout
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:62:9-66:57
 	android:screenOrientation
@@ -164,38 +175,45 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 	android:configChanges
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:64:13-63
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:63:13-76
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:63:13-56
 activity#com.lilyondroid.lily.activities.ActivityConfirmMessage
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:67:9-69:52
 	android:screenOrientation
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:69:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:68:13-82
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:68:13-62
 activity#com.lilyondroid.lily.activities.ActivityInformation
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:70:9-72:52
 	android:screenOrientation
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:72:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:71:13-79
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:71:13-59
 activity#com.lilyondroid.lily.activities.ActivityProfile
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:73:9-75:52
 	android:screenOrientation
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:75:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:74:13-75
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:74:13-55
 activity#com.lilyondroid.lily.activities.ActivityAbout
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:76:9-78:52
 	android:screenOrientation
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:78:13-49
 	android:name
-		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:13-73
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:13-53
+activity#com.lilyondroid.lily.activities.ActivityLogin
+ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:79:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:81:13-49
+	android:name
+		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:80:13-53
 uses-sdk
 INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\b6372fd9d90cf82025829258a08aff9b71d5f963\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\ed9f770957c65c5b64777ed927cababc97767b23\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\98e9a5531be04c00d8fcc3eeff7a50f5324a40c6\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\jason\.android\build-cache\a5924e15b82abe098b8182f81352acac36e1ad9c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:23.1.1] C:\Users\jason\.android\build-cache\746884ff36cfea7b7f771b5c9c03960e5921c48e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:25.1.0] C:\Users\jason\.android\build-cache\34f93084d070740bea743bd816a02f879d18a2cb\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.0] C:\Users\jason\.android\build-cache\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] C:\Users\jason\.android\build-cache\a86219098e42a770d268cc0856f92d8cc7a2e3c3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] C:\Users\jason\.android\build-cache\c5c423d1b2409d1b7a0328e12fa05debcf2789d5\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:transition:25.1.0] C:\Users\jason\.android\build-cache\900f73e78a7964261d4e9e06f15bded7323340d7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:palette-v7:25.1.0] C:\Users\jason\.android\build-cache\537893ed1315e9bb75e8b5ece60e3784fe4a70c2\output\AndroidManifest.xml:20:5-43
 MERGED from [com.github.clans:fab:1.6.3] C:\Users\jason\.android\build-cache\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\jason\.android\build-cache\81143ddd5f68b5652ca1a3236eb1ec69788b902e\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\jason\.android\build-cache\03213a7ce85b95ab7fc4844e0b6e47892d3bdf8e\output\AndroidManifest.xml:18:5-42
@@ -207,8 +225,20 @@ MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\jason\.an
 MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\jason\.android\build-cache\ce5f94ae678ef3d3411430d18a37cb70edef4067\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\jason\.android\build-cache\17d768de76c2927ab685444557aaa2626d66bc6a\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\jason\.android\build-cache\757710294a9e4a1a5b4636e99c42db23db586dd3\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\3cdfc0a85be6f09a2c076bdacb0637a55426802f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.1.0] C:\Users\jason\.android\build-cache\f2c54c7571e67cec56a9d474fbe4434323a67d7b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] C:\Users\jason\.android\build-cache\e008b578b41e71130659f237f727019cf7ffe07e\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] C:\Users\jason\.android\build-cache\9a8f6e30837d4329e6643d20876995f8c4c3688a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.0] C:\Users\jason\.android\build-cache\02726bd7b52f59a8e3a67e555d657a936448228b\output\AndroidManifest.xml:21:5-23:61
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:5:5-43
+MERGED from [com.daimajia.androidanimations:library:1.0.3] C:\Users\jason\.android\build-cache\d15c7035de7265522c9f59509f8f954a05d7d18c\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\jason\.android\build-cache\15aedeffacfba3e67fe8c675b800a86df859f335\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\jason\.android\build-cache\6de49e47ad024cbbae9d66d719665297f139f456\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:recyclerview-v7:25.1.0] C:\Users\jason\.android\build-cache\5a7b618445d3f1bfb1db9eaebefea0eb63ca857c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.1.0] C:\Users\jason\.android\build-cache\cb2150d54aafc2d097359781720671f6c55625aa\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.0] C:\Users\jason\.android\build-cache\4c592de2ee1b7088e2ec95f642b589982f90f21a\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:cardview-v7:25.1.0] C:\Users\jason\.android\build-cache\7b20100672f76acf85b38d151484ea5fbb1e2033\output\AndroidManifest.xml:20:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] C:\Users\jason\.android\build-cache\34f93084d070740bea743bd816a02f879d18a2cb\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
@@ -373,3 +403,5 @@ action#android.intent.action.MY_PACKAGE_REPLACED
 ADDED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:78:17-84
 	android:name
 		ADDED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:78:25-81
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:2:1-84:12 reason: com.daimajia.slider.library requested WRITE_EXTERNAL_STORAGE

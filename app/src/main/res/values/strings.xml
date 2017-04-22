@@ -4,11 +4,11 @@
     <string name="app_name">Lily</string>
 
     <!--navigation drawer and home menu name-->
-    <string name="menu_product">Product</string>
+    <string name="menu_product">Products</string>
     <string name="menu_cart">Cart</string>
     <string name="menu_checkout">Checkout</string>
     <string name="menu_profile">Profile</string>
-    <string name="menu_info">Information</string>
+    <string name="menu_info">Info</string>
     <string name="menu_about">About</string>
     <string name="menu_share">Share</string>
     <string name="menu_contact">Contact</string>
@@ -26,9 +26,9 @@
 
     <!--placeholder category images-->
     <string-array name="cat_placeholder_img">
-        <item >media//__sized__//products//saleor//static\/placeholders2\/sym_roses\/2_6UJnT5Y-crop-c0-5__0-5-510x510-70.jpg</item>
-        <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/4_6SNXuyL-crop-c0-5__0-5-510x510-70.jpg</item>
-        <item >media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/2-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item>media//__sized__//products//saleor//static\/placeholders2\/sym_roses\/2_6UJnT5Y-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/4_6SNXuyL-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/2-crop-c0-5__0-5-510x510-70.jpg</item>
     </string-array>
 
     <!--action-->
@@ -118,5 +118,29 @@
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_content_on">0</string>
     <string name="drawer_content_off">2</string>
+    <string name="grid_item_default_title_text">The Lily</string>
+    <string name="grid_item_default_desc_text">At your service</string>
+    <string name="grid_item_default_price">From $100.00</string>
+    <string name="grid_view_item_default_other_text">other text</string>
+    <string name="signin_label">SIGN IN</string>
+    <string name="logout_msg">Are you sure?</string>
+    <string name="login_password_label">Password:</string>
+    <string name="user_name_hint">e.g. info@lily.com</string>
+    <string name="logout_yes_label">Yes</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_home">ActivityHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="featured_items_header_txt">Featured Products</string>
+    <string name="favourite_picks_text">Most Recently Viewed</string>
+    <string name="username">Johe Doe</string>
+    <string name="user_profile_label">Profile</string>
+    <string name="signout_label">Sign out</string>
+    <string name="action_shopping_cart">Cart</string>
+    <string name="menu_settings">Settings</string>
+    <string name="logout_no_label">No</string>
 
 </resources>

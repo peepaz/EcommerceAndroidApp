@@ -52,5 +52,6 @@
     <string msgid="669893613918351210" name="common_signin_button_text_long">"Google 계정으로 로그인"</string>
     <string msgid="1303870564366209730" name="place_autocomplete_clear_button">"검색어 지우기"</string>
     <string msgid="2809095107724486040" name="place_autocomplete_search_hint">"검색"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"검색"</string>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
 </resources>
