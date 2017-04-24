@@ -6,6 +6,7 @@ import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 
 import com.lilyondroid.lily.R;
+import com.lilyondroid.lily.services.GPSLocationService;
 
 public class ActivitySplash extends AppCompatActivity {
 
@@ -13,6 +14,7 @@ public class ActivitySplash extends AppCompatActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_splash);
+
 
 		/** Creates a count down timer, which will be expired after 5000 milliseconds */
 		new CountDownTimer(5000, 1000) {
@@ -22,8 +24,9 @@ public class ActivitySplash extends AppCompatActivity {
 			public void onFinish() {
 				/** Creates an intent to start new activity */
 				Intent intent = new Intent(getBaseContext(), MainActivity.class);
+//				Intent intent = new Intent(getBaseContext(), ActivityMenuCategory.class);
 
-				//memulai activity baru ketika waktu timer habis
+
 				startActivity(intent);
 
 				//menutup layar activity

@@ -2,7 +2,6 @@ package com.lilyondroid.lily.adapters;
 
 import android.app.Activity;
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,9 +9,13 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.lilyondroid.lily.Config;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.utilities.GridViewItem;
+import com.lilyondroid.lily.utilities.PicassoTrustAll;
+import com.squareup.picasso.Picasso;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 
@@ -52,14 +55,14 @@ public class GridviewAdapter extends BaseAdapter {
 
         if (convertView == null) {
             LayoutInflater layoutInflater = (LayoutInflater) context.getSystemService(Activity.LAYOUT_INFLATER_SERVICE);
-            convertView = layoutInflater.inflate(R.layout.gridview, null);
+            convertView = layoutInflater.inflate(R.layout.product_thumbnail, null);
 
             viewHolder = new ViewHolder();
 
-            viewHolder.image = (ImageView) convertView.findViewById(R.id.grid_view_item_img);
-            viewHolder.title = (TextView) convertView.findViewById(R.id.grid_view_item_title);
-            viewHolder.price = (TextView) convertView.findViewById(R.id.grid_view_item_price);
-            viewHolder.otherText = (TextView) convertView.findViewById(R.id.grid_view_item_other_text);
+            viewHolder.image = (ImageView) convertView.findViewById(R.id.product_thumb_nail_img);
+            viewHolder.title = (TextView) convertView.findViewById(R.id.product_title);
+            viewHolder.price = (TextView) convertView.findViewById(R.id.product_price);
+            viewHolder.otherText = (TextView) convertView.findViewById(R.id.product_other_text);
 
 
             convertView.setTag(viewHolder);
@@ -76,10 +79,15 @@ public class GridviewAdapter extends BaseAdapter {
 
 //        Log.d(Tag, "image: "+image);
 
-        viewHolder.image.setImageResource(gridViewItem.getImage());
+        PicassoTrustAll.getInstance(convertView.getContext())
+                .load(gridViewItem.getImageUrl()).into(viewHolder.image);
+
+//        viewHolder.image.setImageResource(gridViewItem.getImageUrl());
         viewHolder.title.setText(gridViewItem.getTitle());
-        viewHolder.price.setText(gridViewItem.getPrice());
-        viewHolder.otherText.setText(gridViewItem.getOtherText());
+        DecimalFormat decimalFormat = new DecimalFormat("From: $###.##");
+
+        viewHolder.price.setText(decimalFormat.format(gridViewItem.getPriceLower()));
+        viewHolder.otherText.setText("");
 
 
         return convertView;

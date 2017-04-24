@@ -344,7 +344,7 @@ public class ActivityMenuDetail extends AppCompatActivity {
                 JSONObject menu = object.getJSONObject("Menu_detail");
 
                 Menu_image = menu.getString("Menu_image");
-                Menu_name = menu.getString("ProductName");
+                Menu_name = menu.getString("Menu_name");
                 Menu_price = Double.valueOf(formatData.format(menu.getDouble("Price")));
                 Menu_serve = menu.getString("Serve_for");
                 Menu_description = menu.getString("Description");

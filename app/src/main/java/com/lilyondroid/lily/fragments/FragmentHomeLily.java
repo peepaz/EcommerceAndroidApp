@@ -1,5 +1,6 @@
 package com.lilyondroid.lily.fragments;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,17 +10,20 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
+import android.widget.RelativeLayout;
 
 import com.daimajia.slider.library.SliderTypes.BaseSliderView;
 import com.daimajia.slider.library.SliderTypes.TextSliderView;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.activities.ActivityAbout;
 import com.lilyondroid.lily.activities.ActivityCart;
+import com.lilyondroid.lily.activities.ActivityCategory;
 import com.lilyondroid.lily.activities.ActivityCheckout;
 import com.lilyondroid.lily.activities.ActivityInformation;
 import com.lilyondroid.lily.activities.ActivityProductCategory;
@@ -32,6 +36,8 @@ import com.lilyondroid.lily.utilities.SliderLayout;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+
+import static android.content.ContentValues.TAG;
 
 public class FragmentHomeLily extends Fragment implements OnItemClickListener, BaseSliderView.OnSliderClickListener {
 
@@ -47,6 +53,8 @@ public class FragmentHomeLily extends Fragment implements OnItemClickListener, B
 
     SliderLayout mDemoSlider;
     private DrawerLayout mDrawerLayout;
+
+    String TAG = "ptasdevz";
 
 
     @Override
@@ -113,6 +121,8 @@ public class FragmentHomeLily extends Fragment implements OnItemClickListener, B
                     //  .description(name)
                     .image(file_maps.get(name))
                     .setScaleType(BaseSliderView.ScaleType.CenterCrop)
+                    .image(file_maps.get(name))
+                    .description(name)
                     .setOnSliderClickListener(this);
 
 
@@ -120,6 +130,7 @@ public class FragmentHomeLily extends Fragment implements OnItemClickListener, B
             textSliderView.getBundle().putString("extra", name);
 
             mDemoSlider.addSlider(textSliderView);
+
         }
         mDemoSlider.setPresetTransformer(SliderLayout.Transformer.Default);
         mDemoSlider.setPresetIndicator(SliderLayout.PresetIndicators.Center_Bottom);
@@ -186,6 +197,16 @@ public class FragmentHomeLily extends Fragment implements OnItemClickListener, B
 
     @Override
     public void onSliderClick(BaseSliderView slider) {
+
+//      SliderLayout sliderLayout = (SliderLayout) slider.getView();
+
+//        BaseSliderView sliderView = sliderLayout.getCurrentSlider();
+//        sliderView.
+        String description = slider.getDescription();
+        Intent intent = new Intent(getActivity(), ActivityCategory.class);
+        intent.putExtra("cat_id",description);
+        startActivity(intent);
+        Log.d(TAG, "Slider id "+ description);
 
     }
 }

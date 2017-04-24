@@ -107,7 +107,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
 				// TODO Auto-generated method stub
 				// go to menu page
 //				Intent iMenuList = new Intent(ActivityMenuCategory.this, ActivityMenuList.class);
-				Intent iMenuList = new Intent(ActivityMenuCategory.this, ActivityProductList.class);
+				Intent iMenuList = new Intent(ActivityMenuCategory.this, ActivityMenuList.class);
 				iMenuList.putExtra("category_id", Category_ID.get(position));
 				iMenuList.putExtra("category_name", Category_name.get(position));
 				startActivity(iMenuList);
@@ -241,7 +241,7 @@ public class ActivityMenuCategory extends AppCompatActivity {
     // method to parse json data from server
     public void parseJSONData(){
     	
-    	clearData();
+//    	clearData();
     	
     	try {
     		// request data from Category API
@@ -269,22 +269,22 @@ public class ActivityMenuCategory extends AppCompatActivity {
 	        // parse json data and store into arraylist variables
 			JSONObject json = new JSONObject(str);
 			JSONArray data = json.getJSONArray("data");
-			Log.d(Tag,data.toString() +"");
+			Log.d(Tag,str +"888" + data.length());
 
 			for (int i = 0; i < data.length(); i++) {
 			    JSONObject object = data.getJSONObject(i); 
 			    
 			    JSONObject category = object.getJSONObject("Category");
 			    
-			    Category_ID.add(Long.parseLong(category.getString("CategoryId")));
-			    Category_name.add(category.getString("CategoryName"));
-			    Category_image.add(category.getString("CategoryImage"));
-			    Log.d("Category name", Category_name.get(i));
+			    Category_ID.add(Long.parseLong(category.getString("Category_ID")));
+			    Category_name.add(category.getString("Category_name"));
+			    Category_image.add(category.getString("Category_image"));
+			    Log.d(Tag, Category_name.get(i));
 				    
 			}
-			Category_ID.add(Long.valueOf(data.length()));
-			Category_name.add("Lily Products");
-			Category_image.add("upload\\/images\\/lily_prod.png");
+//			Category_ID.add(Long.valueOf(data.length()));
+//			Category_name.add("Lily Products");
+//			Category_image.add("upload\\/images\\/lily_prod.png");
 
 				
 		} catch (MalformedURLException e) {

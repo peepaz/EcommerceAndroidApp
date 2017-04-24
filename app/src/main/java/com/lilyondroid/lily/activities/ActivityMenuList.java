@@ -21,6 +21,7 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+
 import com.lilyondroid.lily.Config;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.adapters.AdapterMenuList;
@@ -46,42 +47,42 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class ActivityMenuList extends AppCompatActivity {
-	
+
 	ListView listMenu;
 	ProgressBar prgLoading;
 	SwipeRefreshLayout swipeRefreshLayout = null;
 	EditText edtKeyword;
 	ImageButton btnSearch;
 	TextView txtAlert;
-	
+
 	// declare static variable to store tax and currency symbol
 	public static double Tax;
 	public static String Currency;
-	
+
 	// declare adapter object to create custom menu list
 	AdapterMenuList mla;
-	
+
 	// create arraylist variables to store data from server
 	public static ArrayList<Long> Menu_ID = new ArrayList<Long>();
 	public static ArrayList<String> Menu_name = new ArrayList<String>();
 	public static ArrayList<Double> Menu_price = new ArrayList<Double>();
 	public static ArrayList<String> Menu_image = new ArrayList<String>();
-	
+
 	String MenuAPI;
 	String TaxCurrencyAPI;
 	int IOConnect = 0;
 	long Category_ID;
 	String Category_name;
 	String Keyword;
-	
+
 	// create price format
 	DecimalFormat formatData = new DecimalFormat("#.##");
-	
-	
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_list);
+
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_menu_list);
 
 		final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 		setSupportActionBar(toolbar);
@@ -95,32 +96,32 @@ public class ActivityMenuList extends AppCompatActivity {
 		swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipeRefreshLayout);
 		swipeRefreshLayout.setColorSchemeResources(R.color.orange, R.color.green, R.color.blue);
 
-        prgLoading = (ProgressBar) findViewById(R.id.prgLoading);
-        listMenu = (ListView) findViewById(R.id.listMenu);
-        edtKeyword = (EditText) findViewById(R.id.edtKeyword);
-        btnSearch = (ImageButton) findViewById(R.id.btnSearch);
-        txtAlert = (TextView) findViewById(R.id.txtAlert);
-        
-        // menu API url
-        MenuAPI = Config.ADMIN_PANEL_URL+"/api/get-menu-data-by-category-id.php"+"?accesskey="+Config.AccessKey+"&category_id=";
-        // tax and currency API url
-        TaxCurrencyAPI = Config.ADMIN_PANEL_URL+"/api/get-tax-and-currency.php"+"?accesskey="+Config.AccessKey;
-        
-        // get category id and category name that sent from previous page
-        Intent iGet = getIntent();
-        Category_ID = iGet.getLongExtra("category_id",0);
-        Category_name = iGet.getStringExtra("category_name");
-        MenuAPI += Category_ID;
-        
-        // set category name to textview
-//        txtTitle.setText(CategoryName);
-        
-        mla = new AdapterMenuList(ActivityMenuList.this);
-       
-        // call asynctask class to request tax and currency data from server
-        new getTaxCurrency().execute();
-		
-        // event listener to handle search button when clicked
+		prgLoading = (ProgressBar) findViewById(R.id.prgLoading);
+		listMenu = (ListView) findViewById(R.id.listMenu);
+		edtKeyword = (EditText) findViewById(R.id.edtKeyword);
+		btnSearch = (ImageButton) findViewById(R.id.btnSearch);
+		txtAlert = (TextView) findViewById(R.id.txtAlert);
+
+		// menu API url
+		MenuAPI = Config.ADMIN_PANEL_URL+"/api/get-menu-data-by-category-id.php"+"?accesskey="+Config.AccessKey+"&category_id=";
+		// tax and currency API url
+		TaxCurrencyAPI = Config.ADMIN_PANEL_URL+"/api/get-tax-and-currency.php"+"?accesskey="+Config.AccessKey;
+
+		// get category id and category name that sent from previous page
+		Intent iGet = getIntent();
+		Category_ID = iGet.getLongExtra("category_id",0);
+		Category_name = iGet.getStringExtra("category_name");
+		MenuAPI += Category_ID;
+
+		// set category name to textview
+//        txtTitle.setText(Category_name);
+
+		mla = new AdapterMenuList(ActivityMenuList.this);
+
+		// call asynctask class to request tax and currency data from server
+		new getTaxCurrency().execute();
+
+		// event listener to handle search button when clicked
 		btnSearch.setOnClickListener(new OnClickListener() {
 
 			public void onClick(View arg0) {
@@ -139,7 +140,7 @@ public class ActivityMenuList extends AppCompatActivity {
 				new getDataTask().execute();
 			}
 		});
-		
+
 		// event listener to handle list when clicked
 		listMenu.setOnItemClickListener(new OnItemClickListener() {
 
@@ -187,57 +188,57 @@ public class ActivityMenuList extends AppCompatActivity {
 				swipeRefreshLayout.setEnabled(enable);
 			}
 		});
-        
-    }
-    
-    @Override
+
+	}
+
+	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.menu_category, menu);
-        
+
 		return true;
 	}
-	
+
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 		// Handle action bar item clicks here. The action bar will
 		// automatically handle clicks on the Home/Up button, so long
 		// as you specify a parent activity in AndroidManifest.xml.
 		switch (item.getItemId()) {
-		case R.id.cart:
-			// refresh action
-			Intent i = new Intent(ActivityMenuList.this, ActivityCart.class);
-			startActivity(i);
-			return true;
-			
-		case R.id.refresh:
-			IOConnect = 0;
-			listMenu.invalidateViews();
-			clearData();
-			new getDataTask().execute();
-			return true;			
-			
-		case android.R.id.home:
-            // app icon in action bar clicked; go home
-        	this.finish();
-			return true;
-			
-		default:
-			return super.onOptionsItemSelected(item);
+			case R.id.cart:
+				// refresh action
+				Intent i = new Intent(ActivityMenuList.this, ActivityCart.class);
+				startActivity(i);
+				return true;
+
+			case R.id.refresh:
+				IOConnect = 0;
+				listMenu.invalidateViews();
+				clearData();
+				new getDataTask().execute();
+				return true;
+
+			case android.R.id.home:
+				// app icon in action bar clicked; go home
+				this.finish();
+				return true;
+
+			default:
+				return super.onOptionsItemSelected(item);
 		}
 	}
-    
-    // asynctask class to handle parsing json in background
-    public class getTaxCurrency extends AsyncTask<Void, Void, Void>{
-    	
-    	// show progressbar first
-    	getTaxCurrency(){
-    		if(!prgLoading.isShown()){
-    			prgLoading.setVisibility(View.VISIBLE);
+
+	// asynctask class to handle parsing json in background
+	public class getTaxCurrency extends AsyncTask<Void, Void, Void>{
+
+		// show progressbar first
+		getTaxCurrency(){
+			if(!prgLoading.isShown()){
+				prgLoading.setVisibility(View.VISIBLE);
 				txtAlert.setVisibility(View.GONE);
-    		}
-    	}
-    	
+			}
+		}
+
 		@Override
 		protected Void doInBackground(Void... arg0) {
 			// TODO Auto-generated method stub
@@ -245,7 +246,7 @@ public class ActivityMenuList extends AppCompatActivity {
 			parseJSONDataTax();
 			return null;
 		}
-    	
+
 		@Override
 		protected void onPostExecute(Void result) {
 			// TODO Auto-generated method stub
@@ -259,89 +260,89 @@ public class ActivityMenuList extends AppCompatActivity {
 				txtAlert.setVisibility(View.VISIBLE);
 			}
 		}
-    }
+	}
 
-    // method to parse json data from server
+	// method to parse json data from server
 	public void parseJSONDataTax(){
 		try {
-	        // request data from tax and currency API
-	        HttpClient client = new DefaultHttpClient();
+			// request data from tax and currency API
+			HttpClient client = new DefaultHttpClient();
 			HttpConnectionParams.setConnectionTimeout(client.getParams(), 15000);
 			HttpConnectionParams.setSoTimeout(client.getParams(), 15000);
-	        HttpUriRequest request = new HttpGet(TaxCurrencyAPI);
+			HttpUriRequest request = new HttpGet(TaxCurrencyAPI);
 			HttpResponse response = client.execute(request);
 			InputStream atomInputStream = response.getEntity().getContent();
-	
+
 			BufferedReader in = new BufferedReader(new InputStreamReader(atomInputStream));
-		        
-	        String line;
-	        String str = "";
-	        while ((line = in.readLine()) != null){
-	        	str += line;
-	        }
-    
-	        
-	        // parse json data and store into tax and currency variables
+
+			String line;
+			String str = "";
+			while ((line = in.readLine()) != null){
+				str += line;
+			}
+
+
+			// parse json data and store into tax and currency variables
 			JSONObject json = new JSONObject(str);
 			JSONArray data = json.getJSONArray("data"); // this is the "items: [ ] part
-			
-			JSONObject object_tax = data.getJSONObject(0); 
+
+			JSONObject object_tax = data.getJSONObject(0);
 			JSONObject tax = object_tax.getJSONObject("tax_n_currency");
-			    
+
 			Tax = Double.parseDouble(tax.getString("Value"));
-			
-			JSONObject object_currency = data.getJSONObject(1); 
+
+			JSONObject object_currency = data.getJSONObject(1);
 			JSONObject currency = object_currency.getJSONObject("tax_n_currency");
-			    
+
 			Currency = currency.getString("Value");
-			
-			
+
+
 		} catch (MalformedURLException e) {
-		    // TODO Auto-generated catch block
-		    e.printStackTrace();
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} catch (IOException e) {
 			IOConnect = 1;
-		    // TODO Auto-generated catch block
-		    e.printStackTrace();
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} catch (JSONException e) {
-		    // TODO Auto-generated catch block
-		    e.printStackTrace();
-		}	
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
-    
+
 	// clear arraylist variables before used
-    void clearData(){
-    	Menu_ID.clear();
-    	Menu_name.clear();
-    	Menu_price.clear();
-    	Menu_image.clear();
-    }
-    
-    // asynctask class to handle parsing json in background
-    public class getDataTask extends AsyncTask<Void, Void, Void>{
-    	
-    	// show progressbar first
-    	getDataTask(){
-    		if(!prgLoading.isShown()){
-    			prgLoading.setVisibility(View.VISIBLE);
+	void clearData(){
+		Menu_ID.clear();
+		Menu_name.clear();
+		Menu_price.clear();
+		Menu_image.clear();
+	}
+
+	// asynctask class to handle parsing json in background
+	public class getDataTask extends AsyncTask<Void, Void, Void>{
+
+		// show progressbar first
+		getDataTask(){
+			if(!prgLoading.isShown()){
+				prgLoading.setVisibility(View.VISIBLE);
 				txtAlert.setVisibility(View.GONE);
-    		}
-    	}
-    	
-    	@Override
+			}
+		}
+
+		@Override
 		protected Void doInBackground(Void... arg0) {
 			// TODO Auto-generated method stub
-    		// parse json data from server in background
+			// parse json data from server in background
 			parseJSONData();
 			return null;
 		}
-    	
+
 		@Override
 		protected void onPostExecute(Void result) {
 			// TODO Auto-generated method stub
 			// when finish parsing, hide progressbar
 			prgLoading.setVisibility(View.GONE);
-			
+
 			// if data available show data on list
 			// otherwise, show alert text
 			if(Menu_ID.size() > 0){
@@ -350,84 +351,84 @@ public class ActivityMenuList extends AppCompatActivity {
 			}else{
 				txtAlert.setVisibility(View.VISIBLE);
 			}
-			
+
 		}
-    }
-    
-    // method to parse json data from server
-    public void parseJSONData(){
-    	
-    	clearData();
-    	
-    	try {
-	        // request data from menu API
-	        HttpClient client = new DefaultHttpClient();
-	        HttpConnectionParams.setConnectionTimeout(client.getParams(), 15000);
+	}
+
+	// method to parse json data from server
+	public void parseJSONData(){
+
+		clearData();
+
+		try {
+			// request data from menu API
+			HttpClient client = new DefaultHttpClient();
+			HttpConnectionParams.setConnectionTimeout(client.getParams(), 15000);
 			HttpConnectionParams.setSoTimeout(client.getParams(), 15000);
-	        HttpUriRequest request = new HttpGet(MenuAPI);
+			HttpUriRequest request = new HttpGet(MenuAPI);
 			HttpResponse response = client.execute(request);
 			InputStream atomInputStream = response.getEntity().getContent();
 
 			BufferedReader in = new BufferedReader(new InputStreamReader(atomInputStream));
-		        
-	        String line;
-	        String str = "";
-	        while ((line = in.readLine()) != null){
-	        	str += line;
-	        }
-        
+
+			String line;
+			String str = "";
+			while ((line = in.readLine()) != null){
+				str += line;
+			}
+
 			// parse json data and store into arraylist variables
 			JSONObject json = new JSONObject(str);
 			JSONArray data = json.getJSONArray("data"); // this is the "items: [ ] part
-			
+
 			for (int i = 0; i < data.length(); i++) {
-			    JSONObject object = data.getJSONObject(i); 
-			    
-			    JSONObject menu = object.getJSONObject("Menu");
-			    
-			    Menu_ID.add(Long.parseLong(menu.getString("Menu_ID")));
-			    Menu_name.add(menu.getString("ProductName"));
-			    Menu_price.add(Double.valueOf(formatData.format(menu.getDouble("Price"))));
-			    Menu_image.add(menu.getString("Menu_image"));
-				    
+				JSONObject object = data.getJSONObject(i);
+
+				JSONObject menu = object.getJSONObject("Menu");
+
+				Menu_ID.add(Long.parseLong(menu.getString("Menu_ID")));
+				Menu_name.add(menu.getString("Menu_name"));
+				Menu_price.add(Double.valueOf(formatData.format(menu.getDouble("Price"))));
+				Menu_image.add(menu.getString("Menu_image"));
+
 			}
-				
-				
+
+
 		} catch (MalformedURLException e) {
-		    // TODO Auto-generated catch block
-		    e.printStackTrace();
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} catch (IOException e) {
-		    // TODO Auto-generated catch block
-		    e.printStackTrace();
+			// TODO Auto-generated catch block
+			e.printStackTrace();
 		} catch (JSONException e) {
-		    // TODO Auto-generated catch block
-		    e.printStackTrace();
-		}	
-    }
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 
 
-    @Override
-    protected void onDestroy() {
-    	// TODO Auto-generated method stub
-    	//adapterProductList.imageLoader.clearCache();
-    	listMenu.setAdapter(null);
-    	super.onDestroy();
-    }
-	 
-    
-    @Override
+	@Override
+	protected void onDestroy() {
+		// TODO Auto-generated method stub
+		//mla.imageLoader.clearCache();
+		listMenu.setAdapter(null);
+		super.onDestroy();
+	}
+
+
+	@Override
 	public void onConfigurationChanged(final Configuration newConfig)
 	{
-	    // Ignore orientation change to keep activity from restarting
-	    super.onConfigurationChanged(newConfig);
+		// Ignore orientation change to keep activity from restarting
+		super.onConfigurationChanged(newConfig);
 	}
-    
-    @Override
-    public void onBackPressed() {
-    	// TODO Auto-generated method stub
-    	super.onBackPressed();
-    	finish();
-    }
 
-    
+	@Override
+	public void onBackPressed() {
+		// TODO Auto-generated method stub
+		super.onBackPressed();
+		finish();
+	}
+
+
 }

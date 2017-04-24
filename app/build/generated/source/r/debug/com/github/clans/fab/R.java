@@ -76,9 +76,9 @@ public final class R {
         public static final int menu_showShadow = 0x7f01011e;
     }
     public static final class dimen {
-        public static final int fab_size_mini = 0x7f0a0080;
-        public static final int fab_size_normal = 0x7f0a0081;
-        public static final int labels_text_size = 0x7f0a008c;
+        public static final int fab_size_mini = 0x7f0a0081;
+        public static final int fab_size_normal = 0x7f0a0082;
+        public static final int labels_text_size = 0x7f0a008d;
     }
     public static final class drawable {
         public static final int fab_add = 0x7f02008c;

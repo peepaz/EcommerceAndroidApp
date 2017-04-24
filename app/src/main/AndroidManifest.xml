@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.lilyondroid.lily">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -52,6 +54,11 @@
             android:label=""
             android:screenOrientation="portrait" />
         <activity
+            android:name=".activities.ActivityMenuList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
             android:name=".activities.ActivityProductList"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
@@ -79,6 +86,41 @@
         <activity
             android:name=".activities.ActivityLogin"
             android:screenOrientation="portrait" />
+
+        <service
+            android:name=".services.GPSLocationService"
+            android:exported="false"
+            android:process=":gps_location_service" />
+        <service
+            android:name=".services.GPSLocationIntentService"
+            android:exported="false"
+            android:process=":gps_location_service" />
+
+        <receiver android:name=".utilities.LilyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.lilyondroid.lily.BROADCAST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.lilyondroid.lily.STATUS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".services.LilyNotificationExtender"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".activities.ActivityCategory"
+            android:label="@string/title_activity_category"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".activities.ActivityProductDetail"
+            android:label="@string/title_activity_product_detail"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

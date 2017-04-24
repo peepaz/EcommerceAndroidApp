@@ -31,6 +31,10 @@
         <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/2-crop-c0-5__0-5-510x510-70.jpg</item>
     </string-array>
 
+    <string name="category_anniversary">Anniversary</string>
+    <string name="category_love_romance">Love and Romance</string>
+    <string name="category_sympathy">Sympathy</string>
+
     <!--action-->
     <string name="action_cart">My Cart</string>
     <string name="action_checkout">Process Checkout</string>
@@ -110,9 +114,9 @@
     <string name="hint_email_message">Message :</string>
     <string name="button_send">Send</string>
 
-    <!--nav drawer header image-->
-    <!--set "@string/drawer_content_on" to enable navigation drawer header image-->
-    <!--set "@string/drawer_content_off" to disable navigation drawer header image-->
+    <!--nav drawer header imageUrl-->
+    <!--set "@string/drawer_content_on" to enable navigation drawer header imageUrl-->
+    <!--set "@string/drawer_content_off" to disable navigation drawer header imageUrl-->
     <string name="drawer_visibility">@string/drawer_content_on</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
@@ -142,5 +146,12 @@
     <string name="action_shopping_cart">Cart</string>
     <string name="menu_settings">Settings</string>
     <string name="logout_no_label">No</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_fragment">hello fragment</string>
+    <string name="title_activity_product_detail">Product Detail</string>
 
 </resources>

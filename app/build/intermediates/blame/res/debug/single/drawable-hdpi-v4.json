@@ -12,6 +12,10 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_os_notification_fallback_white_24dp.png",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\c30dd48c6cd62b905015d5579f011b7599760520\\output\\res\\drawable-hdpi-v4\\ic_os_notification_fallback_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\\output\\res\\drawable-hdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
     },
@@ -122,10 +126,6 @@
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\header_profile.jpg",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-hdpi\\header_profile.jpg"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_notifications_white_24dp.png",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\\output\\res\\drawable-hdpi-v4\\ic_notifications_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\places_ic_search.png",

@@ -31,6 +31,8 @@ import android.widget.Toast;
 import com.lilyondroid.lily.customfonts.LilyEditText;
 import com.lilyondroid.lily.customfonts.LilyTextView;
 import com.lilyondroid.lily.fragments.FragmentHomeLily;
+import com.lilyondroid.lily.services.GPSLocationIntentService;
+import com.lilyondroid.lily.utilities.LilyObserverable;
 import com.onesignal.OneSignal;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.analytics.Analytics;
@@ -41,8 +43,10 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
+import java.util.Observable;
+import java.util.Observer;
 
-public class MainActivity extends AppCompatActivity  {
+public class MainActivity extends AppCompatActivity  implements Observer {
 
     static DBHelper dbhelper;
     Toolbar toolbar;
@@ -66,6 +70,12 @@ public class MainActivity extends AppCompatActivity  {
     private ImageView profileViewOpen;
     private ImageView profileViewClose;
     private MenuItem drawerLogout;
+
+    public static final String BROADCAST_ACTION =
+            "com.lilyondroid.lily.BROADCAST";
+
+    public static final String EXTENDED_DATA_STATUS =
+            "com.lilyondroid.lily.STATUS";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +102,24 @@ public class MainActivity extends AppCompatActivity  {
             }
         });
 
+
+        //Add main as an observer
+        LilyObserverable.getInstance().addObserver(this);
+
+
+        //Simulate the receiving of GPS coordinates
+        Intent mServiceIntent = new Intent(this, GPSLocationIntentService.class);
+
+        String storeLocationLat = "10.641018";
+        String storeLocationLon = "-61.400917";
+
+        Bundle storeInfo = new Bundle();
+        storeInfo.putString("lat",storeLocationLat);
+        storeInfo.putString("lon",storeLocationLon);
+        storeInfo.putString("unitidx","0");
+
+        mServiceIntent.putExtra(BROADCAST_ACTION,storeInfo);
+        startService(mServiceIntent);
 
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -182,7 +210,6 @@ public class MainActivity extends AppCompatActivity  {
             throw sqle;
         }
 
-        // if user has already ordered food previously then show activity_confirm dialog
         if (dbhelper.isPreviousDataExist()) {
             showAlertDialog();
         }
@@ -222,6 +249,13 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
+
+//    public void OnCalculateDistanceFromStore(Context context, double distance){
+//
+//        currDistanceFromOutlet =distance;
+//        Toast.makeText(context, "Distance from outlet: " + distance, Toast.LENGTH_SHORT).show();
+//
+//    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -483,6 +517,14 @@ public class MainActivity extends AppCompatActivity  {
 
     }
 
+    @Override
+    public void update(Observable o, Object intent) {
+        Intent broadcastIntent = (Intent) intent;
 
+        double currDistanceFromOutlet = broadcastIntent.getDoubleExtra("distance",0.0);
+
+        Toast.makeText(this,"distance from outlet: " + currDistanceFromOutlet,Toast.LENGTH_SHORT).show();
+
+    }
 }
 

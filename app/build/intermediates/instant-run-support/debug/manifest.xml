@@ -8,6 +8,8 @@
         android:minSdkVersion="14"
         android:targetSdkVersion="23" />
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -32,15 +34,28 @@
          Vibration settings of the device still apply.
     -->
     <uses-permission android:name="android.permission.VIBRATE" />
+    <!--
+ Use to restore notifications the user hasn't interacted with.
+         They could be missed notifications if the user reboots their device if this isn't in place.
+    -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
     <!-- Samsung -->
     <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
     <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
     <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
     <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
-    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- Apex -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
     <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
-    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
@@ -82,6 +97,11 @@
             android:label=""
             android:screenOrientation="portrait" />
         <activity
+            android:name="com.lilyondroid.lily.activities.ActivityMenuList"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
             android:name="com.lilyondroid.lily.activities.ActivityProductList"
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
@@ -109,6 +129,41 @@
         <activity
             android:name="com.lilyondroid.lily.activities.ActivityLogin"
             android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.lilyondroid.lily.services.GPSLocationService"
+            android:exported="false"
+            android:process=":gps_location_service" />
+        <service
+            android:name="com.lilyondroid.lily.services.GPSLocationIntentService"
+            android:exported="false"
+            android:process=":gps_location_service" />
+
+        <receiver android:name="com.lilyondroid.lily.utilities.LilyBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.lilyondroid.lily.BROADCAST" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.lilyondroid.lily.STATUS" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.lilyondroid.lily.services.LilyNotificationExtender"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.lilyondroid.lily.activities.ActivityCategory"
+            android:label="@string/title_activity_category"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.lilyondroid.lily.activities.ActivityProductDetail"
+            android:label="@string/title_activity_product_detail"
+            android:theme="@style/AppTheme" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
@@ -142,9 +197,7 @@
         <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
 
         <service android:name="com.onesignal.GcmIntentService" />
-        <service
-            android:name="com.onesignal.SyncService"
-            android:stopWithTask="false" />
+        <service android:name="com.onesignal.SyncService" />
 
         <activity
             android:name="com.onesignal.PermissionsActivity"

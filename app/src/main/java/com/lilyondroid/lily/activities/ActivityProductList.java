@@ -121,7 +121,7 @@ public class ActivityProductList extends AppCompatActivity {
         Intent iGet = getIntent();
         Category_ID = iGet.getLongExtra("category_id",0);
         Category_name = iGet.getStringExtra("category_name");
-//        ProductsAPI += CategoryId;
+//        ProductsAPI += productId;
         
         // set category name to textview
 //        txtTitle.setText(CategoryName);

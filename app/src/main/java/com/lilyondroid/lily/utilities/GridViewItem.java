@@ -5,30 +5,36 @@ package com.lilyondroid.lily.utilities;
  */
 
 public class GridViewItem {
-    private int image;
+    private String imageUrl;
     private String title;
-    private String price;
-    private String otherText;
+    private double priceLower;
+    private double priceUpper;
+    private String description;
+    private String id;
+    private boolean isInStock;
 
-    public GridViewItem(int image, String title, String discription, String otherText) {
-        this.image = image;
+    public GridViewItem(String imageUrl, String title, double priceLower, double priceUpper,
+                        String description, String id, boolean isInStock) {
+        this.imageUrl = imageUrl;
         this.title = title;
-        this.price = discription;
-        this.otherText = otherText;
+        this.priceLower = priceLower;
+        this.priceUpper = priceUpper;
+        this.description = description;
+        this.id = id;
+        this.isInStock = isInStock;
     }
-    public GridViewItem(int image, String title) {
-        this.image = image;
+
+    public GridViewItem(String imageUrl, String title) {
+        this.imageUrl = imageUrl;
         this.title = title;
-        this.price = "";
-        this.otherText = "";
     }
 
-    public int getImage() {
-        return this.image;
+    public String getImageUrl() {
+        return this.imageUrl;
     }
 
-    public void setImage(int image) {
-        this.image = image;
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 
     public String getTitle() {
@@ -39,19 +45,56 @@ public class GridViewItem {
         this.title = title;
     }
 
-    public String getPrice() {
-        return this.price;
+    public double getPriceLower() {
+        return priceLower;
     }
 
-    public void setPrice(String price) {
-        this.price = price;
+    public void setPriceLower(double priceLower) {
+        this.priceLower = priceLower;
     }
 
-    public String getOtherText() {
-        return this.otherText;
+    public double getPriceUpper() {
+        return priceUpper;
     }
 
-    public void setOtherText(String otherText) {
-        this.otherText = otherText;
+    public void setPriceUpper(double priceUpper) {
+        this.priceUpper = priceUpper;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public boolean isInStock() {
+        return isInStock;
+    }
+
+    public void setInStock(boolean inStock) {
+        isInStock = inStock;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "GridViewItem{" +
+                "imageUrl='" + imageUrl + '\'' +
+                ", title='" + title + '\'' +
+                ", priceLower=" + priceLower +
+                ", priceUpper=" + priceUpper +
+                ", description='" + description + '\'' +
+                ", id='" + id + '\'' +
+                ", isInStock=" + isInStock +
+                '}';
     }
 }

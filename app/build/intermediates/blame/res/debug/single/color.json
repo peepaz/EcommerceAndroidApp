@@ -16,12 +16,12 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\\output\\res\\color\\abc_tint_switch_track.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",

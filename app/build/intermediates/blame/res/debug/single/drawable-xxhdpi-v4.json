@@ -296,8 +296,8 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\78015538f9d16552588eb1e59c0cfb4d1ca6a8e9\\output\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_notifications_white_24dp.png",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\\output\\res\\drawable-xxhdpi-v4\\ic_notifications_white_24dp.png"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_os_notification_fallback_white_24dp.png",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\c30dd48c6cd62b905015d5579f011b7599760520\\output\\res\\drawable-xxhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png",

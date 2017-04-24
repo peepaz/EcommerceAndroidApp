@@ -56,6 +56,10 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal.9.png"
     },
     {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_os_notification_fallback_white_24dp.png",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\c30dd48c6cd62b905015d5579f011b7599760520\\output\\res\\drawable-xhdpi-v4\\ic_os_notification_fallback_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
     },
@@ -290,10 +294,6 @@
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\design_ic_visibility.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\34f93084d070740bea743bd816a02f879d18a2cb\\output\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_notifications_white_24dp.png",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\\output\\res\\drawable-xhdpi-v4\\ic_notifications_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
