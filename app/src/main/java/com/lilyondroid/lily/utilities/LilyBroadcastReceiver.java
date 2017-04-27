@@ -31,7 +31,7 @@ public class LilyBroadcastReceiver extends BroadcastReceiver {
                break;
            case MainActivity.EXTENDED_DATA_STATUS:
 
-               //Update Main Activity
+               //Trigger Lily observable to update observers
                LilyObserverable.getInstance().updateValue(intent);
 
 //               Toast.makeText(context,"got data froem intent",Toast.LENGTH_SHORT).show();

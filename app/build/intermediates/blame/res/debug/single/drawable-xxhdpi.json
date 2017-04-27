@@ -12,6 +12,10 @@
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_add_shopping_cart_white_24dp.png"
     },
     {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_view_comfy_white_24dp.png",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_view_comfy_white_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_drop_down_white_24dp.png",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_drop_down_white_24dp.png"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_arrow_back_black_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_sms_white_48dp.png",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-xxhdpi\\ic_sms_white_48dp.png"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\ic_search_black_24dp.png",

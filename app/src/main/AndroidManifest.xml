@@ -10,6 +10,7 @@
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -43,27 +44,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activities.ActivityMenuCategory"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activities.ActivityProductCategory"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activities.ActivityMenuDetail"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label=""
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activities.ActivityMenuList"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label=""
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activities.ActivityProductList"
-            android:configChanges="keyboardHidden|orientation"
-            android:screenOrientation="portrait"
-            android:windowSoftInputMode="stateHidden" />
-        <activity
             android:name=".activities.ActivityCart"
             android:screenOrientation="portrait" />
         <activity
@@ -71,12 +51,6 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden" />
-        <activity
-            android:name=".activities.ActivityConfirmMessage"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".activities.ActivityInformation"
-            android:screenOrientation="portrait" />
         <activity
             android:name=".activities.ActivityProfile"
             android:screenOrientation="portrait" />
@@ -88,11 +62,7 @@
             android:screenOrientation="portrait" />
 
         <service
-            android:name=".services.GPSLocationService"
-            android:exported="false"
-            android:process=":gps_location_service" />
-        <service
-            android:name=".services.GPSLocationIntentService"
+            android:name=".services.LilyGPSLocationService"
             android:exported="false"
             android:process=":gps_location_service" />
 
@@ -120,7 +90,32 @@
         <activity
             android:name=".activities.ActivityProductDetail"
             android:label="@string/title_activity_product_detail"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+
+        <service android:name=".services.LilyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".services.LilyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_lily" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/ColorAccent" />
+
+        <activity android:name=".activities.ActivitySettings" />
+        <activity android:name=".activities.ActivityNotification">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

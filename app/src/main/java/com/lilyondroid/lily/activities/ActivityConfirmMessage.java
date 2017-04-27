@@ -14,7 +14,6 @@ import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
-
 import com.lilyondroid.lily.R;
 
 public class ActivityConfirmMessage extends AppCompatActivity {

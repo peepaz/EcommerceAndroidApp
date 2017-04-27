@@ -24,6 +24,10 @@
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_shopping_cart_white_24dp.png"
     },
     {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_sms_white_48dp.png",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_sms_white_48dp.png"
+    },
+    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_account_circle_white_24dp.png",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_account_circle_white_24dp.png"
     },
@@ -42,6 +46,10 @@
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_search_white_24dp.png",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_search_white_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_view_comfy_white_24dp.png",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable-mdpi\\ic_view_comfy_white_24dp.png"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\ic_share_black_24dp.png",

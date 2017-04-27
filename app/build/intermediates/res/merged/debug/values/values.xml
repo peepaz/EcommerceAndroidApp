@@ -159,7 +159,6 @@
     <color name="colorTex">#585858</color>
     <color name="colorblue">#4c71f5</color>
     <color name="colordevider">#64dad8d8</color>
-    <color name="common_action_bar_splitter">#d2d2d2</color>
     <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
     <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
@@ -168,14 +167,6 @@
     <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
     <color name="common_google_signin_btn_text_light_focused">#90000000</color>
     <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
-    <color name="common_plus_signin_btn_text_dark_default">@android:color/white</color>
-    <color name="common_plus_signin_btn_text_dark_disabled">#FFAAAAAA</color>
-    <color name="common_plus_signin_btn_text_dark_focused">@android:color/white</color>
-    <color name="common_plus_signin_btn_text_dark_pressed">@android:color/white</color>
-    <color name="common_plus_signin_btn_text_light_default">#FF737373</color>
-    <color name="common_plus_signin_btn_text_light_disabled">#FFAAAAAA</color>
-    <color name="common_plus_signin_btn_text_light_focused">#FF737373</color>
-    <color name="common_plus_signin_btn_text_light_pressed">#DE000000</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -219,12 +210,6 @@
     <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="orange">#f36a21</color>
     <color name="pirce">#696258</color>
-    <color name="place_autocomplete_prediction_primary_text">#212121</color>
-    <color name="place_autocomplete_prediction_primary_text_highlight">#757575</color>
-    <color name="place_autocomplete_prediction_secondary_text">#757575</color>
-    <color name="place_autocomplete_search_hint">#BDBDBD</color>
-    <color name="place_autocomplete_search_text">#212121</color>
-    <color name="place_autocomplete_separator">#1F000000</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_light">#FFCDD2</color>
@@ -469,8 +454,14 @@
         </attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
-    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
-    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/><attr format="boolean" name="ambientEnabled"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="android:numericShortcut"/><attr name="android:checkable"/><attr name="android:checked"/><attr name="android:visible"/><attr name="android:enabled"/><attr name="android:onClick"/><attr name="showAsAction">
             
@@ -494,7 +485,21 @@
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
-    <declare-styleable name="SignInButton"><attr format="reference|enum" name="buttonSize"><enum name="standard" value="0"/><enum name="wide" value="1"/><enum name="icon_only" value="2"/></attr><attr format="reference|enum" name="colorScheme"><enum name="dark" value="0"/><enum name="light" value="1"/><enum name="auto" value="2"/></attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr><attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
     <declare-styleable name="SliderLayout"><attr format="enum" name="indicator_visibility"><enum name="visible" value="0"/><enum name="invisible" value="1"/></attr><attr format="boolean" name="auto_cycle"/><attr format="enum" name="pager_animation"><enum name="Default" value="0"/><enum name="Accordion" value="1"/><enum name="Background2Foreground" value="2"/><enum name="CubeIn" value="3"/><enum name="DepthPage" value="4"/><enum name="Fade" value="5"/><enum name="FlipHorizontal" value="6"/><enum name="FlipPage" value="7"/><enum name="Foreground2Background" value="8"/><enum name="RotateDown" value="9"/><enum name="RotateUp" value="10"/><enum name="Stack" value="11"/><enum name="Tablet" value="12"/><enum name="ZoomIn" value="13"/><enum name="ZoomOutSlide" value="14"/><enum name="ZoomOut" value="15"/></attr><attr format="integer" name="pager_animation_span"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
@@ -724,16 +729,6 @@
     <dimen name="padding_large">16dp</dimen>
     <dimen name="padding_medium">8dp</dimen>
     <dimen name="padding_small">8dp</dimen>
-    <dimen name="place_autocomplete_button_padding">16dp</dimen>
-    <dimen name="place_autocomplete_powered_by_google_height">40dp</dimen>
-    <dimen name="place_autocomplete_powered_by_google_start">16dp</dimen>
-    <dimen name="place_autocomplete_prediction_height">72dp</dimen>
-    <dimen name="place_autocomplete_prediction_horizontal_margin">16dp</dimen>
-    <dimen name="place_autocomplete_prediction_primary_text">16sp</dimen>
-    <dimen name="place_autocomplete_prediction_secondary_text">14sp</dimen>
-    <dimen name="place_autocomplete_progress_horizontal_margin">16dp</dimen>
-    <dimen name="place_autocomplete_progress_size">24dp</dimen>
-    <dimen name="place_autocomplete_separator_start">72dp</dimen>
     <dimen name="second_keyline">72dp</dimen>
     <dimen name="toolbar_horizontal_padding">4dp</dimen>
     <item name="ic_menu_camera" type="drawable">@android:drawable/ic_menu_camera</item>
@@ -767,7 +762,7 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="font_size">16</integer>
-    <integer name="google_play_services_version">9080000</integer>
+    <integer name="google_play_services_version">10084000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
@@ -837,39 +832,26 @@
     <string name="clear_all_order">Do you want to clear your all order?</string>
     <string name="clear_one_order">Do you want to clear this order?</string>
     <string name="clear_order">Clear all order</string>
-    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
-    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
-    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
-    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
-    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
     <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
-    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
-    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
-    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
-    <string name="common_google_play_services_network_error_title">Network Error</string>
     <string name="common_google_play_services_notification_ticker">Google Play services error</string>
-    <string name="common_google_play_services_resolution_required_text">Please complete action required by <ns1:g id="app_name">%1$s</ns1:g>.</string>
-    <string name="common_google_play_services_resolution_required_title">Google Play services requires an action</string>
-    <string name="common_google_play_services_restricted_profile_text">Accessing accounts from a restricted profile is not supported.</string>
-    <string name="common_google_play_services_restricted_profile_title">Restricted Profile</string>
-    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
-    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
-    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
-    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
-    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
     <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
     <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
     <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
     <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
-    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
     <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
     <string name="common_open_on_phone">Open on phone</string>
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <string name="confirm">Confirmation</string>
     <string name="db_exist_alert">Do you want to remove your previous order?</string>
+    <string name="default_web_client_id" translatable="false">610318344876-qdru93gj695eb6cue2lrsrcbfccd97t2.apps.googleusercontent.com</string>
     <string name="detail">Detail</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_content_off">2</string>
@@ -879,7 +861,13 @@
     <string name="failed_alert">Your Order has not been sent.</string>
     <string name="favourite_picks_text">Most Recently Viewed</string>
     <string name="featured_items_header_txt">Featured Products</string>
+    <string name="firebase_database_url" translatable="false">https://lily-b36be.firebaseio.com</string>
     <string name="form_alert">Please, complete the form first.</string>
+    <string name="gcm_defaultSenderId" translatable="false">610318344876</string>
+    <string name="google_api_key" translatable="false">AIzaSyCnZ_EsM0-4x3NXLYPk4yHH3v8coYOCm2s</string>
+    <string name="google_app_id" translatable="false">1:610318344876:android:4ce10b8a633690f2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnZ_EsM0-4x3NXLYPk4yHH3v8coYOCm2s</string>
+    <string name="google_storage_bucket" translatable="false">lily-b36be.appspot.com</string>
     <string name="grid_item_default_desc_text">At your service</string>
     <string name="grid_item_default_price">From $100.00</string>
     <string name="grid_item_default_title_text">The Lily</string>
@@ -895,10 +883,13 @@
     <string name="logout_msg">Are you sure?</string>
     <string name="logout_no_label">No</string>
     <string name="logout_yes_label">Yes</string>
+    <string name="men_notifications">Notifications</string>
     <string name="menu_about">About</string>
     <string name="menu_cart">Cart</string>
+    <string name="menu_categories">Categories</string>
     <string name="menu_checkout">Checkout</string>
     <string name="menu_contact">Contact</string>
+    <string name="menu_home">Home</string>
     <string name="menu_info">Info</string>
     <string name="menu_product">Products</string>
     <string name="menu_profile">Profile</string>
@@ -923,8 +914,6 @@
     <string name="path_password_eye_mask_strike_through">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through">M3.27,4.27 L19.74,20.74</string>
-    <string name="place_autocomplete_clear_button">Clear search</string>
-    <string name="place_autocomplete_search_hint">Search</string>
     <string name="rate_summary">Give your rate and feedback</string>
     <string name="search">Search Menu</string>
     <string name="search_menu_title">Search</string>
@@ -942,7 +931,9 @@
     <string name="title_about">About</string>
     <string name="title_activity_category">Categories</string>
     <string name="title_activity_home">ActivityHome</string>
+    <string name="title_activity_notification">Notifications</string>
     <string name="title_activity_product_detail">Product Detail</string>
+    <string name="title_activity_settings">Settings</string>
     <string name="title_app_copyright">Copyright</string>
     <string name="title_app_email">info@lily.com</string>
     <string name="title_app_more">More</string>
@@ -958,6 +949,7 @@
     <string name="title_contact_us">Contact Us</string>
     <string name="title_menu">Product List</string>
     <string name="title_save">Save Image</string>
+    <string name="toggle_notifications">Subscribe for notifications</string>
     <string name="total_order">Total Order :</string>
     <string name="user_name_hint">e.g. info@lily.com</string>
     <string name="user_profile_label">Profile</string>

@@ -6,7 +6,6 @@ import android.os.CountDownTimer;
 import android.support.v7.app.AppCompatActivity;
 
 import com.lilyondroid.lily.R;
-import com.lilyondroid.lily.services.GPSLocationService;
 
 public class ActivitySplash extends AppCompatActivity {
 

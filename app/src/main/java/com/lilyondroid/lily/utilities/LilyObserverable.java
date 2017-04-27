@@ -21,7 +21,7 @@ public class LilyObserverable extends Observable {
 
     }
 
-    //Pass data to observers - the main activity
+    //Pass data to observers - LilyFirebaseMessaging
     public void updateValue(Object data){
 
         synchronized (this){

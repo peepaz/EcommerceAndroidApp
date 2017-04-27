@@ -36,7 +36,7 @@ import com.daimajia.slider.library.Tricks.FixedSpeedScroller;
 import com.daimajia.slider.library.Tricks.InfinitePagerAdapter;
 import com.daimajia.slider.library.Tricks.InfiniteViewPager;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
-import com.lilyondroid.lily.fragments.FragmentHomeLily;
+import com.lilyondroid.lily.fragments.FragmentHome;
 
 import java.lang.reflect.Field;
 import java.util.Timer;
@@ -392,7 +392,7 @@ public class SliderLayout extends RelativeLayout{
     }
 
 
-    public void addOnPageChangeListener(FragmentHomeLily fragmentHomeLily) {
+    public void addOnPageChangeListener(FragmentHome fragmentHomeLily) {
 
     }
 

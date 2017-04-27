@@ -1,21 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\category_list_item.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw600dp\\category_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\fragment_home.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw600dp\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\lsv_item_category.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw600dp\\lsv_item_category.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\lsv_item_menu_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw600dp\\lsv_item_menu_list.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13\\design_layout_snackbar.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\34f93084d070740bea743bd816a02f879d18a2cb\\output\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
     }

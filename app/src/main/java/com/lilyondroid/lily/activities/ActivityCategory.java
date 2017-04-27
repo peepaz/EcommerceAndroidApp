@@ -52,7 +52,7 @@ public class ActivityCategory extends AppCompatActivity implements FragmentCateg
 
         if (cat_id != null) {
 
-            cat_id_int = Integer.parseInt(cat_id);
+            cat_id_int = Integer.parseInt(cat_id)-1;
         }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
@@ -88,7 +88,7 @@ public class ActivityCategory extends AppCompatActivity implements FragmentCateg
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
 
-        tabLayout.getTabAt((cat_id_int-1)).select();
+        tabLayout.getTabAt((cat_id_int)).select();
 
     }
 
@@ -97,7 +97,7 @@ public class ActivityCategory extends AppCompatActivity implements FragmentCateg
     public boolean onCreateOptionsMenu(Menu menu) {
 
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activity_category, menu);
+        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
@@ -113,6 +113,7 @@ public class ActivityCategory extends AppCompatActivity implements FragmentCateg
                 this.finish();
                 return true;
             case R.id.action_settings:
+                startActivity(new Intent(getApplicationContext(), ActivitySettings.class));
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

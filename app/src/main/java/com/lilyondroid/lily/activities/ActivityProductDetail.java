@@ -14,7 +14,6 @@ import android.os.Bundle;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.graphics.Palette;
 import android.support.v7.widget.Toolbar;
@@ -30,7 +29,6 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.lilyondroid.lily.Config;
 import com.lilyondroid.lily.LilyApplication;
@@ -38,7 +36,6 @@ import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.utilities.DBHelper;
 import com.lilyondroid.lily.utilities.GridViewItem;
 import com.lilyondroid.lily.utilities.PicassoTrustAll;
-import com.squareup.picasso.Picasso;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -53,11 +50,9 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
-import static com.lilyondroid.lily.activities.ActivityMenuList.Menu_image;
-
 public class ActivityProductDetail extends AppCompatActivity {
 
-    private int product_pos;
+    private String productId;
     private ImageView imgPreview;
     private TextView txtText;
     private TextView txtSubText;
@@ -71,7 +66,7 @@ public class ActivityProductDetail extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_product_detail_1);
+        setContentView(R.layout.activity_product_detail);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -83,10 +78,10 @@ public class ActivityProductDetail extends AppCompatActivity {
 
 
         Intent intent = getIntent();
-        this.product_pos = intent.getIntExtra("product_pos",0);
+        this.productId = intent.getStringExtra("product_id");
 
 
-        Log.d(Tag,"product pos: " + product_pos);
+        Log.d(Tag,"product_id: " + productId);
 
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -149,14 +144,13 @@ public class ActivityProductDetail extends AppCompatActivity {
         //imageLoader = new ImageLoader(ActivityMenuDetail.this);
         dbhelper = new DBHelper(this);
 
-        this.loadProduct(this);
-
+        parseJSONData(); //get data from server
 
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_detail, menu);
+        getMenuInflater().inflate(R.menu.menu_product_detail, menu);
         return true;
     }
 
@@ -272,16 +266,14 @@ public class ActivityProductDetail extends AppCompatActivity {
         super.onConfigurationChanged(newConfig);
     }
 
-    public void loadProduct (Context context){
+    //Display product
+    private void loadProduct (Context context,GridViewItem product){
 
         // TODO Auto-generated method stub
         // when finish parsing, hide progressbar
 
-        Log.d(Tag,"product pos: " + product_pos);
+        Log.d(Tag,"product pos: " + productId);
 
-        GridViewItem product = LilyApplication.productList.get(this.product_pos);
-
-        Log.d(Tag, product.toString());
 
         String productName = product.getTitle();
         DecimalFormat decimalFormat = new DecimalFormat("From: $###.##");
@@ -328,87 +320,80 @@ public class ActivityProductDetail extends AppCompatActivity {
         webSettings.setDefaultFontSize(fontSize);
 
     }
-    public void parseJSONData(){
+
+    private void parseJSONData(){
+
 
         try {
 
             //Get Image of product from server
+            OkHttpClient client = Config.getOkHttpClient();
+
             Request okRequest = new Request.Builder()
-//                    .url(Config.LILY_SERVER +"/api/products/category/" + catId)
+                    .url(Config.LILY_SERVER +"/api/products/" + this.productId)
                     .get()
                     .addHeader("authorization", Config.PRODUCT_TOKEN)
                     .build();
 
-//            client.newCall(okRequest).enqueue(new Callback() {
-//                @Override
-//                public void onFailure(Call call, IOException e) {
-//
-//                }
-//
-//                @Override
-//                public void onResponse(Call call, Response response) throws IOException {
-//
-//
-//                    String data = response.body().string();
-//                    try {
-//                        JSONArray productArray = new JSONArray(data);
-//
-//                        Log.d(Tag,productArray.get(0).toString());
-//
-//                        for (int i=0; i<productArray.length(); i++) {
-//
-//                            int f = i;
-//                            if (f==0) f = 1;
-//                            else f = i%22;
-//
-//                            JSONObject product = productArray.getJSONObject(i);
-//
-//                            String id = product.getString("id");
-//                            String desc = product.getString("description");
-//                            String title = product.getString("name");
-//                            boolean isInStock = product.getBoolean("is_in_stock");
-//                            String image = Config.LILY_SERVER + "/static/images/products/" +f+".jpg";
-//
-//                            JSONArray priceRange =  product.getJSONArray("get_price_range");
-//                            JSONArray priceLower = priceRange.getJSONArray(0);
-//                            JSONArray priceUpper = priceRange.getJSONArray(1);
-//
-//                            double priceUpperVal = priceUpper.getDouble(0);
-//                            double priceLowerVal = priceLower.getDouble(0);
-//
-//                            GridViewItem gridViewItem = new GridViewItem(image,title,priceLowerVal,
-//                                    priceUpperVal,desc,id,isInStock);
-//
-//                            gridViewItemList.add(gridViewItem);
-//
-////							Log.d(Tag,"uppper price:"+price);
-//
-//                        }
-//
-//                        getActivity().runOnUiThread(new Runnable() {
-//                            @Override
-//                            public void run() {
-//
-//                                prgLoading.setVisibility(View.GONE);
-//
-//                                // if data available show data on list
-//                                // otherwise, show alert text
-//                                Log.d(Tag,"" + gridViewItemList.size());
-//                                if(gridViewItemList.size() > 0){
-//                                    categoryList.setVisibility(View.VISIBLE);
-//                                    categoryList.setAdapter(adapterProductList);
-//                                }else{
-//                                    txtAlert.setVisibility(View.VISIBLE);
-//                                }
-//                            }
-//                        });
-//
-//                    } catch (JSONException e) {
-//                        e.printStackTrace();
-//                    }
-//
-//                }
-//            });
+            client.newCall(okRequest).enqueue(new Callback() {
+                @Override
+                public void onFailure(Call call, IOException e) {
+
+                }
+
+                @Override
+                public void onResponse(Call call, Response response) throws IOException {
+
+
+                    String data = response.body().string();
+                    GridViewItem gridViewItem = new GridViewItem();
+                    try {
+                        final JSONObject product = new JSONObject(data);
+
+
+                        int imgId = Integer.parseInt(productId) % 22;
+                        if (imgId == 0) imgId =1;
+
+                        String id = product.getString("id");
+                        String desc = product.getString("description");
+                        String title = product.getString("name");
+                        boolean isInStock = product.getBoolean("is_in_stock");
+                        String image = Config.LILY_SERVER + "/static/images/products/" +imgId+".jpg";
+
+                        JSONArray priceRange =  product.getJSONArray("get_price_range");
+                        JSONArray priceLower = priceRange.getJSONArray(0);
+                        JSONArray priceUpper = priceRange.getJSONArray(1);
+
+                        double priceUpperVal = priceUpper.getDouble(0);
+                        double priceLowerVal = priceLower.getDouble(0);
+
+                       gridViewItem = new GridViewItem(image,title,priceLowerVal,
+                                priceUpperVal,desc,id,isInStock);
+
+                        final GridViewItem finalGridViewItem = gridViewItem;
+                        runOnUiThread(new Runnable() {
+                            @Override
+                            public void run() {
+
+                                prgLoading.setVisibility(View.GONE);
+
+                                loadProduct(getApplicationContext(), finalGridViewItem);
+
+                                // if data available show data on list
+                                 //otherwise, show alert text
+                                if(finalGridViewItem.getId() == null){
+                                    txtAlert.setVisibility(View.VISIBLE);
+                                }
+                            }
+                        });
+
+                    } catch (JSONException e1) {
+                        e1.printStackTrace();
+
+                    }
+
+                }
+            });
 
 
 

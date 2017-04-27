@@ -40,7 +40,6 @@ public class ActivityAbout extends AppCompatActivity {
         final android.support.v7.app.ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle(R.string.title_about);
         }
 

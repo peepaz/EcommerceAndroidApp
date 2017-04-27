@@ -153,5 +153,11 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_fragment">hello fragment</string>
     <string name="title_activity_product_detail">Product Detail</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_categories">Categories</string>
+    <string name="toggle_notifications">Subscribe for notifications</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="men_notifications">Notifications</string>
+    <string name="title_activity_notification">Notifications</string>
 
 </resources>

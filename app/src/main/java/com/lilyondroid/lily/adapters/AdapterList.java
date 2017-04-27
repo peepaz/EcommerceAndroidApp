@@ -32,7 +32,7 @@ public class AdapterList extends ArrayAdapter<String> {
 
         TextView title = (TextView) rowView.findViewById(R.id.title);
         TextView subtitle = (TextView) rowView.findViewById(R.id.subtitle);
-        ImageView imageView = (ImageView) rowView.findViewById(R.id.image);
+        ImageView imageView = (ImageView) rowView.findViewById(R.id.imageUrl);
 
         title.setText(titleId[position]);
         subtitle.setText(subtitleId[position]);

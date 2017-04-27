@@ -20,7 +20,7 @@ import com.lilyondroid.lily.Config;
 import com.lilyondroid.lily.LilyApplication;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.activities.ActivityProductDetail;
-import com.lilyondroid.lily.adapters.GridviewAdapter;
+import com.lilyondroid.lily.adapters.AdapterCategoryGridview;
 import com.lilyondroid.lily.customfonts.LilyTextView;
 import com.lilyondroid.lily.utilities.ExpandableHeightGridView;
 import com.lilyondroid.lily.utilities.GridViewItem;
@@ -60,7 +60,7 @@ public class FragmentCategory extends Fragment {
     private ProgressBar prgLoading;
     private LilyTextView txtAlert;
     private SwipeRefreshLayout swipeRefreshLayout = null;
-    private GridviewAdapter adapterProductList;
+    private AdapterCategoryGridview adapterProductList;
 
 
     private OnFragmentInteractionListener mListener;
@@ -118,7 +118,7 @@ public class FragmentCategory extends Fragment {
         //Get data from server
         parseJSONData();
 
-        adapterProductList = new GridviewAdapter(getActivity(),gridViewItemList);
+        adapterProductList = new AdapterCategoryGridview(getActivity(),gridViewItemList);
 
 
 
@@ -129,14 +129,10 @@ public class FragmentCategory extends Fragment {
             public void onItemClick(AdapterView<?> arg0, View arg1, int position,
                                     long arg3) {
                 // TODO Auto-generated method stub
-                // go to menu page
 				Intent intent = new Intent(getActivity(), ActivityProductDetail.class);
-                intent.putExtra("product_pos",position);
+                String productId = gridViewItemList.get(position).getId();
+                intent.putExtra("product_id",productId);
                 startActivity(intent);
-//                Intent iMenuList = new Intent(ActivityProductCategory.this, ActivityProductList.class);
-//                iMenuList.putExtra("category_id", productId.get(position));
-//                iMenuList.putExtra("category_name", CategoryName.get(position));
-//                startActivity(iMenuList);
 
                 Toast.makeText(getContext(), ""+position, Toast.LENGTH_SHORT).show();
             }

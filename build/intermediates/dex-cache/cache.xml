@@ -3,12 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-core-1.2.1.2.jar"
+        jar="C:\Users\jason\.android\build-cache\677e8129cc0af5c37d8cd0befe8e160d44866eaf\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signpost-core-1.2.1.2_c0d8d0676d23ee64f3a75d4f7ca3a8b23949ac6b\classes.dex" />
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a049936f978c2f1f6716f6e428ace154cdc311f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\1a40c56b8e7b4203449c336a5ca65360f50ec922\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_406c8256066727716ea20bbc8c8e3a3dbc3b2f86\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -21,21 +30,102 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-jetty6-1.2.1.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="50d833636e78a21ac10bfad6fe62b8dac84f4366">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signpost-jetty6-1.2.1.2_6bf012328d0c207bcfa248f2258ee10d99f8f9cb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\okio-1.11.0.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\okio-1.11.0_e058aa3ec3b2c9fcfc5ef3a3c707a191fad8ca37\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\b85cb7c5bb0f859705acb7bd926d5f5b0e48a31a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_657f3f02e3ad093b15c0f01c30303333a5283d5c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\d153338c1c0f81ff29ec47e93d73f29db871f72c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_16deed01d2c9a18aed5ae477e63e0f41669ade3d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\c30dd48c6cd62b905015d5579f011b7599760520\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40facc1667a40527d97a2983be6af934b742cfb5">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80f7f4bf8e6cd2f90f6ca5bcfec739d8caa00360\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\443c753c4eed14a6ddfa1393edacf72ecc0ee813\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c89883382fb94ed0f108417c44bd6850f31029c3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\08385897a05d0ec549ac8e0039749aee6aa4817b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_c5983beac34eef1db42a05d35df129b847b3fe1b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ba31f3216eaf85541c467c16b146f156fe0427fc">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd06ca6e50b551c8b01e87fa0a111dee45e811f5\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\fd763b3af4a7124790bdfaa430c4b2a1a037b978\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ec0d6481f604b0be9bbd81e3a481861b5f23f2af\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-core-1.2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signpost-core-1.2.1.2_c0d8d0676d23ee64f3a75d4f7ca3a8b23949ac6b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\853f95e873ecec69d3e6643cd40237d3a15f8136\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_adf2e7d76f82f1bcc02c1c27d1ba136808bc8476\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-jetty6-1.2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="50d833636e78a21ac10bfad6fe62b8dac84f4366">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signpost-jetty6-1.2.1.2_6bf012328d0c207bcfa248f2258ee10d99f8f9cb\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -57,6 +147,24 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\8deb1d4c20e7b7f6dc680980a0674cefd454d446\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_27e0320e045e022c09712bdc925115c2a8c212f1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\4733bfd6676bd8fce9161dc111c3e30db067a878\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_44a903c6df371efee2cae1f003c6e24df30e6c42\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-commonshttp4-1.2.1.2.jar"
         jumboMode="true"
         optimize="true"
@@ -66,12 +174,39 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\jason\.android\build-cache\c30dd48c6cd62b905015d5579f011b7599760520\output\jars\classes.jar"
+        jar="C:\Users\jason\.android\build-cache\4fb885db28eb7be3ca9db241c07baec7843a9264\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="40facc1667a40527d97a2983be6af934b742cfb5">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_80f7f4bf8e6cd2f90f6ca5bcfec739d8caa00360\classes.dex" />
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f2aa5c23e22a8556c57d234909263f36a667e585\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\12c98eb3100601a104bf5326629f9a150f8037c6\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e7f62e854858f5163bc738114347908774d83d49\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\8f81e7a100dff06ed977d7af406b28e54cfcad7a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_baa45ef983da4571bb54fa384d9aa234b65c9c09\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\jason\.android\build-cache\aa7dab1c4dfe09bf65cf7aaedfbc85b408a5badf\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ead002493934f2b7202cc3eb5f0d5511ff6302ed\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -81,15 +216,6 @@
         revision="25.0.0"
         sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\okhttp-3.6.0_5ff32a15c8aa74924dc254fc8358cfbfe8b60028\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="a3d7916a9ba753015dc774566655ae368a1338a8">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd06ca6e50b551c8b01e87fa0a111dee45e811f5\classes.dex" />
     </item>
 
 </items>

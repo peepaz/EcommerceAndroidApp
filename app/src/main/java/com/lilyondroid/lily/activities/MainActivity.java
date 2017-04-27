@@ -4,6 +4,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.database.SQLException;
 import android.os.Build;
@@ -28,10 +29,12 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.lilyondroid.lily.LilyApplication;
 import com.lilyondroid.lily.customfonts.LilyEditText;
 import com.lilyondroid.lily.customfonts.LilyTextView;
-import com.lilyondroid.lily.fragments.FragmentHomeLily;
-import com.lilyondroid.lily.services.GPSLocationIntentService;
+import com.lilyondroid.lily.fragments.FragmentHome;
+import com.lilyondroid.lily.services.LilyFirebaseMessaging;
+import com.lilyondroid.lily.services.LilyGPSLocationService;
 import com.lilyondroid.lily.utilities.LilyObserverable;
 import com.onesignal.OneSignal;
 import com.lilyondroid.lily.R;
@@ -46,7 +49,7 @@ import java.io.IOException;
 import java.util.Observable;
 import java.util.Observer;
 
-public class MainActivity extends AppCompatActivity  implements Observer {
+public class MainActivity extends AppCompatActivity {
 
     static DBHelper dbhelper;
     Toolbar toolbar;
@@ -71,6 +74,8 @@ public class MainActivity extends AppCompatActivity  implements Observer {
     private ImageView profileViewClose;
     private MenuItem drawerLogout;
 
+    public static final double RADIUS_FROM_DEL_POINT_IN_METERS = 8046.72; //5 MILES
+
     public static final String BROADCAST_ACTION =
             "com.lilyondroid.lily.BROADCAST";
 
@@ -83,43 +88,27 @@ public class MainActivity extends AppCompatActivity  implements Observer {
 
         setContentView(R.layout.activity_main);
 
-        OneSignal.idsAvailable(new OneSignal.IdsAvailableHandler() {
-            @Override
-            public void idsAvailable(String userId, String registrationId) {
-                String text = "OneSignal UserID:\n" + userId + "\n\n";
-
-                if (registrationId != null) {
-                    text += "Google Registration Id:\n" + registrationId;
-                    Toast.makeText(MainActivity.this, "subscribed for push", Toast.LENGTH_LONG).show();
-                }
-                else{
-
-                    text += "Google Registration Id:\nCould not subscribe for push";
-                }
-
-                TextView textView = (TextView) findViewById(R.id.debug_view);
-                textView.setText(text);
-            }
-        });
-
-
-        //Add main as an observer
-        LilyObserverable.getInstance().addObserver(this);
+//        OneSignal.idsAvailable(new OneSignal.IdsAvailableHandler() {
+//            @Override
+//            public void idsAvailable(String userId, String registrationId) {
+//                String text = "OneSignal UserID:\n" + userId + "\n\n";
+//
+//                if (registrationId != null) {
+//                    text += "Google Registration Id:\n" + registrationId;
+//                    Toast.makeText(MainActivity.this, "subscribed for push", Toast.LENGTH_LONG).show();
+//                }
+//                else{
+//
+//                    text += "Google Registration Id:\nCould not subscribe for push";
+//                }
+//
+//                TextView textView = (TextView) findViewById(R.id.debug_view);
+//                textView.setText(text);
+//            }
+//        });
 
 
-        //Simulate the receiving of GPS coordinates
-        Intent mServiceIntent = new Intent(this, GPSLocationIntentService.class);
 
-        String storeLocationLat = "10.641018";
-        String storeLocationLon = "-61.400917";
-
-        Bundle storeInfo = new Bundle();
-        storeInfo.putString("lat",storeLocationLat);
-        storeInfo.putString("lon",storeLocationLon);
-        storeInfo.putString("unitidx","0");
-
-        mServiceIntent.putExtra(BROADCAST_ACTION,storeInfo);
-        startService(mServiceIntent);
 
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -136,7 +125,7 @@ public class MainActivity extends AppCompatActivity  implements Observer {
         mFragmentManager = getSupportFragmentManager();
         mFragmentTransaction = mFragmentManager.beginTransaction();
 //        mFragmentTransaction.replace(R.id.frame_container, new FragmentHome()).commit();
-        mFragmentTransaction.replace(R.id.frame_container, new FragmentHomeLily()).commit();
+        mFragmentTransaction.replace(R.id.frame_container, new FragmentHome()).commit();
 
 
         mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -148,10 +137,13 @@ public class MainActivity extends AppCompatActivity  implements Observer {
                 //mDrawerLayout.closeDrawers();
                 //setTitle(menuItem.getTitle());
 
-                if (menuItem.getItemId() == R.id.product) {
-                    startActivity(new Intent(getApplicationContext(), ActivityProductCategory.class));
+                if (menuItem.getItemId() == R.id.home) {
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
                 }
 
+                if (menuItem.getItemId() == R.id.categories) {
+                    startActivity(new Intent(getApplicationContext(), ActivityCategory.class));
+                }
                 if (menuItem.getItemId() == R.id.cart) {
                     startActivity(new Intent(getApplicationContext(), ActivityCart.class));
                 }
@@ -164,12 +156,17 @@ public class MainActivity extends AppCompatActivity  implements Observer {
                     startActivity(new Intent(getApplicationContext(), ActivityProfile.class));
                 }
 
-                if (menuItem.getItemId() == R.id.information) {
-                    startActivity(new Intent(getApplicationContext(), ActivityInformation.class));
-                }
 
                 if (menuItem.getItemId() == R.id.about) {
                     startActivity(new Intent(getApplicationContext(), ActivityAbout.class));
+                }
+
+                if (menuItem.getItemId() == R.id.settings) {
+                    startActivity(new Intent(getApplicationContext(), ActivitySettings.class));
+                }
+
+                if (menuItem.getItemId() == R.id.notification) {
+                    startActivity(new Intent(getApplicationContext(), ActivityNotification.class));
                 }
 
                 return false;
@@ -250,12 +247,6 @@ public class MainActivity extends AppCompatActivity  implements Observer {
     }
 
 
-//    public void OnCalculateDistanceFromStore(Context context, double distance){
-//
-//        currDistanceFromOutlet =distance;
-//        Toast.makeText(context, "Distance from outlet: " + distance, Toast.LENGTH_SHORT).show();
-//
-//    }
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -393,17 +384,17 @@ public class MainActivity extends AppCompatActivity  implements Observer {
     @Override
     public boolean onPrepareOptionsMenu(Menu menu) {
 
-//        MenuItem logout = (MenuItem) menu.findItem(R.id.action_login);
+//        MenuItem logout_confirmation = (MenuItem) menu.findItem(R.id.action_login);
 //        MenuItem drawerLogout = (MenuItem) menu.findItem(R.id.action_logout);
 ////
-//        //Manage logout and drawerLogout options in toolbar
+//        //Manage logout_confirmation and drawerLogout options in toolbar
 //        if (!isLoggedIn){
 //
 //            drawerLogout.setVisible(false);
-//            if (!logout.isVisible()) logout.setVisible(true);
+//            if (!logout_confirmation.isVisible()) logout_confirmation.setVisible(true);
 //        }
 //        else {
-//            logout.setVisible(false);
+//            logout_confirmation.setVisible(false);
 //            if (!drawerLogout.isVisible()) drawerLogout.setVisible(true);
 //
 //        }
@@ -453,6 +444,9 @@ public class MainActivity extends AppCompatActivity  implements Observer {
 
             case android.R.id.home:
                 return true;
+            case R.id.action_settings:
+                startActivity(new Intent(getApplicationContext(), ActivitySettings.class));
+                return true;
 
             default:
                 return super.onOptionsItemSelected(menuItem);
@@ -480,7 +474,7 @@ public class MainActivity extends AppCompatActivity  implements Observer {
     private void logoutDialog()
     {
         myDialog = new Dialog(this);
-        myDialog.setContentView(R.layout.logout);
+        myDialog.setContentView(R.layout.logout_confirmation);
         myDialog.setCancelable(false);
         Button logoutYes = (Button) myDialog.findViewById(R.id.logout_yes);
         Button logoutNo = (Button) myDialog.findViewById(R.id.logout_no);
@@ -495,7 +489,7 @@ public class MainActivity extends AppCompatActivity  implements Observer {
             public void onClick(View v)
             {
 
-                //your logout calculation goes here
+                //your logout_confirmation calculation goes here
                adjustViewsToReflectLogout();
 
                myDialog.hide();
@@ -517,14 +511,6 @@ public class MainActivity extends AppCompatActivity  implements Observer {
 
     }
 
-    @Override
-    public void update(Observable o, Object intent) {
-        Intent broadcastIntent = (Intent) intent;
 
-        double currDistanceFromOutlet = broadcastIntent.getDoubleExtra("distance",0.0);
-
-        Toast.makeText(this,"distance from outlet: " + currDistanceFromOutlet,Toast.LENGTH_SHORT).show();
-
-    }
 }
 

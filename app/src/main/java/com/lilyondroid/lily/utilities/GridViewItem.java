@@ -29,6 +29,10 @@ public class GridViewItem {
         this.title = title;
     }
 
+    public GridViewItem(){
+
+    }
+
     public String getImageUrl() {
         return this.imageUrl;
     }
