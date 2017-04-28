@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/navHeaderColor"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/drawer_account_icon_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_account_circle_white_24dp"
+        android:visibility="@string/drawer_visibility"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+
+    <com.lilyondroid.lily.customviews.LilyTextView
+        android:id="@+id/drawer_sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signin_label"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:visibility="@string/drawer_visibility"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/drawer_account_icon_sign_in"
+        android:layout_toEndOf="@+id/drawer_account_icon_sign_in"
+        android:layout_marginLeft="25dp"
+        android:layout_marginStart="25dp" />
+
+
+
+</RelativeLayout>

@@ -71,10 +71,7 @@ public class LilyFirebaseMessaging extends FirebaseMessagingService implements O
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM/dd/yyyy' 'HH:mm");
                 simpleDate = simpleDateFormat.format(expDate);
 
-                LilyApplication.titleList.add(this.title);
-                LilyApplication.contentList.add("Coupon Code: " + this.code);
-                LilyApplication.recvDatelist.add(this.now.toString());
-                LilyApplication.expDateList.add("Exp: "+this.simpleDate);
+
                 Log.d(TAG, "Date : " + expDate.toString() + " " + now);
 
 
@@ -129,6 +126,12 @@ public class LilyFirebaseMessaging extends FirebaseMessagingService implements O
         Toast.makeText(this,"distance from delivery location: " + currDistanceFromDeliveryPoint + "meters",Toast.LENGTH_SHORT).show();
 
         if (currDistanceFromDeliveryPoint <= RADIUS_FROM_DEL_POINT_IN_METERS){
+
+                //udpate array of notifications
+                LilyApplication.titleList.add(this.title);
+                LilyApplication.contentList.add("Coupon Code: " + this.code);
+                LilyApplication.recvDatelist.add(this.now.toString());
+                LilyApplication.expDateList.add("Exp: "+this.simpleDate);
 
                 //Create notification
                 Intent messageIntent = new Intent(this, LilyFirebaseMessaging.class);

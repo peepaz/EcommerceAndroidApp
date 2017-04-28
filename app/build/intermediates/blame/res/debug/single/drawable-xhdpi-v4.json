@@ -4,12 +4,12 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\8f81e7a100dff06ed977d7af406b28e54cfcad7a\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
         "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\8f81e7a100dff06ed977d7af406b28e54cfcad7a\\output\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_pressed.9.png",
