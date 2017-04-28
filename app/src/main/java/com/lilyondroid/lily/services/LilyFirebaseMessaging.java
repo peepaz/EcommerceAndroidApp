@@ -27,6 +27,8 @@ import java.util.Observer;
 
 import static com.lilyondroid.lily.application.LilyApplication.BROADCAST_ACTION;
 import static com.lilyondroid.lily.application.LilyApplication.RADIUS_FROM_DEL_POINT_IN_METERS;
+import static com.lilyondroid.lily.application.LilyApplication.contentList;
+import static com.lilyondroid.lily.application.LilyApplication.recvDatelist;
 
 /**
  * Created by jason on 24/04/2017.
@@ -128,10 +130,19 @@ public class LilyFirebaseMessaging extends FirebaseMessagingService implements O
         if (currDistanceFromDeliveryPoint <= RADIUS_FROM_DEL_POINT_IN_METERS){
 
                 //udpate array of notifications
-                LilyApplication.titleList.add(this.title);
-                LilyApplication.contentList.add("Coupon Code: " + this.code);
-                LilyApplication.recvDatelist.add(this.now.toString());
-                LilyApplication.expDateList.add("Exp: "+this.simpleDate);
+                boolean isRecDateExist = false;
+                for (String code:recvDatelist) {
+                    if (code.equalsIgnoreCase(this.now.toString())){
+                        isRecDateExist = true;
+                        break;
+                    }
+                }
+                if (!isRecDateExist) {
+                    LilyApplication.titleList.add(this.title);
+                    LilyApplication.contentList.add("Coupon Code: " + this.code);
+                    LilyApplication.recvDatelist.add(this.now.toString());
+                    LilyApplication.expDateList.add("Exp: " + this.simpleDate);
+                }
 
                 //Create notification
                 Intent messageIntent = new Intent(this, LilyFirebaseMessaging.class);

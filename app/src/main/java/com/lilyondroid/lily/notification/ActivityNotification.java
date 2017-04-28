@@ -3,8 +3,10 @@ package com.lilyondroid.lily.notification;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.lilyondroid.lily.R;
 
@@ -16,6 +18,7 @@ import static com.lilyondroid.lily.application.LilyApplication.titleList;
 public class ActivityNotification extends AppCompatActivity {
 
     private ListView list;
+    String TAG = "ptasdevz";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +38,9 @@ public class ActivityNotification extends AppCompatActivity {
         list = (ListView) findViewById(R.id.notification_list);
         list.setAdapter(adapter);
 
+
     }
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

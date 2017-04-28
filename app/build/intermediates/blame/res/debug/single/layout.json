@@ -4,12 +4,12 @@
         "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_lines_media.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\featured_item_thumbnail.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\featured_item_thumbnail.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
