@@ -64,7 +64,7 @@ public class LilyFirebaseMessaging extends FirebaseMessagingService implements O
             String lat = data.get("lat");
             String lng = data.get("lng");
             String timestampExp = data.get("exp");
-            if (!timestampExp.equalsIgnoreCase("undefine") && timestampExp != null){
+            if (timestampExp != null && !timestampExp.equalsIgnoreCase("undefine")){
                 Timestamp timestamp = new Timestamp(Long.parseLong(timestampExp));
                 expDate = new Date(timestamp.getTime());
                 now = new Date(System.currentTimeMillis());
