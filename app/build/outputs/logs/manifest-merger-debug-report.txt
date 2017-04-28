@@ -56,10 +56,10 @@ MERGED from [com.google.android.gms:play-services-maps:9.0.2] C:\Users\jason\.an
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:14:9-32
 application
 ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:16:5-77:19
-MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\b6372fd9d90cf82025829258a08aff9b71d5f963\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\ed9f770957c65c5b64777ed927cababc97767b23\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\98e9a5531be04c00d8fcc3eeff7a50f5324a40c6\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:palette-v7:23.1.1] C:\Users\jason\.android\build-cache\746884ff36cfea7b7f771b5c9c03960e5921c48e\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\729a386e78b1a824bcbc6a59f61eee8e130d78ba\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\5685116974e867dee475995b1fdb60a93d70ddc2\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:23.1.1] C:\Users\jason\.android\build-cache\2624791d1ddd4002b90bb403761498bb0c90da63\output\AndroidManifest.xml:22:5-23:19
 MERGED from [com.github.clans:fab:1.6.3] C:\Users\jason\.android\build-cache\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\output\AndroidManifest.xml:12:5-20
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\jason\.android\build-cache\81143ddd5f68b5652ca1a3236eb1ec69788b902e\output\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\jason\.android\build-cache\03213a7ce85b95ab7fc4844e0b6e47892d3bdf8e\output\AndroidManifest.xml:24:5-20
@@ -71,7 +71,7 @@ MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\jason\.an
 MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\jason\.android\build-cache\ce5f94ae678ef3d3411430d18a37cb70edef4067\output\AndroidManifest.xml:5:5-12:19
 MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\jason\.android\build-cache\17d768de76c2927ab685444557aaa2626d66bc6a\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\jason\.android\build-cache\757710294a9e4a1a5b4636e99c42db23db586dd3\output\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\3cdfc0a85be6f09a2c076bdacb0637a55426802f\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\0458d1e186328a963ad1878bcbbbe70b4b03c53a\output\AndroidManifest.xml:22:5-20
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:40:5-81:19
 	android:label
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:21:9-41
@@ -185,11 +185,11 @@ ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidMa
 		ADDED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:74:13-76
 uses-sdk
 INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\b6372fd9d90cf82025829258a08aff9b71d5f963\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\ed9f770957c65c5b64777ed927cababc97767b23\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\98e9a5531be04c00d8fcc3eeff7a50f5324a40c6\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\jason\.android\build-cache\a5924e15b82abe098b8182f81352acac36e1ad9c\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:palette-v7:23.1.1] C:\Users\jason\.android\build-cache\746884ff36cfea7b7f771b5c9c03960e5921c48e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.1] C:\Users\jason\.android\build-cache\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\jason\.android\build-cache\729a386e78b1a824bcbc6a59f61eee8e130d78ba\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] C:\Users\jason\.android\build-cache\5685116974e867dee475995b1fdb60a93d70ddc2\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\jason\.android\build-cache\3e42cfc7e63a6eac4325a5144b2131f50c880163\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:23.1.1] C:\Users\jason\.android\build-cache\2624791d1ddd4002b90bb403761498bb0c90da63\output\AndroidManifest.xml:20:5-43
 MERGED from [com.github.clans:fab:1.6.3] C:\Users\jason\.android\build-cache\ceaa2ed57d78b1fd2311d8f5037b28d591b9ab80\output\AndroidManifest.xml:8:5-10:41
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\jason\.android\build-cache\81143ddd5f68b5652ca1a3236eb1ec69788b902e\output\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\jason\.android\build-cache\03213a7ce85b95ab7fc4844e0b6e47892d3bdf8e\output\AndroidManifest.xml:18:5-42
@@ -201,7 +201,7 @@ MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\jason\.an
 MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\jason\.android\build-cache\ce5f94ae678ef3d3411430d18a37cb70edef4067\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\jason\.android\build-cache\17d768de76c2927ab685444557aaa2626d66bc6a\output\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\jason\.android\build-cache\757710294a9e4a1a5b4636e99c42db23db586dd3\output\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\3cdfc0a85be6f09a2c076bdacb0637a55426802f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\jason\.android\build-cache\0458d1e186328a963ad1878bcbbbe70b4b03c53a\output\AndroidManifest.xml:20:5-43
 MERGED from [com.onesignal:OneSignal:2.6.2] C:\Users\jason\.android\build-cache\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\output\AndroidManifest.xml:5:5-43
 	android:targetSdkVersion
 		INJECTED from C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml

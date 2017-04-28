@@ -1,34 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
     }
 ]

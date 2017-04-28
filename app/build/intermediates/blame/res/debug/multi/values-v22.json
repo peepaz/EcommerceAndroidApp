@@ -1,175 +1,5 @@
 [
     {
-        "outputFile": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 74,
-                    "endOffset": 125
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 234,
-                        "endColumn": 74,
-                        "endOffset": 304
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 130,
-                    "endColumn": 86,
-                    "endOffset": 212
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 309,
-                        "endColumn": 86,
-                        "endOffset": 391
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 217,
-                    "endLine": 6,
-                    "endColumn": 12,
-                    "endOffset": 393
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 396,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 572
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 398,
-                    "endLine": 9,
-                    "endColumn": 12,
-                    "endOffset": 586
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 577,
-                        "endLine": 11,
-                        "endColumn": 12,
-                        "endOffset": 765
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\values-v22\\values-v22.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 74,
-                    "endOffset": 125
-                },
-                "from": {
-                    "file": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 234,
-                        "endColumn": 74,
-                        "endOffset": 304
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 130,
-                    "endColumn": 86,
-                    "endOffset": 212
-                },
-                "from": {
-                    "file": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 309,
-                        "endColumn": 86,
-                        "endOffset": 391
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 217,
-                    "endLine": 6,
-                    "endColumn": 12,
-                    "endOffset": 393
-                },
-                "from": {
-                    "file": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 396,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 572
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 398,
-                    "endLine": 9,
-                    "endColumn": 12,
-                    "endOffset": 586
-                },
-                "from": {
-                    "file": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 577,
-                        "endLine": 11,
-                        "endColumn": 12,
-                        "endOffset": 765
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
         "map": [
             {
@@ -181,7 +11,7 @@
                     "endOffset": 125
                 },
                 "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -200,7 +30,7 @@
                     "endOffset": 212
                 },
                 "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -220,7 +50,7 @@
                     "endOffset": 393
                 },
                 "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -241,92 +71,7 @@
                     "endOffset": 586
                 },
                 "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 577,
-                        "endLine": 11,
-                        "endColumn": 12,
-                        "endOffset": 765
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 74,
-                    "endOffset": 125
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 234,
-                        "endColumn": 74,
-                        "endOffset": 304
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 130,
-                    "endColumn": 86,
-                    "endOffset": 212
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 309,
-                        "endColumn": 86,
-                        "endOffset": 391
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 217,
-                    "endLine": 6,
-                    "endColumn": 12,
-                    "endOffset": 393
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 396,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 572
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 7,
-                    "startColumn": 4,
-                    "startOffset": 398,
-                    "endLine": 9,
-                    "endColumn": 12,
-                    "endOffset": 586
-                },
-                "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\values-v22\\values-v22.xml",
+                    "file": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\values-v22\\values-v22.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

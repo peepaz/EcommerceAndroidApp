@@ -1,98 +1,26 @@
 [
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_drawer.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_detail.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\menu\\menu_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\menu\\menu_drawer.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\menu\\menu_detail.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cart.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_cart.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\menu\\menu_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cart.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_cart.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_drawer.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_list.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_list.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_detail.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cart.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\menu\\menu_cart.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_category.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_category.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_detail.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\menu\\menu_detail.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_category.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\menu\\menu_category.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_drawer.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\menu\\menu_drawer.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\main.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_category.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_category.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_category.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\menu\\menu_category.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_list.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_list.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cart.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\menu\\menu_cart.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_cart.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\menu\\menu_cart.xml"
     }
 ]

@@ -1,323 +1,31 @@
 [
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_label_background.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable\\fab_label_background.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_text_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_label_background.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\drawable\\fab_label_background.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
@@ -328,251 +36,107 @@
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\drawable\\fab_label_background.xml"
     },
     {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_signin_btn_icon_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.1.0\\res\\drawable\\common_signin_btn_icon_dark.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_light.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
         "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fab_label_background.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\drawable\\fab_label_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\b6372fd9d90cf82025829258a08aff9b71d5f963\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_borderless_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_radio_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.1.1\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_dialog_material_background_dark.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\ed9f770957c65c5b64777ed927cababc97767b23\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\9.0.2\\res\\drawable\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_list_selector_holo_light.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\a7ab9ab771bdf6882e0967b8bc6da9bc3915294e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\drawable\\design_fab_background.xml"
     }
 ]

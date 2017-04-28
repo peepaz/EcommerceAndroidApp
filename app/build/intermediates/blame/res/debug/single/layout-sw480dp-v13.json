@@ -1,66 +1,18 @@
 [
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\category_list_item.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\layout-sw480dp\\category_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\fragment_home.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\layout-sw480dp\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_category.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_category.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_category.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_category.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_menu_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_menu_list.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_menu_list.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_menu_list.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\category_list_item.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\layout-sw480dp\\category_list_item.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_menu_list.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_menu_list.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\fragment_home.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\layout-sw480dp\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\category_list_item.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\category_list_item.xml"
     },
     {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\category_list_item.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\category_list_item.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_menu_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceApp\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_menu_list.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\fragment_home.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\fragment_home.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\fragment_home.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\fragment_home.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_category.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp1\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_category.xml"
-    },
-    {
-        "merged": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw480dp-v13\\lsv_item_category.xml",
-        "source": "D:\\Envato\\E-CommerceAndroidApp\\AndroidStudioProjects\\EcommerceAndroidApp\\app\\src\\main\\res\\layout-sw480dp\\lsv_item_category.xml"
     }
 ]
