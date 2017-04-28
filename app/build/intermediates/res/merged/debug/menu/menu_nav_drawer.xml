@@ -16,17 +16,6 @@
             android:title="@string/menu_categories" />
 
 
-        <item
-            android:id="@+id/cart"
-            android:icon="@drawable/ic_drawer_cart"
-            android:title="@string/menu_cart" />
-
-        <item
-            android:id="@+id/checkout"
-            android:icon="@drawable/ic_drawer_checkout"
-            android:title="@string/menu_checkout" />
-
-
     </group>
     <group
         android:checkableBehavior="single"

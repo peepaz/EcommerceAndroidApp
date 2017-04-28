@@ -36,7 +36,7 @@ import com.daimajia.slider.library.Tricks.FixedSpeedScroller;
 import com.daimajia.slider.library.Tricks.InfinitePagerAdapter;
 import com.daimajia.slider.library.Tricks.InfiniteViewPager;
 import com.daimajia.slider.library.Tricks.ViewPagerEx;
-import com.lilyondroid.lily.fragments.FragmentHome;
+import com.lilyondroid.lily.home.FragmentHome;
 
 import java.lang.reflect.Field;
 import java.util.Timer;

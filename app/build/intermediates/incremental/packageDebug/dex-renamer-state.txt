@@ -1,4 +1,4 @@
-#Tue Apr 25 15:01:02 BOT 2017
+#Fri Apr 28 04:11:10 BOT 2017
 base.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bd06ca6e50b551c8b01e87fa0a111dee45e811f5
 renamed.1=classes2.dex
 renamed.0=classes.dex

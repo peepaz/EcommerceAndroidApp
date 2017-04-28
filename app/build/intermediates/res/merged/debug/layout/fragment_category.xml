@@ -31,7 +31,7 @@
 
     </android.support.v4.widget.SwipeRefreshLayout>
 
-    <com.lilyondroid.lily.customfonts.LilyTextView
+    <com.lilyondroid.lily.customviews.LilyTextView
         android:id="@+id/text_alert"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

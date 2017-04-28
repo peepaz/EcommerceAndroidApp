@@ -4,23 +4,18 @@ import android.annotation.TargetApi;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.Context;
 import android.content.Intent;
-import android.graphics.Color;
-import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
-import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 import android.widget.Toast;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
-import com.lilyondroid.lily.LilyApplication;
+import com.lilyondroid.lily.application.LilyApplication;
 import com.lilyondroid.lily.R;
-import com.lilyondroid.lily.activities.ActivityNotification;
-import com.lilyondroid.lily.activities.MainActivity;
+import com.lilyondroid.lily.notification.ActivityNotification;
 import com.lilyondroid.lily.utilities.LilyObserverable;
 
 import java.sql.Timestamp;
@@ -30,8 +25,8 @@ import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
 
-import static com.lilyondroid.lily.activities.MainActivity.BROADCAST_ACTION;
-import static com.lilyondroid.lily.activities.MainActivity.RADIUS_FROM_DEL_POINT_IN_METERS;
+import static com.lilyondroid.lily.application.LilyApplication.BROADCAST_ACTION;
+import static com.lilyondroid.lily.application.LilyApplication.RADIUS_FROM_DEL_POINT_IN_METERS;
 
 /**
  * Created by jason on 24/04/2017.
@@ -143,13 +138,11 @@ public class LilyFirebaseMessaging extends FirebaseMessagingService implements O
                         .setContentTitle(this.title)
                         .setContentText("Coupon code: " + this.code + "  Expires: "+simpleDate).setSmallIcon(R.drawable.ic_lily)
                         .setContentIntent(pIntent)
-//                    .addAction(android.R.drawable.ic_menu_call, "Call", pIntent)
-//                    .addAction(R.drawable.ic_lily, "More", pIntent)
                         .setVibrate(new long[]{1000, 1000, 1000, 1000, 1000})
                         .setTicker(this.title)
                         .setColor(getResources().getColor(R.color.ColorPrimary)).build();
-//                    .addAction(R.drawable.ic_lily, "And more", pIntent).build();
                 NotificationManager notificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+
                 // hide the notification after its selected
                 noti.flags |= Notification.FLAG_AUTO_CANCEL;
 
@@ -166,18 +159,4 @@ public class LilyFirebaseMessaging extends FirebaseMessagingService implements O
 
     }
 
-//    private static NotificationCompat.Builder buildNotificationCommon(Context _context, ....) {
-//        NotificationCompat.Builder builder = new NotificationCompat.Builder(_context)
-//                .setWhen(System.currentTimeMillis());
-//        //Vibration
-//        builder.setVibrate(new long[] { 1000, 1000, 1000, 1000, 1000 });
-//
-//        //LED
-//        builder.setLights(Color.RED, 3000, 3000);
-//
-//        //Ton
-//        builder.setSound(Uri.parse("uri://sadfasdfasdf.mp3"));
-//
-//        return builder;
-//    }
 }

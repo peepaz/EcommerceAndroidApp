@@ -3,12 +3,13 @@ package com.lilyondroid.lily.utilities;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.widget.Toast;
 
-import com.lilyondroid.lily.activities.MainActivity;
+import com.lilyondroid.lily.application.LilyApplication;
+import com.lilyondroid.lily.home.MainActivity;
+import com.lilyondroid.lily.services.LilyFirebaseMessaging;
 
 /**
- * Created by jason on 23/04/2017.
+ *
  */
 
 public class LilyBroadcastReceiver extends BroadcastReceiver {
@@ -26,10 +27,10 @@ public class LilyBroadcastReceiver extends BroadcastReceiver {
 
         switch (action){
 
-           case MainActivity.BROADCAST_ACTION :
+           case LilyApplication.BROADCAST_ACTION :
 
                break;
-           case MainActivity.EXTENDED_DATA_STATUS:
+           case LilyApplication.EXTENDED_DATA_STATUS:
 
                //Trigger Lily observable to update observers
                LilyObserverable.getInstance().updateValue(intent);

@@ -8,10 +8,10 @@
         <!--android:title="@string/action_favorite"-->
         <!--app:showAsAction="ifRoom"/>-->
 
-    <item android:id="@+id/action_cart"
-        android:icon="@drawable/ic_shopping_cart_white_24dp"
-        android:title="@string/action_shopping_cart"
-        app:showAsAction="always"/>
+    <!--<item android:id="@+id/action_cart"-->
+        <!--android:icon="@drawable/ic_shopping_cart_white_24dp"-->
+        <!--android:title="@string/action_shopping_cart"-->
+        <!--app:showAsAction="always"/>-->
 
     <!-- Settings, should always be in the overflow -->
     <item android:id="@+id/action_settings"

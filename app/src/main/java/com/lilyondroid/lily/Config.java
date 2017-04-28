@@ -15,8 +15,6 @@ import okhttp3.OkHttpClient;
 public class Config {
 
     // API URL configuration
-    public static String ADMIN_PANEL_URL = "http://www.dimasword.com/demo/ecommerce";
-//    public static String ADMIN_PANEL_URL = "http://192.168.137.1:8080/COMP6701/ecommerce/";
     public static String LILY_SERVER = "https://138.197.40.125";
 
     //Tokens for different access points
@@ -37,17 +35,20 @@ public class Config {
         return getUnsafeOkHttpClient();
     }
 
+    //Http Client to handle SSL Requests
     private static OkHttpClient getUnsafeOkHttpClient() {
         try {
             // Create a trust manager that does not validate certificate chains
             final TrustManager[] trustAllCerts = new TrustManager[] {
                     new X509TrustManager() {
                         @Override
-                        public void checkClientTrusted(java.security.cert.X509Certificate[] chain, String authType) throws CertificateException {
+                        public void checkClientTrusted(java.security.cert.X509Certificate[] chain,
+                                                       String authType) throws CertificateException {
                         }
 
                         @Override
-                        public void checkServerTrusted(java.security.cert.X509Certificate[] chain, String authType) throws CertificateException {
+                        public void checkServerTrusted(java.security.cert.X509Certificate[] chain,
+                                                       String authType) throws CertificateException {
                         }
 
                         @Override
@@ -60,6 +61,7 @@ public class Config {
             // Install the all-trusting trust manager
             final SSLContext sslContext = SSLContext.getInstance("SSL");
             sslContext.init(null, trustAllCerts, new java.security.SecureRandom());
+
             // Create an ssl socket factory with our all-trusting manager
             final SSLSocketFactory sslSocketFactory = sslContext.getSocketFactory();
 

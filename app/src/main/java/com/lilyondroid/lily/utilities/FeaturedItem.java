@@ -48,6 +48,8 @@ public class FeaturedItem {
         this.price = price;
     }
 
+
+
     public String getSale() {
         return sale;
     }

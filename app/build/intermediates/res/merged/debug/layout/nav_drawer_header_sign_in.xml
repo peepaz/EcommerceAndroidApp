@@ -20,7 +20,7 @@
         android:layout_alignParentStart="true"
         />
 
-    <com.lilyondroid.lily.customfonts.LilyTextView
+    <com.lilyondroid.lily.customviews.LilyTextView
         android:id="@+id/drawer_sign_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

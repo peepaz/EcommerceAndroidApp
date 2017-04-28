@@ -5,7 +5,7 @@
     android:padding="6dp">
 
 
-    <com.lilyondroid.lily.customfonts.LilyTextViewBold
+    <com.lilyondroid.lily.customviews.LilyTextViewBold
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/logout_msg"

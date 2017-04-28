@@ -10,12 +10,12 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.lilyondroid.lily.activities.MainActivity;
+import com.lilyondroid.lily.application.LilyApplication;
 
 /**
- * Created by jason on 22/04/2017.
+ * Responsible for obtaining the current location of the the device and calculate the distance from
+ * another location that is given.
  */
-
 public class LilyGPSLocationService extends IntentService {
 
     private static final String TAG = "ptasdevz";
@@ -27,7 +27,6 @@ public class LilyGPSLocationService extends IntentService {
     public double storeLat;
     public double storeLon;
     public int unitIndex;
-
 
     private final static double[] multipliers = {
             1.0,1.0936133,0.001,0.000621371192
@@ -68,48 +67,18 @@ public class LilyGPSLocationService extends IntentService {
     }
 
     @Override
-    public void onDestroy() {
-
-
-//
-//        Log.e(TAG, "onDestroy");
-//        super.onDestroy();
-//        if (mLocationManager != null) {
-//            for (int i = 0; i < mLocationListeners.length; i++) {
-//                try {
-//                    mLocationManager.removeUpdates(mLocationListeners[i]);
-//                } catch (Exception ex) {
-//                    Log.i(TAG, "fail to remove location listners, ignore", ex);
-//                }
-//            }
-//        }
-//        super.onDestroy();
-    }
-
-    @Override
     protected void onHandleIntent(@Nullable Intent intent) {
 
         Log.d(TAG,"start processing intent");
 
-        Bundle data = intent.getBundleExtra(MainActivity.BROADCAST_ACTION);
+        Bundle data = intent.getBundleExtra(LilyApplication.BROADCAST_ACTION);
         if (data != null){
 
             storeLat = Double.parseDouble(data.getString("lat"));
             storeLon  = Double.parseDouble(data.getString("lon"));
             unitIndex  = Integer.parseInt(data.getString("unitidx"));
 
-//            storeLat = data.getDouble("lat",99999999.99);
-//            storeLon  = data.getDouble("lon",9999999.99);
-//            unitIndex  = data.getInt("unitidx",0);
-
-//            Log.d(TAG,"lat: " + lat + " lon: " + lon);
-
-
-//            startListening();
-
-
         }
-
 
     }
 
@@ -149,7 +118,7 @@ public class LilyGPSLocationService extends IntentService {
             Intent localIntent = new Intent();
             localIntent.putExtra("extra","done");
             localIntent.putExtra("distance",distance);
-            localIntent.setAction(MainActivity.EXTENDED_DATA_STATUS); sendBroadcast(localIntent); //
+            localIntent.setAction(LilyApplication.EXTENDED_DATA_STATUS); sendBroadcast(localIntent); //
 
             stopListening();
 
@@ -191,9 +160,7 @@ public class LilyGPSLocationService extends IntentService {
     public double getDistanceFromDeliveryLocation(double currentLat, double currentLon, double storeLat, double storeLon, int unitindex){
 
         return  calcGeoDistance(currentLat,currentLon,storeLat,storeLon) * multipliers[unitindex];
-//        String distanceText = "" + RoundDecimal(distance,2) + " " + unitstrings[unitindex];
 
-//        Toast.makeText(this, distanceText, Toast.LENGTH_SHORT).show();
     }
 
     /**

@@ -23,14 +23,14 @@
             android:orientation="vertical"
             android:paddingLeft="16dp">
 
-            <com.lilyondroid.lily.customfonts.LilyTextViewBold
+            <com.lilyondroid.lily.customviews.LilyTextViewBold
                 android:id="@+id/notification_title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sale Sale"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <com.lilyondroid.lily.customfonts.LilyTextView
+            <com.lilyondroid.lily.customviews.LilyTextView
                 android:id="@+id/content"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -39,7 +39,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <com.lilyondroid.lily.customfonts.LilyTextView
+                <com.lilyondroid.lily.customviews.LilyTextView
                     android:id="@+id/exp_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -47,7 +47,7 @@
                     android:textSize="8dp"
                     android:text="Expire:" />
 
-                <com.lilyondroid.lily.customfonts.LilyTextView
+                <com.lilyondroid.lily.customviews.LilyTextView
                     android:id="@+id/recv_date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

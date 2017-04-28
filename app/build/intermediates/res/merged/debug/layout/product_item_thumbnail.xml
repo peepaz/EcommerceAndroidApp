@@ -31,7 +31,7 @@
                 android:layout_weight="0.1"
                 android:orientation="vertical">
 
-                <com.lilyondroid.lily.customfonts.LilyTextView
+                <com.lilyondroid.lily.customviews.LilyTextView
 
                     android:id="@+id/product_title"
                     android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
                     android:textSize="13dp" />
 
 
-                <com.lilyondroid.lily.customfonts.LilyTextView
+                <com.lilyondroid.lily.customviews.LilyTextView
                     android:id="@+id/product_price"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
@@ -53,7 +53,7 @@
                     android:textSize="13dp"
                     />
 
-                <com.lilyondroid.lily.customfonts.LilyTextView
+                <com.lilyondroid.lily.customviews.LilyTextView
                     android:id="@+id/product_other_text"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
