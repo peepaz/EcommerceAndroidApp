@@ -66,13 +66,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        FirebaseMessaging.getInstance().subscribeToTopic("coupon");
-        Log.d(Tag, "registered to topic");
-
-        String token = FirebaseInstanceId.getInstance().getToken();
-        Log.d(Tag, "TOken " + token);
-
-        sendRegistartionTOServer(token);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mNavigationView = (NavigationView) findViewById(R.id.main_drawer);
@@ -123,10 +116,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void sendRegistartionTOServer(String token) {
 
-
-    }
 
     @Override
     public void onBackPressed() {

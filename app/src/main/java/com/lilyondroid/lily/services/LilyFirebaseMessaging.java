@@ -126,7 +126,7 @@ public class LilyFirebaseMessaging extends FirebaseMessagingService implements O
 
         double currDistanceFromDeliveryPoint = broadcastIntent.getDoubleExtra("distance",0.0);
 
-        Toast.makeText(this,"distance from outlet: " + currDistanceFromDeliveryPoint,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,"distance from delivery location: " + currDistanceFromDeliveryPoint + "meters",Toast.LENGTH_SHORT).show();
 
         if (currDistanceFromDeliveryPoint <= RADIUS_FROM_DEL_POINT_IN_METERS){
 
