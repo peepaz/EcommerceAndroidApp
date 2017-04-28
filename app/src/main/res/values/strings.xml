@@ -1,21 +1,21 @@
 <resources>
 
     <!--application name-->
-    <string name="app_name">Flowerhour</string>
+    <string name="app_name">Lily</string>
 
     <!--navigation drawer and home menu name-->
-    <string name="menu_product">Product</string>
+    <string name="menu_product">Products</string>
     <string name="menu_cart">Cart</string>
     <string name="menu_checkout">Checkout</string>
     <string name="menu_profile">Profile</string>
-    <string name="menu_info">Information</string>
+    <string name="menu_info">Info</string>
     <string name="menu_about">About</string>
     <string name="menu_share">Share</string>
     <string name="menu_contact">Contact</string>
 
     <!--title bar-->
     <string name="title_category">Category</string>
-    <string name="title_menu">Menu List</string>
+    <string name="title_menu">Product List</string>
     <string name="title_cart">My Cart</string>
     <string name="title_checkout">Checkout</string>
     <string name="title_confirm">Congratulations</string>
@@ -23,6 +23,17 @@
     <string name="title_about">About</string>
     <string name="title_buy">Buy this item</string>
     <string name="title_save">Save Image</string>
+
+    <!--placeholder category images-->
+    <string-array name="cat_placeholder_img">
+        <item>media//__sized__//products//saleor//static\/placeholders2\/sym_roses\/2_6UJnT5Y-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/4_6SNXuyL-crop-c0-5__0-5-510x510-70.jpg</item>
+        <item>media\/__sized__\/products\/saleor\/static\/placeholders2\/lr_carnations\/2-crop-c0-5__0-5-510x510-70.jpg</item>
+    </string-array>
+
+    <string name="category_anniversary">Anniversary</string>
+    <string name="category_love_romance">Love and Romance</string>
+    <string name="category_sympathy">Sympathy</string>
 
     <!--action-->
     <string name="action_cart">My Cart</string>
@@ -37,7 +48,7 @@
     <string name="information_tab3">Contact us</string>
 
     <!--network-->
-    <string name="no_internet">Please, enable internet connection before using this app</string>
+    <string name="no_internet">No internet connection is available at this time.</string>
     <string name="alert">Failed to connect internet!</string>
     <string name="not_found">Product Not Found!</string>
 
@@ -82,20 +93,20 @@
     <string name="no_order_menu">No order</string>
 
     <!--app about information-->
-    <string name="app_version">Version 2.1.2</string>
-    <string name="app_copyright">Copyright &#169; 2017 Flowerhour Devz \n All rights reserved</string>
-    <string name="app_email">info@flowerhour.com</string>
+    <string name="app_version">Version 1.0.0</string>
+    <string name="app_copyright">Copyright &#169; 2017 Lily Developers \n All rights reserved</string>
+    <string name="app_email">info@lily.com</string>
     <string name="share_summary">Share to your friends</string>
     <string name="rate_summary">Give your rate and feedback</string>
     <string name="more_summary">More apps from developer</string>
-    <string name="title_app_name">Flowerhour</string>
+    <string name="title_app_name">lily</string>
     <string name="title_app_version">Build Version</string>
-    <string name="title_app_email">info@flowerhour.com</string>
+    <string name="title_app_email">info@lily.com</string>
     <string name="title_app_copyright">Copyright</string>
     <string name="title_app_share">Share</string>
     <string name="title_app_rate">Rate</string>
     <string name="title_app_more">More</string>
-    <string name="more_apps">https://play.google.com/store/apps/developer?id=flowerhourdevz</string>
+    <string name="more_apps">https://play.google.com/store/apps/developer?id=lilyondroid</string>
     <string name="share_content">I Would like to share this with you. Here You Can Download This Application from PlayStore</string>
 
     <!--contact us-->
@@ -103,13 +114,50 @@
     <string name="hint_email_message">Message :</string>
     <string name="button_send">Send</string>
 
-    <!--nav drawer header image-->
-    <!--set "@string/drawer_content_on" to enable navigation drawer header image-->
-    <!--set "@string/drawer_content_off" to disable navigation drawer header image-->
+    <!--nav drawer header imageUrl-->
+    <!--set "@string/drawer_content_on" to enable navigation drawer header imageUrl-->
+    <!--set "@string/drawer_content_off" to disable navigation drawer header imageUrl-->
     <string name="drawer_visibility">@string/drawer_content_on</string>
     <string name="drawer_open">Slider Menu Opened</string>
     <string name="drawer_close">Slider Menu Closed</string>
     <string name="drawer_content_on">0</string>
     <string name="drawer_content_off">2</string>
+    <string name="grid_item_default_title_text">The Lily</string>
+    <string name="grid_item_default_desc_text">At your service</string>
+    <string name="grid_item_default_price">From $100.00</string>
+    <string name="grid_view_item_default_other_text">other text</string>
+    <string name="signin_label">SIGN IN</string>
+    <string name="logout_msg">Are you sure?</string>
+    <string name="login_password_label">Password:</string>
+    <string name="user_name_hint">e.g. info@lily.com</string>
+    <string name="logout_yes_label">Yes</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_home">ActivityHome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="featured_items_header_txt">Featured Products</string>
+    <string name="favourite_picks_text">Most Recently Viewed</string>
+    <string name="username">Johe Doe</string>
+    <string name="user_profile_label">Profile</string>
+    <string name="signout_label">Sign out</string>
+    <string name="action_shopping_cart">Cart</string>
+    <string name="menu_settings">Settings</string>
+    <string name="logout_no_label">No</string>
+    <string name="title_activity_category">Categories</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_fragment">hello fragment</string>
+    <string name="title_activity_product_detail">Product Detail</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_categories">Categories</string>
+    <string name="toggle_notifications">Subscribe for notifications</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="men_notifications">Notifications</string>
+    <string name="title_activity_notification">Notifications</string>
 
 </resources>

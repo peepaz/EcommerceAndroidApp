@@ -1,171 +1,183 @@
 [
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\featured_item_thumbnail.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\featured_item_thumbnail.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_navigation_item.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_about.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_menu_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_menu_list.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\logout_confirmation.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\logout_confirmation.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_confirm.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_confirm.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\onesignal_bgimage_notif_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\2b64a21b5b0568740f74c5c11f0c3adb6ab402fa\\output\\res\\layout\\onesignal_bgimage_notif_layout.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lsv_item_order_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\lsv_item_order_list.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_header_signed_in.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\nav_drawer_header_signed_in.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notification.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_notification.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_screen_simple.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\category_list_item.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\category_list_item.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_template_part_time.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_category.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_category.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_progress.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\bc284c0012976c05641da66e5c9d5971ce22d69e\\output\\res\\layout\\place_autocomplete_progress.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lsv_item_category.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\lsv_item_category.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_fragment.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\bc284c0012976c05641da66e5c9d5971ce22d69e\\output\\res\\layout\\place_autocomplete_fragment.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_template_lines.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\about_item.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\about_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lsv_item_menu_list.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\lsv_item_menu_list.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_text.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\15aedeffacfba3e67fe8c675b800a86df859f335\\output\\res\\layout\\render_type_text.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_menu_item_action_area.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_product_detail.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_product_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_header_sign_in.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\nav_drawer_header_sign_in.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\product_item_thumbnail.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\product_item_thumbnail.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nav_drawer_header.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\nav_drawer_header.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\select_dialog_item_material.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_media_action.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_webview.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\fragment_webview.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\indicator_layout.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\15aedeffacfba3e67fe8c675b800a86df859f335\\output\\res\\layout\\indicator_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_item.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\notification_item.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_profile.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_splash.xml",
@@ -173,43 +185,39 @@
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_navigation_item_header.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_prediction.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\bc284c0012976c05641da66e5c9d5971ce22d69e\\output\\res\\layout\\place_autocomplete_item_prediction.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\slider_layout.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\15aedeffacfba3e67fe8c675b800a86df859f335\\output\\res\\layout\\slider_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_search_view.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\notification_template_media.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_media.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_layout_tab_text.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_checkout.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_checkout.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -217,82 +225,78 @@
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_screen_content_include.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\render_type_default.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\15aedeffacfba3e67fe8c675b800a86df859f335\\output\\res\\layout\\render_type_default.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_category.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\fragment_category.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_navigation_menu.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_detail.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_contact.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\fragment_contact.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lsv_item_about.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\lsv_item_about.xml"
-    },
-    {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tab_layout.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_tab_layout.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_settings.xml",
+        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_layout_snackbar.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_home.xml",
         "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\fragment_home.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\place_autocomplete_item_powered_by_google.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\bc284c0012976c05641da66e5c9d5971ce22d69e\\output\\res\\layout\\place_autocomplete_item_powered_by_google.xml"
-    },
-    {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cart.xml",
-        "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\layout\\activity_cart.xml"
+        "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\668c494bbda4a18d0c6db4bdd9d6d430e67e098b\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\5067bd610bb4cc58f20e41d62b7b2ddec1298412\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
         "merged": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "source": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     }
 ]

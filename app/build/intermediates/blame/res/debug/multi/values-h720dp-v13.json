@@ -11,13 +11,13 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "C:\\Users\\jason\\.android\\build-cache\\729a386e78b1a824bcbc6a59f61eee8e130d78ba\\output\\res\\values-h720dp\\values-h720dp.xml",
+                    "file": "C:\\Users\\jason\\.android\\build-cache\\68614451f3f94a2ab7992c4027b6484474ece032\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 232,
+                        "startOffset": 55,
                         "endColumn": 66,
-                        "endOffset": 294
+                        "endOffset": 117
                     }
                 }
             }

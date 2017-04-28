@@ -1,21 +1,21 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
+    compileSdkVersion 25
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId 'com.solodroid.ecommerce'
+        applicationId 'com.lilyondroid.lily'
 
         // TODO: Please update the Google Project number and OneSignal Id below to yours.
         manifestPlaceholders = [manifestApplicationId          : "${applicationId}",
-                                onesignal_app_id               : "1d80166a-972d-4173-9b5e-bb2bb0df7f39",
-                                onesignal_google_project_number: "401211824765"]
+                                onesignal_app_id               : "05c01469-4809-42b1-afd8-0bd3e308f675",
+                                onesignal_google_project_number: "610318344876"]
 
-        minSdkVersion 14
-        targetSdkVersion 23
+        minSdkVersion 16
+        targetSdkVersion 25
         versionCode 4
-        versionName '2.1.2'
+        versionName '1.0.0'
     }
     buildTypes {
         release {
@@ -26,23 +26,41 @@ android {
     productFlavors {
     }
     useLibrary 'org.apache.http.legacy'
+
+
 }
 
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:23.1.1'
-    compile 'com.android.support:design:23.1.1'
-    compile 'com.android.support:cardview-v7:23.1.1'
-    compile 'com.android.support:recyclerview-v7:23.1.1'
-    compile 'com.android.support:palette-v7:23.1.1'
-    compile 'com.github.clans:fab:1.6.3'
     compile files('libs/signpost-commonshttp4-1.2.1.2.jar')
     compile files('libs/signpost-core-1.2.1.2.jar')
     compile files('libs/signpost-jetty6-1.2.1.2.jar')
-    compile files('libs/picasso-2.5.2.jar')
+//    compile files('libs/picasso-2.5.2.jar')
     compile files('libs/universal-image-loader-1.9.5.jar')
-    compile 'com.google.android.gms:play-services-gcm:9.0.2'
-    compile 'com.google.android.gms:play-services-analytics:9.0.2'
-    compile 'com.google.android.gms:play-services-location:9.0.2'
-    compile 'com.onesignal:OneSignal:2.+@aar'
+//    compile files('libs/okhttp-3.6.0.jar')
+//    compile files('libs/okio-1.11.0.jar')
+    //    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile group: 'javax.servlet', name: 'servlet-api', version: '2.5'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:palette-v7:25.1.0'
+    compile 'com.github.clans:fab:1.6.3'
+    compile 'com.google.android.gms:play-services-gcm:10.0.1'
+    compile 'com.google.android.gms:play-services-analytics:10.0.1'
+    compile 'com.google.android.gms:play-services-location:10.0.1'
+    compile 'com.jakewharton.picasso:picasso2-okhttp3-downloader:1.1.0'
+    compile 'com.daimajia.androidanimations:library:1.0.3@aar'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'com.android.support:cardview-v7:25.1.0'
+    compile 'com.jakewharton:butterknife:7.0.1'
+    compile 'com.android.support:support-v4:25.1.0'
+    compile 'com.google.firebase:firebase-messaging:10.0.1'
 }
+
+
+
+
+apply plugin: 'com.google.gms.google-services'
