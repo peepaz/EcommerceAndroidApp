@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="default_web_client_id" translatable="false">610318344876-qdru93gj695eb6cue2lrsrcbfccd97t2.apps.googleusercontent.com</string>
-    <string name="firebase_database_url" translatable="false">https://lily-b36be.firebaseio.com</string>
-    <string name="gcm_defaultSenderId" translatable="false">610318344876</string>
-    <string name="google_api_key" translatable="false">AIzaSyCnZ_EsM0-4x3NXLYPk4yHH3v8coYOCm2s</string>
-    <string name="google_app_id" translatable="false">1:610318344876:android:4ce10b8a633690f2</string>
-    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCnZ_EsM0-4x3NXLYPk4yHH3v8coYOCm2s</string>
-    <string name="google_storage_bucket" translatable="false">lily-b36be.appspot.com</string>
+    <string name="default_web_client_id" translatable="false">280483830227-m6jh25r43sm0lfb84s0s159h0850b5m7.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://lilys-aaf3d.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">280483830227</string>
+    <string name="google_api_key" translatable="false">AIzaSyAS5tsp5A4emmBKkBj3PLc9qRm99LTax6g</string>
+    <string name="google_app_id" translatable="false">1:280483830227:android:4ce10b8a633690f2</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAS5tsp5A4emmBKkBj3PLc9qRm99LTax6g</string>
+    <string name="google_storage_bucket" translatable="false">lilys-aaf3d.appspot.com</string>
 </resources>

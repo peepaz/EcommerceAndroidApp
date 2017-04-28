@@ -1,4 +1,7 @@
-#Fri Apr 28 06:34:11 BOT 2017
-base.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+#Fri Apr 28 16:37:44 BOT 2017
+base.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bd06ca6e50b551c8b01e87fa0a111dee45e811f5
+renamed.1=classes2.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
+file.1=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fbb746c5f2cfb9a228d54b2c1f78b7e7ad9b561a\\classes.dex
+base.1=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_fbb746c5f2cfb9a228d54b2c1f78b7e7ad9b561a
+file.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_bd06ca6e50b551c8b01e87fa0a111dee45e811f5\\classes.dex

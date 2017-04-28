@@ -20,6 +20,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.messaging.FirebaseMessaging;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.application.ActivityAbout;
 import com.lilyondroid.lily.categories.ActivityCategory;
@@ -62,6 +64,15 @@ public class MainActivity extends AppCompatActivity {
         if (toolbar != null) {
             setSupportActionBar(toolbar);
         }
+
+
+        FirebaseMessaging.getInstance().subscribeToTopic("coupon");
+        Log.d(Tag, "registered to topic");
+
+        String token = FirebaseInstanceId.getInstance().getToken();
+        Log.d(Tag, "TOken " + token);
+
+        sendRegistartionTOServer(token);
 
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mNavigationView = (NavigationView) findViewById(R.id.main_drawer);
@@ -109,6 +120,11 @@ public class MainActivity extends AppCompatActivity {
         if (!utils.isNetworkAvailable(MainActivity.this)) {
             Toast.makeText(MainActivity.this, getString(R.string.no_internet), Toast.LENGTH_SHORT).show();
         }
+
+    }
+
+    private void sendRegistartionTOServer(String token) {
+
 
     }
 
