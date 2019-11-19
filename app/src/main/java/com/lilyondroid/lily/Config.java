@@ -15,7 +15,8 @@ import okhttp3.OkHttpClient;
 public class Config {
 
     // API URL configuration
-    public static String LILY_SERVER = "https://138.197.40.125";
+//    public static String LILY_SERVER = "https://138.197.40.125";
+    public static String LILY_SERVER = "http://";
 
     //FIrebase Server App server API key
     public static String FCM_API_KEY = "key=AAAAQU4jmdM:APA91bHZ517PwFoB6XZa_Zl4u2Fwjvc6J_bz10ZqLiP9IBKPB5_8XjaDJe_XrJfoj1OJgY1Igs3Yy5156ODFTwDSwRGhmNFNCVpxjS9HIqgGYecUia-RyCcHhiCq05wUQu5wlkkRlm3j";

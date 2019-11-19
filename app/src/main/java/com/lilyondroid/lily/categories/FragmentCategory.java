@@ -111,7 +111,8 @@ public class FragmentCategory extends Fragment {
         ProductsAPI = Config.LILY_SERVER + "/api/product-classes/";
 
         //Get data from server
-        parseJSONData();
+//        parseJSONData();
+          parseDataLocal();
 
         adapterProductList = new AdapterGridviewCategory(getActivity(),gridViewItemList);
 
@@ -142,7 +143,7 @@ public class FragmentCategory extends Fragment {
                         IOConnect = 0;
                         categoryList.invalidateViews();
                         clearData();
-                        parseJSONData();
+//                        parseJSONData();
                     }
                 }, 3000);
             }
@@ -172,11 +173,43 @@ public class FragmentCategory extends Fragment {
 
 
     }
+
     //Clears data from the gridview list to faciliate refresh
     void clearData(){
        gridViewItemList.clear();
 
     }
+
+    private void parseDataLocal() {
+        clearData();
+        for (int i=0; i<productArray.length(); i++) {
+
+
+            JSONObject product = productArray.getJSONObject(i);
+
+            String id = product.getString("id");
+            String desc = product.getString("description");
+            String title = product.getString("name");
+            boolean isInStock = product.getBoolean("is_in_stock");
+            String image = Config.LILY_SERVER + "/static/images/products/" +id+".jpg";
+
+            JSONArray priceRange =  product.getJSONArray("get_price_range");
+            JSONArray priceLower = priceRange.getJSONArray(0);
+            JSONArray priceUpper = priceRange.getJSONArray(1);
+
+            double priceUpperVal = priceUpper.getDouble(0);
+            double priceLowerVal = priceLower.getDouble(0);
+
+            GridViewItem gridViewItem = new GridViewItem(image,title,priceLowerVal,
+                    priceUpperVal,desc,id,isInStock);
+
+            gridViewItemList.add(gridViewItem);
+
+
+        }
+
+    }
+
 
     public void parseJSONData(){
 
@@ -271,6 +304,7 @@ public class FragmentCategory extends Fragment {
             e.printStackTrace();
         }
     }
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

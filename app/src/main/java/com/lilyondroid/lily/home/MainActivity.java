@@ -66,7 +66,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
         mNavigationView = (NavigationView) findViewById(R.id.main_drawer);
 

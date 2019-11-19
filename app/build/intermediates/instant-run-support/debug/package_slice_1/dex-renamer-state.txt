@@ -1,4 +1,0 @@
-#Fri Apr 28 18:34:44 BOT 2017
-base.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
-renamed.0=classes.dex
-file.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

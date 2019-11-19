@@ -2,24 +2,6 @@
 <items version="2" >
 
     <item
-        is-multidex="false"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-jetty6-1.2.1.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="50d833636e78a21ac10bfad6fe62b8dac84f4366">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\signpost-jetty6-1.2.1.2_6bf012328d0c207bcfa248f2258ee10d99f8f9cb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_ee4c9f428f37d3fa86a2e23fa75c6b485068f534.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-core-1.2.1.2.jar"
         jumboMode="true"
@@ -34,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fbb746c5f2cfb9a228d54b2c1f78b7e7ad9b561a\classes.dex" />
     </item>
     <item
@@ -65,24 +47,6 @@
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\picasso-2.5.2_ee4c9f428f37d3fa86a2e23fa75c6b485068f534\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-core-1.2.1.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.2_c0d8d0676d23ee64f3a75d4f7ca3a8b23949ac6b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\universal-image-loader-1.9.5.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.5_5bb4ccdefc037f87d94a581e17cd4af8ac25e0f2.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-commonshttp4-1.2.1.2.jar"
         jumboMode="true"
@@ -92,21 +56,12 @@
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\signpost-commonshttp4-1.2.1.2_26ae799b8c66f6980dd14de7a20dd347689ac0af\classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\libs\signpost-commonshttp4-1.2.1.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="731e05de30cfeb1f41d417f886277f9597fe0f36">
-        <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\pre-dexed\debug\signpost-commonshttp4-1.2.1.2_26ae799b8c66f6980dd14de7a20dd347689ac0af.jar" />
-    </item>
-    <item
         is-multidex="true"
         jar="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="3f10026a32c75029a0135bfc18d6d2c4cdc037ec">
+        sha1="b41989211beb8a0d6a1aa4d37423247082f37f16">
         <dex dex="C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bd06ca6e50b551c8b01e87fa0a111dee45e811f5\classes.dex" />
     </item>
 

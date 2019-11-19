@@ -24,8 +24,8 @@ package com.lilyondroid.lily.authenticate;
 
     import java.io.IOException;
 
+    import butterknife.BindView;
     import butterknife.ButterKnife;
-    import butterknife.Bind;
     import okhttp3.Call;
     import okhttp3.Callback;
     import okhttp3.MediaType;
@@ -38,11 +38,11 @@ package com.lilyondroid.lily.authenticate;
 public class ActivityLogin extends AppCompatActivity {
     private static final int REQUEST_SIGNUP = 0;
     private String userToken;
-    @Bind(R.id.input_email) EditText _emailText;
-    @Bind(R.id.input_password) EditText _passwordText;
-    @Bind(R.id.btn_login) Button _loginButton;
-    @Bind(R.id.link_signup) TextView _signupLink;
-    @Bind(R.id.btn_cancel) Button _cancelButton;
+    @BindView(R.id.input_email) EditText _emailText;
+    @BindView(R.id.input_password) EditText _passwordText;
+    @BindView(R.id.btn_login) Button _loginButton;
+    @BindView(R.id.link_signup) TextView _signupLink;
+    @BindView(R.id.btn_cancel) Button _cancelButton;
     private static final String Tag = "ptasdevz";
 
     @Override
@@ -98,7 +98,7 @@ public class ActivityLogin extends AppCompatActivity {
         progressDialog.setIndeterminate(true);
         progressDialog.setMessage("Authenticating...");
         progressDialog.show();
-
+//
         final String email = _emailText.getText().toString();
         String password = _passwordText.getText().toString();
 
@@ -181,7 +181,7 @@ public class ActivityLogin extends AppCompatActivity {
             }
 
         });
-
+////
     }
 
 

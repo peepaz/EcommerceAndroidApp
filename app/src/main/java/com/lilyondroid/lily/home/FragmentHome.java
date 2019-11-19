@@ -50,8 +50,6 @@ public class FragmentHome extends Fragment implements BaseSliderView.OnSliderCli
 
         View v = inflater.inflate(R.layout.fragment_home, container, false);
 
-
-
         categoryMenuSlider = (SliderLayout)v.findViewById(R.id.slider);
         data = new ArrayList<FeaturedItem>();
 
