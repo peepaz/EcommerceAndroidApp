@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 29
+    buildToolsVersion '26.0.3'
 
     defaultConfig {
         applicationId 'com.lilyondroid.lily'
@@ -13,7 +13,7 @@ android {
                                 onesignal_google_project_number: "610318344876"]
 
         minSdkVersion 16
-        targetSdkVersion 26
+        targetSdkVersion 29
         versionCode 4
         versionName '1.0.0'
         multiDexEnabled true

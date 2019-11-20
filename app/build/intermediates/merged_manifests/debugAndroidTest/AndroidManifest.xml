@@ -4,7 +4,7 @@
 
     <uses-sdk
         android:minSdkVersion="16"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="29" />
 
     <instrumentation
         android:name="com.android.test.runner.MultiDexTestRunner"
