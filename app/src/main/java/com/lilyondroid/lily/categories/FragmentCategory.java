@@ -108,7 +108,7 @@ public class FragmentCategory extends Fragment {
         txtAlert = (LilyTextView) view.findViewById(R.id.text_alert);
 
         // category API url
-        ProductsAPI = Config.LILY_SERVER + "/api/product-classes/";
+        ProductsAPI = Config.LILY_SERVER_API + "/api/product-classes/";
 
         //Get data from server
         parseJSONData();
@@ -190,7 +190,7 @@ public class FragmentCategory extends Fragment {
             OkHttpClient client = Config.getOkHttpClient();
 
             Request okRequest = new Request.Builder()
-                    .url(Config.LILY_SERVER +"/rest/products/category/" + catId)
+                    .url(Config.LILY_SERVER_API +"/rest/products/category/" + catId)
                     .get()
                     .addHeader("authorization", Config.PRODUCT_TOKEN)
                     .build();
@@ -226,15 +226,7 @@ public class FragmentCategory extends Fragment {
                             double priceLowerVal = product.getDouble("lowerPriceRange");
                             double priceUpperVal = product.getDouble("upperPriceRange");
                             boolean isInStock = product.getBoolean("inStock");
-//                            String image = Config.LILY_SERVER + "/static/images/products/" +id+".jpg";
-                            String image = Config.LILY_SERVER + imageUrl;
-
-//                            JSONArray priceRange =  product.getJSONArray("get_price_range");
-//                            JSONArray priceLower = priceRange.getJSONArray(0);
-//                            JSONArray priceUpper = priceRange.getJSONArray(1);
-//
-//                            double priceUpperVal = priceUpper.getDouble(0);
-//                            double priceLowerVal = priceLower.getDouble(0);
+                            String image = Config.LILY_SERVER_IP + imageUrl;
 
                             GridViewItem gridViewItem = new GridViewItem(image,title,priceLowerVal,
                                     priceUpperVal,desc,id,isInStock);

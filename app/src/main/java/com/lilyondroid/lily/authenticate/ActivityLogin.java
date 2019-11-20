@@ -109,7 +109,7 @@ public class ActivityLogin extends AppCompatActivity {
                 "------WebKitFormBoundary7MA4YWxkTrZu0gW\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n"+password+"\r\n" +
                 "------WebKitFormBoundary7MA4YWxkTrZu0gW--");
         Request request = new Request.Builder()
-                .url(Config.LILY_SERVER + "/api-token-auth/")
+                .url(Config.LILY_SERVER_API + "/api-token-auth/")
                 .post(body)
                 .addHeader("content-type", "multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW")
                 .build();
@@ -172,7 +172,7 @@ public class ActivityLogin extends AppCompatActivity {
                 /*
                 OkHttpClient client = Config.getOkHttpClient();
                 Request okRequest = new Request.Builder()
-                        .url(Config.LILY_SERVER +"/api/users/")
+                        .url(Config.LILY_SERVER_API +"/api/users/")
                         .get()
                         .addHeader("authorization", token)
                         .build();

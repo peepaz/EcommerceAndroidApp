@@ -1,7 +1,7 @@
-#Tue Nov 19 19:11:23 BOT 2019
-base.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
-path.1=classes2.dex
+#Tue Nov 19 22:28:21 BOT 2019
+base.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\out\\classes.dex
+path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes2.dex
+base.1=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\out\\classes.dex

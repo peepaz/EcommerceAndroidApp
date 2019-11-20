@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\0fb5a3df65f41b7b0bf49dc812aa746e\\support-media-compat-26.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\8f7c128dbd13171cc535029f7e064d8f\\support-media-compat-27.1.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -13,21 +13,21 @@
                         "endOffsets": "116,177,243,310"
                     },
                     "to": {
-                        "startLines": "8,9,10,11",
+                        "startLines": "4,5,6,7",
                         "startColumns": "4,4,4,4",
-                        "startOffsets": "619,685,746,812",
+                        "startOffsets": "347,413,474,540",
                         "endColumns": "65,60,65,66",
-                        "endOffsets": "680,741,807,874"
+                        "endOffsets": "408,469,535,602"
                     }
                 },
                 {
-                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\12dd813a4cd8ce2c43597c6390885653\\appcompat-v7-26.1.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\377640c6e86a3824d75a7f1818ba8988\\appcompat-v7-27.1.1\\res\\values-v24\\values-v24.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,212,347,416,480,549",
-                        "endColumns": "156,134,68,63,68,69",
-                        "endOffsets": "207,342,411,475,544,614"
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,212",
+                        "endColumns": "156,134",
+                        "endOffsets": "207,342"
                     }
                 }
             ]

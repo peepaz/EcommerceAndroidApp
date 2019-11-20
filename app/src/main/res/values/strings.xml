@@ -94,7 +94,7 @@
 
     <!--app about information-->
     <string name="app_version">Version 1.0.0</string>
-    <string name="app_copyright">Copyright &#169; 2017 Lily Developers \n All rights reserved</string>
+    <string name="app_copyright">Copyright &#169; 2019 PtasDevz \n All rights reserved</string>
     <string name="app_email">info@lily.com</string>
     <string name="share_summary">Share to your friends</string>
     <string name="rate_summary">Give your rate and feedback</string>

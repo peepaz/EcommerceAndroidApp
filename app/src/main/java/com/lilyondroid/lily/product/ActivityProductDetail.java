@@ -7,7 +7,9 @@ import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.support.annotation.Nullable;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.v7.app.AppCompatActivity;
@@ -23,12 +25,16 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.load.DataSource;
+import com.bumptech.glide.load.engine.GlideException;
+import com.bumptech.glide.request.RequestListener;
+import com.bumptech.glide.request.target.Target;
 import com.lilyondroid.lily.Config;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.utilities.GridViewItem;
 import com.lilyondroid.lily.utilities.PicassoTrustAll;
 
-import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -71,7 +77,7 @@ public class ActivityProductDetail extends AppCompatActivity {
         this.productId = intent.getStringExtra("product_id");
 
 
-        Log.d(Tag,"product_id: " + productId);
+        Log.d(Tag, "product_id: " + productId);
 
 
 //        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
@@ -103,6 +109,7 @@ public class ActivityProductDetail extends AppCompatActivity {
         parseJSONData(); //get data from server
 
     }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -138,7 +145,6 @@ public class ActivityProductDetail extends AppCompatActivity {
     }
 
 
-
     @Override
     public void onConfigurationChanged(final Configuration newConfig) {
         // Ignore orientation change to keep activity from restarting
@@ -146,12 +152,12 @@ public class ActivityProductDetail extends AppCompatActivity {
     }
 
     //Display product
-    private void loadProduct (Context context,GridViewItem product){
+    private void loadProduct(Context context, GridViewItem product) {
 
         // TODO Auto-generated method stub
         // when finish parsing, hide progressbar
 
-        Log.d(Tag,"product pos: " + productId);
+        Log.d(Tag, "product pos: " + productId);
 
 
         String productName = product.getTitle();
@@ -162,31 +168,52 @@ public class ActivityProductDetail extends AppCompatActivity {
         String status = "Out Of Stock";
         if (isInStock) status = "In Stock";
 
-        prgLoading.setVisibility(View.GONE);
+        //prgLoading.setVisibility(View.GONE);
         // if internet connection and data available show data
         // otherwise, show alert text
 
         coordinatorLayout.setVisibility(View.VISIBLE);
 
-        PicassoTrustAll.getInstance(context).load(product.getImageUrl()).
-                placeholder(R.drawable.loading).into(imgPreview, new com.squareup.picasso.Callback() {
-            @Override
-            public void onSuccess() {
-
-                Bitmap bitmap = ((BitmapDrawable) imgPreview.getDrawable()).getBitmap();
-                Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
+        Glide.with(this)
+                .load(product.getImageUrl())
+                .error(R.drawable.loading)
+                .listener(new RequestListener<Drawable>() {
                     @Override
-                    public void onGenerated(Palette palette) {
+                    public boolean onLoadFailed(@Nullable GlideException e, Object model,
+
+                                                Target<Drawable> target, boolean isFirstResource) {
+                        prgLoading.setVisibility(View.GONE);
+                        return false;
                     }
-                });
 
-            }
+                    @Override
+                    public boolean onResourceReady(Drawable resource, Object model,
+                                                   Target<Drawable> target, DataSource dataSource,
+                                                   boolean isFirstResource) {
+                        prgLoading.setVisibility(View.GONE);
+                        return false;
+                    }
+                })
+                .into(imgPreview);
+//        PicassoTrustAll.getInstance(context).load(product.getImageUrl()).
+//                placeholder(R.drawable.loading).into(imgPreview, new com.squareup.picasso.Callback() {
+//            @Override
+//            public void onSuccess() {
+//
+//                Bitmap bitmap = ((BitmapDrawable) imgPreview.getDrawable()).getBitmap();
+//                Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
+//                    @Override
+//                    public void onGenerated(Palette palette) {
+//                    }
+//                });
+//
+//            }
 
-            @Override
-            public void onError() {
-
-            }
-        });
+//            @Override
+//            public void onError() {
+//
+//            }
+//        });
 
 
         txtText.setText(productName);
@@ -202,7 +229,7 @@ public class ActivityProductDetail extends AppCompatActivity {
 
     }
 
-    private void parseJSONData(){
+    private void parseJSONData() {
 
 
         try {
@@ -211,7 +238,7 @@ public class ActivityProductDetail extends AppCompatActivity {
             OkHttpClient client = Config.getOkHttpClient();
 
             Request okRequest = new Request.Builder()
-                    .url(Config.LILY_SERVER +"/rest/products/id/" + this.productId)
+                    .url(Config.LILY_SERVER_API + "/rest/products/id/" + this.productId)
                     .get()
                     .addHeader("authorization", Config.PRODUCT_TOKEN)
                     .build();
@@ -227,7 +254,7 @@ public class ActivityProductDetail extends AppCompatActivity {
 
 
                     String data = response.body().string();
-                    GridViewItem gridViewItem = new GridViewItem();
+                    GridViewItem gridViewItem;
                     try {
                         final JSONObject product = new JSONObject(data);
 
@@ -238,18 +265,10 @@ public class ActivityProductDetail extends AppCompatActivity {
                         double priceLowerVal = product.getDouble("lowerPriceRange");
                         double priceUpperVal = product.getDouble("upperPriceRange");
                         boolean isInStock = product.getBoolean("inStock");
-//                            String image = Config.LILY_SERVER + "/static/images/products/" +id+".jpg";
-                        String image = Config.LILY_SERVER + imageUrl;
+                        String image = Config.LILY_SERVER_IP + imageUrl;
 
-//                            JSONArray priceRange =  product.getJSONArray("get_price_range");
-//                            JSONArray priceLower = priceRange.getJSONArray(0);
-//                            JSONArray priceUpper = priceRange.getJSONArray(1);
-//
-//                            double priceUpperVal = priceUpper.getDouble(0);
-//                            double priceLowerVal = priceLower.getDouble(0);
-
-                       gridViewItem = new GridViewItem(image,title,priceLowerVal,
-                                priceUpperVal,desc,id,isInStock);
+                        gridViewItem = new GridViewItem(image, title, priceLowerVal,
+                                priceUpperVal, desc, id, isInStock);
 
                         final GridViewItem finalGridViewItem = gridViewItem;
                         runOnUiThread(new Runnable() {
@@ -261,8 +280,8 @@ public class ActivityProductDetail extends AppCompatActivity {
                                 loadProduct(getApplicationContext(), finalGridViewItem);
 
                                 // if data available show data on list
-                                 //otherwise, show alert text
-                                if(finalGridViewItem.getId() == null){
+                                //otherwise, show alert text
+                                if (finalGridViewItem.getId() == null) {
                                     txtAlert.setVisibility(View.VISIBLE);
                                 }
                             }
@@ -270,15 +289,11 @@ public class ActivityProductDetail extends AppCompatActivity {
 
                     } catch (JSONException e1) {
                         e1.printStackTrace();
-
                     }
-
                 }
             });
 
-
-
-        } catch (Exception  e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

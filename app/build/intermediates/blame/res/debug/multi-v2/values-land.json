@@ -4,7 +4,17 @@
             "outputFile": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\f10f167dd238df4a9ee27fbe48ec5c84\\design-26.1.0\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\377640c6e86a3824d75a7f1818ba8988\\appcompat-v7-27.1.1\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\1ed6d7cfdf119fcb21f3adf33d79f44e\\design-27.1.1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\12dd813a4cd8ce2c43597c6390885653\\appcompat-v7-26.1.0\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

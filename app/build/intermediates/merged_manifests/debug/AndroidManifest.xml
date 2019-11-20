@@ -115,12 +115,8 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
         <!--
- FirebaseMessagingService performs security checks at runtime,
+         FirebaseMessagingService performs security checks at runtime,
              no need for explicit permissions despite exported="true"
         -->
         <service
@@ -199,9 +195,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

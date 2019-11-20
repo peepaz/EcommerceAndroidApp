@@ -9,6 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.lilyondroid.lily.R;
 import com.lilyondroid.lily.utilities.GridViewItem;
 import com.lilyondroid.lily.utilities.PicassoTrustAll;
@@ -74,8 +75,13 @@ public class AdapterGridviewCategory extends BaseAdapter {
 
         GridViewItem gridViewItem = (GridViewItem) getItem(position);
 
-        PicassoTrustAll.getInstance(convertView.getContext())
-                .load(gridViewItem.getImageUrl()).into(viewHolder.image);
+//        PicassoTrustAll.getInstance(convertView.getContext())
+//                .load(gridViewItem.getImageUrl()).into(viewHolder.image);
+
+        Glide.with(convertView)
+                .load(gridViewItem.getImageUrl())
+                .error(R.drawable.loading)
+                .into(viewHolder.image);
 
         viewHolder.title.setText(gridViewItem.getTitle());
         DecimalFormat decimalFormat = new DecimalFormat("From: $###.##");

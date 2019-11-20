@@ -1,0 +1,55 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\1ed6d7cfdf119fcb21f3adf33d79f44e\\design-27.1.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,115,185,256,328,386,444,550,614,677",
+                        "endLines": "2,3,4,5,6,7,8,9,10,14",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "110,180,251,323,381,439,545,609,672,854"
+                    },
+                    "to": {
+                        "startLines": "10,11,12,13,14,15,16,17,21,22",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "611,671,741,812,884,942,1000,1106,1319,1382",
+                        "endLines": "10,11,12,13,14,15,16,17,21,25",
+                        "endColumns": "59,69,70,71,57,57,105,63,62,12",
+                        "endOffsets": "666,736,807,879,937,995,1101,1165,1377,1559"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\src\\main\\res\\values-sw600dp\\dimens.xml",
+                    "from": {
+                        "startLines": "3,4,5",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "59,105,152",
+                        "endColumns": "44,45,57",
+                        "endOffsets": "99,146,205"
+                    },
+                    "to": {
+                        "startLines": "18,19,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "1170,1215,1261",
+                        "endColumns": "44,45,57",
+                        "endOffsets": "1210,1256,1314"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\jason\\.gradle\\caches\\transforms-2\\files-2.1\\377640c6e86a3824d75a7f1818ba8988\\appcompat-v7-27.1.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                }
+            ]
+        }
+    ]
+}
