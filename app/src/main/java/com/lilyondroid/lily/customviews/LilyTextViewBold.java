@@ -8,7 +8,7 @@ import android.util.AttributeSet;
  * Created by jason on 21/04/2017.
  */
 
-public class LilyTextViewBold extends android.support.v7.widget.AppCompatTextView{
+public class LilyTextViewBold extends androidx.appcompat.widget.AppCompatTextView{
 
     public LilyTextViewBold(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);

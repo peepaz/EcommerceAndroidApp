@@ -22,97 +22,97 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int fab_colorDisabled = 0x7f04009f;
-        public static final int fab_colorNormal = 0x7f0400a0;
-        public static final int fab_colorPressed = 0x7f0400a1;
-        public static final int fab_colorRipple = 0x7f0400a2;
-        public static final int fab_elevationCompat = 0x7f0400a3;
-        public static final int fab_hideAnimation = 0x7f0400a4;
-        public static final int fab_label = 0x7f0400a5;
-        public static final int fab_progress = 0x7f0400a6;
-        public static final int fab_progress_backgroundColor = 0x7f0400a7;
-        public static final int fab_progress_color = 0x7f0400a8;
-        public static final int fab_progress_indeterminate = 0x7f0400a9;
-        public static final int fab_progress_max = 0x7f0400aa;
-        public static final int fab_progress_showBackground = 0x7f0400ab;
-        public static final int fab_shadowColor = 0x7f0400ac;
-        public static final int fab_shadowRadius = 0x7f0400ad;
-        public static final int fab_shadowXOffset = 0x7f0400ae;
-        public static final int fab_shadowYOffset = 0x7f0400af;
-        public static final int fab_showAnimation = 0x7f0400b0;
-        public static final int fab_showShadow = 0x7f0400b1;
-        public static final int fab_size = 0x7f0400b2;
-        public static final int menu_animationDelayPerItem = 0x7f040127;
-        public static final int menu_backgroundColor = 0x7f040128;
-        public static final int menu_buttonSpacing = 0x7f040129;
-        public static final int menu_buttonToggleAnimation = 0x7f04012a;
-        public static final int menu_colorNormal = 0x7f04012b;
-        public static final int menu_colorPressed = 0x7f04012c;
-        public static final int menu_colorRipple = 0x7f04012d;
-        public static final int menu_fab_hide_animation = 0x7f04012e;
-        public static final int menu_fab_label = 0x7f04012f;
-        public static final int menu_fab_show_animation = 0x7f040130;
-        public static final int menu_fab_size = 0x7f040131;
-        public static final int menu_icon = 0x7f040132;
-        public static final int menu_labels_colorNormal = 0x7f040133;
-        public static final int menu_labels_colorPressed = 0x7f040134;
-        public static final int menu_labels_colorRipple = 0x7f040135;
-        public static final int menu_labels_cornerRadius = 0x7f040136;
-        public static final int menu_labels_ellipsize = 0x7f040137;
-        public static final int menu_labels_hideAnimation = 0x7f040138;
-        public static final int menu_labels_margin = 0x7f040139;
-        public static final int menu_labels_maxLines = 0x7f04013a;
-        public static final int menu_labels_padding = 0x7f04013b;
-        public static final int menu_labels_paddingBottom = 0x7f04013c;
-        public static final int menu_labels_paddingLeft = 0x7f04013d;
-        public static final int menu_labels_paddingRight = 0x7f04013e;
-        public static final int menu_labels_paddingTop = 0x7f04013f;
-        public static final int menu_labels_position = 0x7f040140;
-        public static final int menu_labels_showAnimation = 0x7f040141;
-        public static final int menu_labels_showShadow = 0x7f040142;
-        public static final int menu_labels_singleLine = 0x7f040143;
-        public static final int menu_labels_style = 0x7f040144;
-        public static final int menu_labels_textColor = 0x7f040145;
-        public static final int menu_labels_textSize = 0x7f040146;
-        public static final int menu_openDirection = 0x7f040147;
-        public static final int menu_shadowColor = 0x7f040148;
-        public static final int menu_shadowRadius = 0x7f040149;
-        public static final int menu_shadowXOffset = 0x7f04014a;
-        public static final int menu_shadowYOffset = 0x7f04014b;
-        public static final int menu_showShadow = 0x7f04014c;
+        public static final int fab_colorDisabled = 0x7f0400d6;
+        public static final int fab_colorNormal = 0x7f0400d7;
+        public static final int fab_colorPressed = 0x7f0400d8;
+        public static final int fab_colorRipple = 0x7f0400d9;
+        public static final int fab_elevationCompat = 0x7f0400da;
+        public static final int fab_hideAnimation = 0x7f0400db;
+        public static final int fab_label = 0x7f0400dc;
+        public static final int fab_progress = 0x7f0400dd;
+        public static final int fab_progress_backgroundColor = 0x7f0400de;
+        public static final int fab_progress_color = 0x7f0400df;
+        public static final int fab_progress_indeterminate = 0x7f0400e0;
+        public static final int fab_progress_max = 0x7f0400e1;
+        public static final int fab_progress_showBackground = 0x7f0400e2;
+        public static final int fab_shadowColor = 0x7f0400e3;
+        public static final int fab_shadowRadius = 0x7f0400e4;
+        public static final int fab_shadowXOffset = 0x7f0400e5;
+        public static final int fab_shadowYOffset = 0x7f0400e6;
+        public static final int fab_showAnimation = 0x7f0400e7;
+        public static final int fab_showShadow = 0x7f0400e8;
+        public static final int fab_size = 0x7f0400e9;
+        public static final int menu_animationDelayPerItem = 0x7f040182;
+        public static final int menu_backgroundColor = 0x7f040183;
+        public static final int menu_buttonSpacing = 0x7f040184;
+        public static final int menu_buttonToggleAnimation = 0x7f040185;
+        public static final int menu_colorNormal = 0x7f040186;
+        public static final int menu_colorPressed = 0x7f040187;
+        public static final int menu_colorRipple = 0x7f040188;
+        public static final int menu_fab_hide_animation = 0x7f040189;
+        public static final int menu_fab_label = 0x7f04018a;
+        public static final int menu_fab_show_animation = 0x7f04018b;
+        public static final int menu_fab_size = 0x7f04018c;
+        public static final int menu_icon = 0x7f04018d;
+        public static final int menu_labels_colorNormal = 0x7f04018e;
+        public static final int menu_labels_colorPressed = 0x7f04018f;
+        public static final int menu_labels_colorRipple = 0x7f040190;
+        public static final int menu_labels_cornerRadius = 0x7f040191;
+        public static final int menu_labels_ellipsize = 0x7f040192;
+        public static final int menu_labels_hideAnimation = 0x7f040193;
+        public static final int menu_labels_margin = 0x7f040194;
+        public static final int menu_labels_maxLines = 0x7f040195;
+        public static final int menu_labels_padding = 0x7f040196;
+        public static final int menu_labels_paddingBottom = 0x7f040197;
+        public static final int menu_labels_paddingLeft = 0x7f040198;
+        public static final int menu_labels_paddingRight = 0x7f040199;
+        public static final int menu_labels_paddingTop = 0x7f04019a;
+        public static final int menu_labels_position = 0x7f04019b;
+        public static final int menu_labels_showAnimation = 0x7f04019c;
+        public static final int menu_labels_showShadow = 0x7f04019d;
+        public static final int menu_labels_singleLine = 0x7f04019e;
+        public static final int menu_labels_style = 0x7f04019f;
+        public static final int menu_labels_textColor = 0x7f0401a0;
+        public static final int menu_labels_textSize = 0x7f0401a1;
+        public static final int menu_openDirection = 0x7f0401a2;
+        public static final int menu_shadowColor = 0x7f0401a3;
+        public static final int menu_shadowRadius = 0x7f0401a4;
+        public static final int menu_shadowXOffset = 0x7f0401a5;
+        public static final int menu_shadowYOffset = 0x7f0401a6;
+        public static final int menu_showShadow = 0x7f0401a7;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static final int fab_size_mini = 0x7f070080;
-        public static final int fab_size_normal = 0x7f070081;
-        public static final int labels_text_size = 0x7f070090;
+        public static final int fab_size_mini = 0x7f070088;
+        public static final int fab_size_normal = 0x7f070089;
+        public static final int labels_text_size = 0x7f070098;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int fab_add = 0x7f08007b;
+        public static final int fab_add = 0x7f08007c;
     }
     public static final class id {
         private id() {}
 
-        public static final int down = 0x7f09006b;
-        public static final int end = 0x7f090074;
-        public static final int fab_label = 0x7f09007c;
-        public static final int left = 0x7f090098;
-        public static final int marquee = 0x7f0900a6;
-        public static final int middle = 0x7f0900ab;
-        public static final int mini = 0x7f0900ac;
-        public static final int none = 0x7f0900b2;
-        public static final int normal = 0x7f0900b3;
-        public static final int right = 0x7f0900d6;
-        public static final int start = 0x7f090105;
-        public static final int up = 0x7f090129;
+        public static final int down = 0x7f09006d;
+        public static final int end = 0x7f090076;
+        public static final int fab_label = 0x7f09007e;
+        public static final int left = 0x7f09009f;
+        public static final int marquee = 0x7f0900ad;
+        public static final int middle = 0x7f0900b2;
+        public static final int mini = 0x7f0900b3;
+        public static final int none = 0x7f0900bb;
+        public static final int normal = 0x7f0900bc;
+        public static final int right = 0x7f0900e1;
+        public static final int start = 0x7f090112;
+        public static final int up = 0x7f09013c;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] FloatingActionButton = { 0x7f040037, 0x7f040038, 0x7f04003f, 0x7f040091, 0x7f04009d, 0x7f04009e, 0x7f04009f, 0x7f0400a0, 0x7f0400a1, 0x7f0400a2, 0x7f0400a3, 0x7f0400a4, 0x7f0400a5, 0x7f0400a6, 0x7f0400a7, 0x7f0400a8, 0x7f0400a9, 0x7f0400aa, 0x7f0400ab, 0x7f0400ac, 0x7f0400ad, 0x7f0400ae, 0x7f0400af, 0x7f0400b0, 0x7f0400b1, 0x7f0400b2, 0x7f040169, 0x7f040173, 0x7f0401e4 };
+        public static final int[] FloatingActionButton = { 0x7f040037, 0x7f040038, 0x7f040042, 0x7f0400c1, 0x7f0400d4, 0x7f0400d5, 0x7f0400d6, 0x7f0400d7, 0x7f0400d8, 0x7f0400d9, 0x7f0400da, 0x7f0400db, 0x7f0400dc, 0x7f0400dd, 0x7f0400de, 0x7f0400df, 0x7f0400e0, 0x7f0400e1, 0x7f0400e2, 0x7f0400e3, 0x7f0400e4, 0x7f0400e5, 0x7f0400e6, 0x7f0400e7, 0x7f0400e8, 0x7f0400e9, 0x7f040104, 0x7f04010c, 0x7f04017f, 0x7f0401c5, 0x7f0401cf, 0x7f0401e5, 0x7f040264 };
         public static final int FloatingActionButton_backgroundTint = 0;
         public static final int FloatingActionButton_backgroundTintMode = 1;
         public static final int FloatingActionButton_borderWidth = 2;
@@ -139,10 +139,14 @@ public final class R {
         public static final int FloatingActionButton_fab_showAnimation = 23;
         public static final int FloatingActionButton_fab_showShadow = 24;
         public static final int FloatingActionButton_fab_size = 25;
-        public static final int FloatingActionButton_pressedTranslationZ = 26;
-        public static final int FloatingActionButton_rippleColor = 27;
-        public static final int FloatingActionButton_useCompatPadding = 28;
-        public static final int[] FloatingActionMenu = { 0x7f040127, 0x7f040128, 0x7f040129, 0x7f04012a, 0x7f04012b, 0x7f04012c, 0x7f04012d, 0x7f04012e, 0x7f04012f, 0x7f040130, 0x7f040131, 0x7f040132, 0x7f040133, 0x7f040134, 0x7f040135, 0x7f040136, 0x7f040137, 0x7f040138, 0x7f040139, 0x7f04013a, 0x7f04013b, 0x7f04013c, 0x7f04013d, 0x7f04013e, 0x7f04013f, 0x7f040140, 0x7f040141, 0x7f040142, 0x7f040143, 0x7f040144, 0x7f040145, 0x7f040146, 0x7f040147, 0x7f040148, 0x7f040149, 0x7f04014a, 0x7f04014b, 0x7f04014c };
+        public static final int FloatingActionButton_hideMotionSpec = 26;
+        public static final int FloatingActionButton_hoveredFocusedTranslationZ = 27;
+        public static final int FloatingActionButton_maxImageSize = 28;
+        public static final int FloatingActionButton_pressedTranslationZ = 29;
+        public static final int FloatingActionButton_rippleColor = 30;
+        public static final int FloatingActionButton_showMotionSpec = 31;
+        public static final int FloatingActionButton_useCompatPadding = 32;
+        public static final int[] FloatingActionMenu = { 0x7f040182, 0x7f040183, 0x7f040184, 0x7f040185, 0x7f040186, 0x7f040187, 0x7f040188, 0x7f040189, 0x7f04018a, 0x7f04018b, 0x7f04018c, 0x7f04018d, 0x7f04018e, 0x7f04018f, 0x7f040190, 0x7f040191, 0x7f040192, 0x7f040193, 0x7f040194, 0x7f040195, 0x7f040196, 0x7f040197, 0x7f040198, 0x7f040199, 0x7f04019a, 0x7f04019b, 0x7f04019c, 0x7f04019d, 0x7f04019e, 0x7f04019f, 0x7f0401a0, 0x7f0401a1, 0x7f0401a2, 0x7f0401a3, 0x7f0401a4, 0x7f0401a5, 0x7f0401a6, 0x7f0401a7 };
         public static final int FloatingActionMenu_menu_animationDelayPerItem = 0;
         public static final int FloatingActionMenu_menu_backgroundColor = 1;
         public static final int FloatingActionMenu_menu_buttonSpacing = 2;

@@ -5,7 +5,7 @@ import android.graphics.Typeface;
 import android.util.AttributeSet;
 
 
-public class LilyTextView extends android.support.v7.widget.AppCompatTextView {
+public class LilyTextView extends androidx.appcompat.widget.AppCompatTextView {
 
     public LilyTextView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);

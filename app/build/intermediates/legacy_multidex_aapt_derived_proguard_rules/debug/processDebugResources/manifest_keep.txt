@@ -1,2 +1,4 @@
 # Referenced at C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:36
--keep class android.support.multidex.MultiDexApplication { <init>(); }
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at C:\Users\jason\git-android\EcommerceAndroidApp\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:36
+-keep class androidx.multidex.MultiDexApplication { <init>(); }

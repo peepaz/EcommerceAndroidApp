@@ -1,12 +1,11 @@
 package com.lilyondroid.lily.notification;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
-import android.util.Log;
+import androidx.appcompat.widget.Toolbar;
+
 import android.view.MenuItem;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.lilyondroid.lily.R;
 
@@ -27,7 +26,7 @@ public class ActivityNotification extends AppCompatActivity {
 
         final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        final android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        final androidx.appcompat.app.ActionBar actionBar = getSupportActionBar();
         if (actionBar != null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setTitle(R.string.title_activity_notification);

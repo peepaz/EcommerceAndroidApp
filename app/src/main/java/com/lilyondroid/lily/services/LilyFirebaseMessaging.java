@@ -7,7 +7,7 @@ import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
+import androidx.annotation.RequiresApi;
 import android.util.Log;
 import android.widget.Toast;
 
@@ -27,7 +27,6 @@ import java.util.Observer;
 
 import static com.lilyondroid.lily.application.LilyApplication.BROADCAST_ACTION;
 import static com.lilyondroid.lily.application.LilyApplication.RADIUS_FROM_DEL_POINT_IN_METERS;
-import static com.lilyondroid.lily.application.LilyApplication.contentList;
 import static com.lilyondroid.lily.application.LilyApplication.recvDatelist;
 
 /**

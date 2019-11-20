@@ -5,7 +5,7 @@
 5    android:versionName="1.0.0" >
 6
 7    <uses-sdk
-8        android:minSdkVersion="16"
+8        android:minSdkVersion="26"
 8-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
 9-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml
@@ -47,29 +47,30 @@
 24
 25    <!-- Permissions required for GCM -->
 26    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Optional permission for Analytics to run. -->
-26-->[com.google.android.gms:play-services-gcm:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\7c8908dc7de4da57d17a9fdab2d0062a\play-services-gcm-11.2.2\AndroidManifest.xml:20:5-81
-26-->[com.google.android.gms:play-services-gcm:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\7c8908dc7de4da57d17a9fdab2d0062a\play-services-gcm-11.2.2\AndroidManifest.xml:20:22-79
+26-->[com.google.android.gms:play-services-gcm:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\bf7d3e03edd30e64565e457dd06a7a81\jetified-play-services-gcm-11.2.2\AndroidManifest.xml:20:5-81
+26-->[com.google.android.gms:play-services-gcm:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\bf7d3e03edd30e64565e457dd06a7a81\jetified-play-services-gcm-11.2.2\AndroidManifest.xml:20:22-79
 27    <uses-permission android:name="android.permission.WAKE_LOCK" />
-27-->[com.google.android.gms:play-services-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\1ab1f79575753be7c25962aa414c80a9\play-services-analytics-11.2.2\AndroidManifest.xml:24:5-67
-27-->[com.google.android.gms:play-services-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\1ab1f79575753be7c25962aa414c80a9\play-services-analytics-11.2.2\AndroidManifest.xml:24:22-65
+27-->[com.google.android.gms:play-services-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\a60aaed01d7be84ef9b7ac6846aaaf28\jetified-play-services-analytics-11.2.2\AndroidManifest.xml:24:5-67
+27-->[com.google.android.gms:play-services-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\a60aaed01d7be84ef9b7ac6846aaaf28\jetified-play-services-analytics-11.2.2\AndroidManifest.xml:24:22-65
 28    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 29
 30    <permission
-30-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:24:5-109
+30-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:24:5-109
 31        android:name="com.lilyondroid.lily.permission.C2D_MESSAGE"
-31-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:24:17-71
+31-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:24:17-71
 32        android:protectionLevel="signature" />
-32-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:24:72-107
+32-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:24:72-107
 33
 34    <uses-permission android:name="com.lilyondroid.lily.permission.C2D_MESSAGE" />
-34-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:26:5-78
-34-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:26:22-76
+34-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:26:5-78
+34-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:26:22-76
 35
 36    <application
-36-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:19:5-99:19
-37        android:name="android.support.multidex.MultiDexApplication"
-38        android:allowBackup="true"
-38-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:20:9-35
+36-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:19:5-100:19
+37        android:allowBackup="true"
+37-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:20:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.0.0] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d66bbfa1414179391e71528576b4dd8b\core-1.0.0\AndroidManifest.xml:22:18-86
 39        android:debuggable="true"
 40        android:hardwareAccelerated="true"
 40-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:21:9-43
@@ -77,286 +78,288 @@
 41-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:22:9-43
 42        android:label="@string/app_name"
 42-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:23:9-41
-43        android:theme="@style/AppTheme" >
-43-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:24:9-40
-44        <activity
-44-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:25:9-34:20
-45            android:name="com.lilyondroid.lily.application.ActivitySplash"
-45-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:26:13-55
-46            android:label="@string/app_name"
-46-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:27:13-45
-47            android:screenOrientation="portrait" >
-47-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:28:13-49
-48            <intent-filter>
-48-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:29:13-33:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:17-69
-49-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:32:17-77
-51-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:32:27-74
-52            </intent-filter>
-53        </activity>
-54        <activity
-54-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:35:9-44:20
-55            android:name="com.lilyondroid.lily.home.MainActivity"
-55-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:36:13-46
-56            android:label="@string/app_name"
-56-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:37:13-45
-57            android:screenOrientation="portrait" >
-57-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:38:13-49
-58            <intent-filter>
-58-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:39:13-43:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:17-69
-59-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:25-66
-60
-61                <category android:name="android.intent.category.DEFAULT" />
-61-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:42:17-76
-61-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:42:27-73
-62            </intent-filter>
-63        </activity>
-64        <activity
-64-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:45:17-47:52
-65            android:name="com.lilyondroid.lily.application.ActivityAbout"
-65-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:46:13-54
-66            android:screenOrientation="portrait" />
-66-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:47:13-49
-67        <activity
-67-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:48:9-50:52
-68            android:name="com.lilyondroid.lily.authenticate.ActivityLogin"
-68-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:49:13-55
-69            android:screenOrientation="portrait" />
-69-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:50:13-49
-70
-71        <service
-71-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:52:9-55:55
-72            android:name="com.lilyondroid.lily.services.LilyGPSLocationService"
-72-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:53:13-60
-73            android:exported="false"
-73-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:54:13-37
-74            android:process=":gps_location_service" />
-74-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:55:13-52
-75
-76        <receiver android:name="com.lilyondroid.lily.utilities.LilyBroadcastReceiver" >
-76-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:57:9-64:20
-76-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:57:19-66
-77            <intent-filter>
-77-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:58:13-60:29
-78                <action android:name="com.lilyondroid.lily.BROADCAST" />
-78-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:59:17-73
-78-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:59:25-70
-79            </intent-filter>
-80            <intent-filter>
-80-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:61:13-63:29
-81                <action android:name="com.lilyondroid.lily.STATUS" />
-81-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:62:17-70
-81-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:62:25-67
-82            </intent-filter>
-83        </receiver>
-84
-85        <activity
-85-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:66:9-69:47
-86            android:name="com.lilyondroid.lily.categories.ActivityCategory"
-86-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:67:13-56
-87            android:label="@string/title_activity_category"
-87-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:68:13-60
-88            android:theme="@style/AppTheme" />
-88-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:69:13-44
-89        <activity
-89-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:70:9-73:47
-90            android:name="com.lilyondroid.lily.product.ActivityProductDetail"
-90-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:71:13-58
-91            android:label="@string/title_activity_product_detail"
-91-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:72:13-66
-92            android:theme="@style/AppTheme" />
-92-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:73:13-44
-93
-94        <service android:name="com.lilyondroid.lily.services.LilyFirebaseMessaging" >
-94-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:75:9-79:19
-94-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:75:18-64
-95            <intent-filter>
-95-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:76:13-78:29
-96                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-96-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:17-78
-96-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:25-75
-97            </intent-filter>
-98        </service>
-99        <service android:name="com.lilyondroid.lily.services.LilyFirebaseInstanceIDService" >
-99-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:80:9-84:19
-99-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:80:18-72
-100            <intent-filter>
-100-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:81:13-83:29
-101                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-101-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:82:17-80
-101-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:82:25-77
-102            </intent-filter>
-103        </service>
-104
-105        <meta-data
-105-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:86:9-88:52
-106            android:name="com.google.firebase.messaging.default_notification_icon"
-106-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:87:13-83
-107            android:resource="@drawable/ic_lily" />
-107-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:88:13-49
-108        <meta-data
-108-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:89:9-91:53
-109            android:name="com.google.firebase.messaging.default_notification_color"
-109-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:90:13-84
-110            android:resource="@color/ColorAccent" />
-110-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:91:13-50
-111
-112        <activity android:name="com.lilyondroid.lily.application.ActivitySettings" />
-112-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:93:9-66
-112-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:93:19-63
-113        <activity android:name="com.lilyondroid.lily.notification.ActivityNotification" >
-113-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:94:9-98:20
-113-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:94:19-68
-114            <intent-filter>
-114-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:95:13-97:29
-115                <action android:name="android.intent.action.MAIN" />
-115-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:17-69
-115-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:25-66
-116            </intent-filter>
-117        </activity>
-118        <!--
-119         FirebaseMessagingService performs security checks at runtime,
-120             no need for explicit permissions despite exported="true"
-121        -->
-122        <service
-122-->[com.google.firebase:firebase-messaging:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\542b4d8efb77de3d48b62208ff087e3d\firebase-messaging-11.2.2\AndroidManifest.xml:23:9-27:19
-123            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-123-->[com.google.firebase:firebase-messaging:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\542b4d8efb77de3d48b62208ff087e3d\firebase-messaging-11.2.2\AndroidManifest.xml:23:18-87
-124            android:exported="true" >
-124-->[com.google.firebase:firebase-messaging:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\542b4d8efb77de3d48b62208ff087e3d\firebase-messaging-11.2.2\AndroidManifest.xml:23:88-111
-125            <intent-filter android:priority="-500" >
-125-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:76:13-78:29
-126                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-126-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:17-78
-126-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:25-75
-127            </intent-filter>
-128        </service>
-129
-130        <receiver
-130-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:25:7-26:18
-131            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-131-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:25:17-89
-132            android:enabled="true"
-132-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:25:90-112
-133            android:exported="false" >
-133-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:25:113-137
-134        </receiver>
-135        <receiver
-135-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:27:7-31:18
-136            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-136-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:27:17-104
-137            android:enabled="true"
-137-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:27:162-184
-138            android:exported="true"
-138-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:27:185-208
-139            android:permission="android.permission.INSTALL_PACKAGES" >
-139-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:27:105-161
-140            <intent-filter>
-140-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:28:11-30:27
-141                <action android:name="com.android.vending.INSTALL_REFERRER" />
-141-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:29:15-76
-141-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:29:23-74
-142            </intent-filter>
-143        </receiver>
-144
-145        <service
-145-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:32:7-137
-146            android:name="com.google.android.gms.measurement.AppMeasurementService"
-146-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:32:16-87
-147            android:enabled="true"
-147-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:32:88-110
-148            android:exported="false" />
-148-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:32:111-135
-149        <service
-149-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:33:7-197
-150            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-150-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:33:16-90
-151            android:enabled="true"
-151-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:33:148-170
-152            android:exported="false"
-152-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:33:171-195
-153            android:permission="android.permission.BIND_JOB_SERVICE" />
-153-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\35a86d2af883182cc2bbbb11561ff76c\firebase-analytics-11.2.2\AndroidManifest.xml:33:91-147
-154
-155        <activity
-155-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\9daf507fe9c54157c4e3e0c9f28585ec\play-services-base-11.2.2\AndroidManifest.xml:19:9-172
-156            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-156-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\9daf507fe9c54157c4e3e0c9f28585ec\play-services-base-11.2.2\AndroidManifest.xml:19:19-85
-157            android:exported="false"
-157-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\9daf507fe9c54157c4e3e0c9f28585ec\play-services-base-11.2.2\AndroidManifest.xml:19:146-170
-158            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-158-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\9daf507fe9c54157c4e3e0c9f28585ec\play-services-base-11.2.2\AndroidManifest.xml:19:86-145
-159
-160        <receiver
-160-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:30:9-35:20
-161            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-161-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:30:19-84
-162            android:exported="true"
-162-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:30:85-108
-163            android:permission="com.google.android.c2dm.permission.SEND" >
-163-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:30:109-169
-164            <intent-filter>
-164-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:31:13-34:29
-165                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-165-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:32:17-80
-165-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:32:25-78
-166
-167                <category android:name="com.lilyondroid.lily" />
-167-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:33:17-60
-167-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:33:27-58
-168            </intent-filter>
-169        </receiver>
-170        <!--
-171 Internal (not exported) receiver used by the app to start its own exported services
-172             without risk of being spoofed.
-173        -->
-174        <receiver
-174-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:39:9-119
-175            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
-175-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:39:19-92
-176            android:exported="false" />
-176-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:39:93-117
-177        <!--
-178 FirebaseInstanceIdService performs security checks at runtime,
-179             no need for explicit permissions despite exported="true"
-180        -->
-181        <service
-181-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:43:9-47:19
-182            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
-182-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:43:18-82
-183            android:exported="true" >
-183-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\94137a92601c1ad2042221235162b44c\firebase-iid-11.2.2\AndroidManifest.xml:43:83-106
-184            <intent-filter android:priority="-500" >
-184-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:81:13-83:29
-185                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
-185-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:82:17-80
-185-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:82:25-77
-186            </intent-filter>
-187        </service>
-188
-189        <provider
-189-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\816e102dc940be5a75addf0349956f65\firebase-common-11.2.2\AndroidManifest.xml:6:9-194
-190            android:name="com.google.firebase.provider.FirebaseInitProvider"
-190-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\816e102dc940be5a75addf0349956f65\firebase-common-11.2.2\AndroidManifest.xml:6:79-143
-191            android:authorities="com.lilyondroid.lily.firebaseinitprovider"
-191-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\816e102dc940be5a75addf0349956f65\firebase-common-11.2.2\AndroidManifest.xml:6:19-78
-192            android:exported="false"
-192-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\816e102dc940be5a75addf0349956f65\firebase-common-11.2.2\AndroidManifest.xml:6:144-168
-193            android:initOrder="100" />
-193-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\816e102dc940be5a75addf0349956f65\firebase-common-11.2.2\AndroidManifest.xml:6:169-192
-194
-195        <meta-data
-195-->[com.google.android.gms:play-services-basement:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\42d17fc29839b4fb348af1aaa3ba05e9\play-services-basement-11.2.2\AndroidManifest.xml:20:9-121
-196            android:name="com.google.android.gms.version"
-196-->[com.google.android.gms:play-services-basement:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\42d17fc29839b4fb348af1aaa3ba05e9\play-services-basement-11.2.2\AndroidManifest.xml:20:20-65
-197            android:value="@integer/google_play_services_version" />
-197-->[com.google.android.gms:play-services-basement:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\42d17fc29839b4fb348af1aaa3ba05e9\play-services-basement-11.2.2\AndroidManifest.xml:20:66-119
-198    </application>
-199
-200</manifest>
+43        android:theme="@style/AppTheme"
+43-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:25:9-40
+44        android:usesCleartextTraffic="true" >
+44-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:24:9-44
+45        <activity
+45-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:26:9-35:20
+46            android:name="com.lilyondroid.lily.application.ActivitySplash"
+46-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:27:13-55
+47            android:label="@string/app_name"
+47-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:28:13-45
+48            android:screenOrientation="portrait" >
+48-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:29:13-49
+49            <intent-filter>
+49-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:30:13-34:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:31:17-69
+50-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:31:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:33:17-77
+52-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:33:27-74
+53            </intent-filter>
+54        </activity>
+55        <activity
+55-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:36:9-45:20
+56            android:name="com.lilyondroid.lily.home.MainActivity"
+56-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:37:13-46
+57            android:label="@string/app_name"
+57-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:38:13-45
+58            android:screenOrientation="portrait" >
+58-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:39:13-49
+59            <intent-filter>
+59-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:40:13-44:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:31:17-69
+60-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:31:25-66
+61
+62                <category android:name="android.intent.category.DEFAULT" />
+62-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:43:17-76
+62-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:43:27-73
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:46:17-48:52
+66            android:name="com.lilyondroid.lily.application.ActivityAbout"
+66-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:47:13-54
+67            android:screenOrientation="portrait" />
+67-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:48:13-49
+68        <activity
+68-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:49:9-51:52
+69            android:name="com.lilyondroid.lily.authenticate.ActivityLogin"
+69-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:50:13-55
+70            android:screenOrientation="portrait" />
+70-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:51:13-49
+71
+72        <service
+72-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:53:9-56:55
+73            android:name="com.lilyondroid.lily.services.LilyGPSLocationService"
+73-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:54:13-60
+74            android:exported="false"
+74-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:55:13-37
+75            android:process=":gps_location_service" />
+75-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:56:13-52
+76
+77        <receiver android:name="com.lilyondroid.lily.utilities.LilyBroadcastReceiver" >
+77-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:58:9-65:20
+77-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:58:19-66
+78            <intent-filter>
+78-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:59:13-61:29
+79                <action android:name="com.lilyondroid.lily.BROADCAST" />
+79-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:60:17-73
+79-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:60:25-70
+80            </intent-filter>
+81            <intent-filter>
+81-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:62:13-64:29
+82                <action android:name="com.lilyondroid.lily.STATUS" />
+82-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:63:17-70
+82-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:63:25-67
+83            </intent-filter>
+84        </receiver>
+85
+86        <activity
+86-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:67:9-70:47
+87            android:name="com.lilyondroid.lily.categories.ActivityCategory"
+87-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:68:13-56
+88            android:label="@string/title_activity_category"
+88-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:69:13-60
+89            android:theme="@style/AppTheme" />
+89-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:70:13-44
+90        <activity
+90-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:71:9-74:47
+91            android:name="com.lilyondroid.lily.product.ActivityProductDetail"
+91-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:72:13-58
+92            android:label="@string/title_activity_product_detail"
+92-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:73:13-66
+93            android:theme="@style/AppTheme" />
+93-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:74:13-44
+94
+95        <service android:name="com.lilyondroid.lily.services.LilyFirebaseMessaging" >
+95-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:76:9-80:19
+95-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:76:18-64
+96            <intent-filter>
+96-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:13-79:29
+97                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+97-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:78:17-78
+97-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:78:25-75
+98            </intent-filter>
+99        </service>
+100        <service android:name="com.lilyondroid.lily.services.LilyFirebaseInstanceIDService" >
+100-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:81:9-85:19
+100-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:81:18-72
+101            <intent-filter>
+101-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:82:13-84:29
+102                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+102-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:83:17-80
+102-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:83:25-77
+103            </intent-filter>
+104        </service>
+105
+106        <meta-data
+106-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:87:9-89:52
+107            android:name="com.google.firebase.messaging.default_notification_icon"
+107-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:88:13-83
+108            android:resource="@drawable/ic_lily" />
+108-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:89:13-49
+109        <meta-data
+109-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:90:9-92:53
+110            android:name="com.google.firebase.messaging.default_notification_color"
+110-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:91:13-84
+111            android:resource="@color/ColorAccent" />
+111-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:92:13-50
+112
+113        <activity android:name="com.lilyondroid.lily.application.ActivitySettings" />
+113-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:94:9-66
+113-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:94:19-63
+114        <activity android:name="com.lilyondroid.lily.notification.ActivityNotification" >
+114-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:95:9-99:20
+114-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:95:19-68
+115            <intent-filter>
+115-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:96:13-98:29
+116                <action android:name="android.intent.action.MAIN" />
+116-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:31:17-69
+116-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:31:25-66
+117            </intent-filter>
+118        </activity>
+119        <!--
+120         FirebaseMessagingService performs security checks at runtime,
+121             no need for explicit permissions despite exported="true"
+122        -->
+123        <service
+123-->[com.google.firebase:firebase-messaging:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\aa6b22654d6d7595f82ae71e0a5b44eb\jetified-firebase-messaging-11.2.2\AndroidManifest.xml:23:9-27:19
+124            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+124-->[com.google.firebase:firebase-messaging:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\aa6b22654d6d7595f82ae71e0a5b44eb\jetified-firebase-messaging-11.2.2\AndroidManifest.xml:23:18-87
+125            android:exported="true" >
+125-->[com.google.firebase:firebase-messaging:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\aa6b22654d6d7595f82ae71e0a5b44eb\jetified-firebase-messaging-11.2.2\AndroidManifest.xml:23:88-111
+126            <intent-filter android:priority="-500" >
+126-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:77:13-79:29
+127                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+127-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:78:17-78
+127-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:78:25-75
+128            </intent-filter>
+129        </service>
+130
+131        <receiver
+131-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:25:7-26:18
+132            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+132-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:25:17-89
+133            android:enabled="true"
+133-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:25:90-112
+134            android:exported="false" >
+134-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:25:113-137
+135        </receiver>
+136        <receiver
+136-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:27:7-31:18
+137            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+137-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:27:17-104
+138            android:enabled="true"
+138-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:27:162-184
+139            android:exported="true"
+139-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:27:185-208
+140            android:permission="android.permission.INSTALL_PACKAGES" >
+140-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:27:105-161
+141            <intent-filter>
+141-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:28:11-30:27
+142                <action android:name="com.android.vending.INSTALL_REFERRER" />
+142-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:29:15-76
+142-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:29:23-74
+143            </intent-filter>
+144        </receiver>
+145
+146        <service
+146-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:32:7-137
+147            android:name="com.google.android.gms.measurement.AppMeasurementService"
+147-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:32:16-87
+148            android:enabled="true"
+148-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:32:88-110
+149            android:exported="false" />
+149-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:32:111-135
+150        <service
+150-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:33:7-197
+151            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+151-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:33:16-90
+152            android:enabled="true"
+152-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:33:148-170
+153            android:exported="false"
+153-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:33:171-195
+154            android:permission="android.permission.BIND_JOB_SERVICE" />
+154-->[com.google.firebase:firebase-analytics:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\f13d1f5890e7408a6099d3a89c415a80\jetified-firebase-analytics-11.2.2\AndroidManifest.xml:33:91-147
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d339ff8f71c8e219e4767e586bb69507\jetified-play-services-base-11.2.2\AndroidManifest.xml:19:9-172
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d339ff8f71c8e219e4767e586bb69507\jetified-play-services-base-11.2.2\AndroidManifest.xml:19:19-85
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d339ff8f71c8e219e4767e586bb69507\jetified-play-services-base-11.2.2\AndroidManifest.xml:19:146-170
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d339ff8f71c8e219e4767e586bb69507\jetified-play-services-base-11.2.2\AndroidManifest.xml:19:86-145
+160
+161        <receiver
+161-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:30:9-35:20
+162            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+162-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:30:19-84
+163            android:exported="true"
+163-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:30:85-108
+164            android:permission="com.google.android.c2dm.permission.SEND" >
+164-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:30:109-169
+165            <intent-filter>
+165-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:31:13-34:29
+166                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+166-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:32:17-80
+166-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:32:25-78
+167
+168                <category android:name="com.lilyondroid.lily" />
+168-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:33:17-60
+168-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:33:27-58
+169            </intent-filter>
+170        </receiver>
+171        <!--
+172 Internal (not exported) receiver used by the app to start its own exported services
+173             without risk of being spoofed.
+174        -->
+175        <receiver
+175-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:39:9-119
+176            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+176-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:39:19-92
+177            android:exported="false" />
+177-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:39:93-117
+178        <!--
+179 FirebaseInstanceIdService performs security checks at runtime,
+180             no need for explicit permissions despite exported="true"
+181        -->
+182        <service
+182-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:43:9-47:19
+183            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+183-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:43:18-82
+184            android:exported="true" >
+184-->[com.google.firebase:firebase-iid:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\5b5a067b9978fbb05fac8227632e92b6\jetified-firebase-iid-11.2.2\AndroidManifest.xml:43:83-106
+185            <intent-filter android:priority="-500" >
+185-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:82:13-84:29
+186                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+186-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:83:17-80
+186-->C:\Users\jason\git-android\EcommerceAndroidApp\app\src\main\AndroidManifest.xml:83:25-77
+187            </intent-filter>
+188        </service>
+189
+190        <provider
+190-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d4ab0cf575ed3c5f012240e96de5b6d6\jetified-firebase-common-11.2.2\AndroidManifest.xml:6:9-194
+191            android:name="com.google.firebase.provider.FirebaseInitProvider"
+191-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d4ab0cf575ed3c5f012240e96de5b6d6\jetified-firebase-common-11.2.2\AndroidManifest.xml:6:79-143
+192            android:authorities="com.lilyondroid.lily.firebaseinitprovider"
+192-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d4ab0cf575ed3c5f012240e96de5b6d6\jetified-firebase-common-11.2.2\AndroidManifest.xml:6:19-78
+193            android:exported="false"
+193-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d4ab0cf575ed3c5f012240e96de5b6d6\jetified-firebase-common-11.2.2\AndroidManifest.xml:6:144-168
+194            android:initOrder="100" />
+194-->[com.google.firebase:firebase-common:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\d4ab0cf575ed3c5f012240e96de5b6d6\jetified-firebase-common-11.2.2\AndroidManifest.xml:6:169-192
+195
+196        <meta-data
+196-->[com.google.android.gms:play-services-basement:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\9ba7ae258a90d95bf5e7feca339da101\jetified-play-services-basement-11.2.2\AndroidManifest.xml:20:9-121
+197            android:name="com.google.android.gms.version"
+197-->[com.google.android.gms:play-services-basement:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\9ba7ae258a90d95bf5e7feca339da101\jetified-play-services-basement-11.2.2\AndroidManifest.xml:20:20-65
+198            android:value="@integer/google_play_services_version" />
+198-->[com.google.android.gms:play-services-basement:11.2.2] C:\Users\jason\.gradle\caches\transforms-2\files-2.1\9ba7ae258a90d95bf5e7feca339da101\jetified-play-services-basement-11.2.2\AndroidManifest.xml:20:66-119
+199    </application>
+200
+201</manifest>

@@ -4,7 +4,7 @@ import android.content.Context;
 import android.graphics.Typeface;
 import android.util.AttributeSet;
 
-public class LilyEditText extends android.support.v7.widget.AppCompatEditText {
+public class LilyEditText extends androidx.appcompat.widget.AppCompatEditText {
 
     public LilyEditText(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);

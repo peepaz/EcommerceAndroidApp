@@ -1,4 +1,4 @@
-#Wed Nov 20 00:47:49 BOT 2019
+#Wed Nov 20 01:56:38 BOT 2019
 base.0=C\:\\Users\\jason\\git-android\\EcommerceAndroidApp\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex
