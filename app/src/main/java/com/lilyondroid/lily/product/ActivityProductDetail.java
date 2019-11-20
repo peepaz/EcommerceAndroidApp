@@ -211,7 +211,7 @@ public class ActivityProductDetail extends AppCompatActivity {
             OkHttpClient client = Config.getOkHttpClient();
 
             Request okRequest = new Request.Builder()
-                    .url(Config.LILY_SERVER +"/api/products/" + this.productId)
+                    .url(Config.LILY_SERVER +"/rest/products/id/" + this.productId)
                     .get()
                     .addHeader("authorization", Config.PRODUCT_TOKEN)
                     .build();
@@ -231,19 +231,22 @@ public class ActivityProductDetail extends AppCompatActivity {
                     try {
                         final JSONObject product = new JSONObject(data);
 
-
                         String id = product.getString("id");
                         String desc = product.getString("description");
                         String title = product.getString("name");
-                        boolean isInStock = product.getBoolean("is_in_stock");
-                        String image = Config.LILY_SERVER + "/static/images/products/" +id+".jpg";
+                        String imageUrl = product.getString("imgUrl");
+                        double priceLowerVal = product.getDouble("lowerPriceRange");
+                        double priceUpperVal = product.getDouble("upperPriceRange");
+                        boolean isInStock = product.getBoolean("inStock");
+//                            String image = Config.LILY_SERVER + "/static/images/products/" +id+".jpg";
+                        String image = Config.LILY_SERVER + imageUrl;
 
-                        JSONArray priceRange =  product.getJSONArray("get_price_range");
-                        JSONArray priceLower = priceRange.getJSONArray(0);
-                        JSONArray priceUpper = priceRange.getJSONArray(1);
-
-                        double priceUpperVal = priceUpper.getDouble(0);
-                        double priceLowerVal = priceLower.getDouble(0);
+//                            JSONArray priceRange =  product.getJSONArray("get_price_range");
+//                            JSONArray priceLower = priceRange.getJSONArray(0);
+//                            JSONArray priceUpper = priceRange.getJSONArray(1);
+//
+//                            double priceUpperVal = priceUpper.getDouble(0);
+//                            double priceLowerVal = priceLower.getDouble(0);
 
                        gridViewItem = new GridViewItem(image,title,priceLowerVal,
                                 priceUpperVal,desc,id,isInStock);
